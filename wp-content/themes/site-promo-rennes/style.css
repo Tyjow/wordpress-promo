@@ -18,6 +18,8 @@ Author: Tyjow, Nabil, Julien, Anna
     height: 100vh;
     background-size: cover;
     background-position: center center;
+    -webkit-filter: contrast(135%) saturate(103%);
+    filter: contrast(135%) saturate(103%);
 }
 
 .menu-top-container {
@@ -27,22 +29,42 @@ Author: Tyjow, Nabil, Julien, Anna
     line-height: 50px;
     background-color: #fff;
     font-weight: 700;
+    border-bottom: 3px solid #009b9d;
+    box-shadow: 0 0 15px #444;
+    z-index: 999;
 }
 
 .menu-top-container ul {
+    display: flex;
+    justify-content: flex-end;
     list-style: none;
 }
 
-.menu-top-container ul li {
-    display: inline;
+.menu-top-container ul li a {
+    display: block;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.current-menu-item a, current_page_item a {
+    color: #009b9d;
 }
 
 .menu-top-container ul li a {
     color: #231f20;
+    transition: .3s;
 }
 
-.menu-top-container ul li:hover a {
-    color: #009b9d;
+.menu-top-container ul li:hover, .current_page_item {
+    
+}
+
+.menu-top-container ul li:hover a,
+.current_page_item a {
+    background-color: #009b9d;
+    color: #fff!important;
 }
 
 
@@ -60,7 +82,38 @@ Author: Tyjow, Nabil, Julien, Anna
 
 /* === ANNA === */
 
+.content {
+    
+    margin-left: 50px;
+}
+#a_propos {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #009b9d;
+}
 
+#logo_a_propos {
+    background-image: url(img/logo-codeacademie.png);
+    background-repeat: no-repeat;
+    width: 522px;
+    height: 284px;
+}
+
+#a_propos h2 {
+    display: block;
+    border-bottom: 2px solid #009b9d ;
+    width: 250px;
+    color: #009b9d;
+    font-size: 1.8em;
+}
+
+#a_propos p {
+    margin-top: 70px;
+}
+
+#center {
+    
+}
 /* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
 
 .flex-sidebar {
