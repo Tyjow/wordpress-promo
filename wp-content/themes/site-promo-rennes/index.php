@@ -9,7 +9,6 @@
             <div class="content col-md-8">
                 <!-- contenue du site ici -->
 
-
             </div>
             <!-- aside -->
             <?php get_sidebar(); ?>
