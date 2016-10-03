@@ -5,7 +5,6 @@
         <?php get_sidebar(); ?>
             <div class="content">
                 <!-- contenue du site ici -->
-            </div>
     </div>
 
     <?php get_footer(); ?>
