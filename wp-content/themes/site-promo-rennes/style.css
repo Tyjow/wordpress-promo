@@ -70,12 +70,39 @@ Author: Tyjow, Nabil, Julien, Anna
 
 /* === NABIL === */
 
+.front,.back{
+    min-height: 400px;
+}
+
+.front{
+    border-right: 2px dotted #231f20; 
+}
+
+.back{}
 
 /* === ANNA === */
 
 
 /* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
 
+.flex-sidebar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 .sidebar {
-	
+	background-color: #009b9d;
+}
+.sidebar h2 {
+	color: #fff;
+}
+.sidebar p {
+	padding: 5px 5px;
+}
+.newsletter {
+	width: 20vw;
+	height: 20vh;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px #000;
 }
