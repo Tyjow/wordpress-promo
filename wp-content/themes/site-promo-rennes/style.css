@@ -48,6 +48,15 @@ Author: Tyjow, Nabil, Julien, Anna
 
 /* === NABIL === */
 
+.front,.back{
+    min-height: 400px;
+}
+
+.front{
+    border-right: 2px dotted #231f20; 
+}
+
+.back{}
 
 /* === ANNA === */
 
