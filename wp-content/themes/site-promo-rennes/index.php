@@ -7,6 +7,7 @@
        
         <div class="row">
             <div class="content col-md-8">
+
                 <!-- contenue du site ici -->
                 <article id="a_propos">
                     <div>
@@ -26,10 +27,12 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis tempora eos totam eveniet dolor dolores dolore similique, non doloribus, omnis nisi sed voluptatibus, neque nam sequi adipisci! Rem, ipsa quo.</p>
                 </article>
             </div>
+        </div>    
+            
 
-            </div>
             <!-- aside -->
             <?php get_sidebar(); ?>
+            
         </div>
     </div>
     <?php get_footer(); ?>

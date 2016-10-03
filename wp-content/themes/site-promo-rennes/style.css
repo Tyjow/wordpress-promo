@@ -18,6 +18,8 @@ Author: Tyjow, Nabil, Julien, Anna
     height: 100vh;
     background-size: cover;
     background-position: center center;
+    -webkit-filter: contrast(135%) saturate(103%);
+    filter: contrast(135%) saturate(103%);
 }
 
 .menu-top-container {
@@ -27,27 +29,56 @@ Author: Tyjow, Nabil, Julien, Anna
     line-height: 50px;
     background-color: #fff;
     font-weight: 700;
+    border-bottom: 3px solid #009b9d;
+    box-shadow: 0 0 15px #444;
+    z-index: 999;
 }
 
 .menu-top-container ul {
+    display: flex;
+    justify-content: flex-end;
     list-style: none;
 }
 
-.menu-top-container ul li {
-    display: inline;
+.menu-top-container ul li a {
+    display: block;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.current-menu-item a, current_page_item a {
+    color: #009b9d;
 }
 
 .menu-top-container ul li a {
     color: #231f20;
+    transition: .3s;
 }
 
-.menu-top-container ul li:hover a {
-    color: #009b9d;
+.menu-top-container ul li:hover, .current_page_item {
+    
+}
+
+.menu-top-container ul li:hover a,
+.current_page_item a {
+    background-color: #009b9d;
+    color: #fff!important;
 }
 
 
 /* === NABIL === */
 
+.front,.back{
+    min-height: 400px;
+}
+
+.front{
+    border-right: 2px dotted #231f20; 
+}
+
+.back{}
 
 /* === ANNA === */
 
@@ -85,6 +116,24 @@ Author: Tyjow, Nabil, Julien, Anna
 }
 /* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
 
+.flex-sidebar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
 .sidebar {
-	
+	background-color: #009b9d;
+}
+.sidebar h2 {
+	color: #fff;
+}
+.sidebar p {
+	padding: 5px 5px;
+}
+.newsletter {
+	width: 20vw;
+	height: 20vh;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px #000;
 }
