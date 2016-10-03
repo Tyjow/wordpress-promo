@@ -4,7 +4,7 @@
 <div class="sidebar">
     <h2>Actualité</h2>
             <div id="content">
-               <?php query_posts('category_name=news'); ?>
+               <?php //query_posts('category_name=news'); ?>
                 <?php if(have_posts()) : ?>
                 <?php $counter =0; ?>
                 <?php while(have_posts() && $counter<3) : the_post();?>
