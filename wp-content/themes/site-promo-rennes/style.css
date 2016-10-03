@@ -51,7 +51,38 @@ Author: Tyjow, Nabil, Julien, Anna
 
 /* === ANNA === */
 
+.content {
+    
+    margin-left: 50px;
+}
+#a_propos {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #009b9d;
+}
 
+#logo_a_propos {
+    background-image: url(img/logo-codeacademie.png);
+    background-repeat: no-repeat;
+    width: 522px;
+    height: 284px;
+}
+
+#a_propos h2 {
+    display: block;
+    border-bottom: 2px solid #009b9d ;
+    width: 250px;
+    color: #009b9d;
+    font-size: 1.8em;
+}
+
+#a_propos p {
+    margin-top: 70px;
+}
+
+#center {
+    
+}
 /* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
 
 .sidebar {
