@@ -5,3 +5,51 @@ Description: Thème pour le site de la Code Académie de Rennes
 Version: 0.1
 Author: Tyjow, Nabil, Julien, Anna
 }*/
+
+/*
+ * colors :
+ * bleu/vert = #009b9d
+ * gris foncé = #231f20
+*/
+
+/* === JULIEN === */
+
+#header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.menu-top-container {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.menu-top-container ul {
+    list-style: none;
+}
+
+.menu-top-container ul li {
+    display: inline;
+}
+
+.menu-top-container ul li a {
+    color: #231f20;
+}
+
+.menu-top-container ul li:hover a {
+    color: #009b9d;
+}
+
+
+/* === NABIL === */
+
+
+/* === ANNA === */
+
+
+/* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
