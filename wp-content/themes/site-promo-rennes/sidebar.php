@@ -1,10 +1,15 @@
 <?php 
     //ça en ligne 1 sinon ça plante.
 ?>
-<div class="sidebar col-md-4">
+<div class="sidebar flex-sidebar col-md-4">
+    <h2>Newsletter inscription</h2>
+    <div class="newsletter flex-sidebar">
+        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+        <input type="text" name="field" size="15" placeholder="Email">
+    </div>
     <h2>Actualité</h2>
             <div id="content">
-               <?php //query_posts('category_name=news'); ?>
+               <?php query_posts('category_name'); ?>
                 <?php if(have_posts()) : ?>
                 <?php $counter =0; ?>
                 <?php while(have_posts() && $counter<3) : the_post();?>
