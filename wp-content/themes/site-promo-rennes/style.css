@@ -30,6 +30,7 @@ Author: Tyjow, Nabil, Julien, Anna
 }
 
 #content {
+    padding-right: 25px;
     padding-top: 50px;
 }
 
@@ -288,6 +289,8 @@ background-color: #fff;
 	align-items: center;
 }
 .sidebar {
+    margin: 50px 0;
+    border: 1px solid #bbb;
 	background-image: url('img/bg.png');
 }
 .sidebar h2 {
