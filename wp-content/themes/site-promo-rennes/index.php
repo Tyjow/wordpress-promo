@@ -2,9 +2,25 @@
    
     <div class="page container-fluid">
        
-        <div id="header" class="row" style='background-image:url(<?php header_image(); ?>)'></div>   
+        <div id="header" class="row" style='background-image:url(<?php header_image(); ?>)'>
+            <div class="block-opaque">
+                <h1><?php bloginfo('name'); ?></h1>
+                <button class="content-button center-block"><a href="#content">Partez à la découverte de notre formation</a></button>
+            </div>
+        </div> 
         
-        <div class="row">
+        <script>
+            $('a[href^="#"]').click(function(){
+	var the_id = $(this).attr("href");
+
+	$('html, body').animate({
+		scrollTop:$(the_id).offset().top
+	}, 'slow');
+	return false;
+});
+        </script>  
+        
+        <div id="content" class="row">
 
             <div class="col-md-8">
                 <!-- contenue du site ici -->

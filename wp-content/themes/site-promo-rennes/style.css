@@ -18,8 +18,61 @@ Author: Tyjow, Nabil, Julien, Anna
     height: 100vh;
     background-size: cover;
     background-position: center center;
-    -webkit-filter: contrast(135%) saturate(103%);
-    filter: contrast(135%) saturate(103%);
+}
+
+#header h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.content-button {
+    /*margin: 80vh 0;*/
+}
+
+.content-button {
+    background-color: rgba(255, 255, 255, .7);
+    width: 50%;
+    padding: 15px 45px;
+    border: 1px solid white;
+    transition: .3s;
+}
+
+button:hover.content-button {
+    background-color: #009b9d;
+    border: 1px solid #009b9d;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.content-button a {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #009b9d;
+    text-decoration: none;
+    transition: .3s;
+}
+
+button:hover.content-button  a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.block-opaque {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
 }
 
 .menu-top-container {
