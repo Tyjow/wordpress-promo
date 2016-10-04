@@ -29,6 +29,10 @@ Author: Tyjow, Nabil, Julien, Anna
     color: #fff;
 }
 
+#content {
+    padding-top: 50px;
+}
+
 .content-button {
     /*margin: 80vh 0;*/
 }
@@ -85,7 +89,6 @@ button:hover.content-button  a {
     background-color: #fff;
     font-weight: 700;
     border-bottom: 3px solid #009b9d;
-    box-shadow: 0 0 15px #777;
     z-index: 999;
 }
 
@@ -316,10 +319,10 @@ color: rgba(220,172,0,0.9);
 	align-items: center;
 }
 .sidebar {
-	background-color: #009b9d;
+	background-image: url('img/bg.png');
 }
 .sidebar h2 {
-	color: #fff;
+	color: #333;
 }
 .sidebar p {
 	padding: 15px 25px;
@@ -338,7 +341,7 @@ color: rgba(220,172,0,0.9);
 	align-items: flex-start;
 }
 .post_content p {
-	color: #fff;
+	color: #333;
 	padding: 15px 30px;
 }
 .postmetadata {
@@ -366,4 +369,63 @@ color: rgba(220,172,0,0.9);
 	color: #fff;
 	background-color: #009b9d;
 	box-shadow: 0px 2px 3px #000;
+}
+
+/*=== Single Page Content ===*/
+
+.bandeau {
+	padding-top: 50px;
+}
+.bandeau > h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 60px;
+	background-color: #009b9d;
+}
+.fond-single {
+	display: flex;
+	justify-content: center;
+	background-image: url('img/bg.png');
+}
+.single-article {
+	width: 50%;
+	background-color: #fff;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 5px #333;
+	border-radius: 5px;
+}
+.single-article > div {
+	border-radius: 5px;
+}
+.single-article > div img {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.content-single p {
+	margin: 20px 0 20px 0;
+	padding: 0 20px 0 20px;
+}
+.content-single a {
+	padding: 13px;
+}
+.button-news {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #009b9d;
+	box-shadow: 0px 1px 2px #333;
+	transition: all 0.50s;
+	width: 10vw;
+	margin: 20px;
+	height: 8vh;
+	color: #fff;
+	text-decoration: none;
+}
+.button-news:hover {
+	color: #009b9d;
+	text-decoration: none;
+	background-color: #fff;
+	box-shadow: 0px 1px 2px #000;
 }
