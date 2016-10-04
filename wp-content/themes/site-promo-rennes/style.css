@@ -12,6 +12,8 @@ Author: Tyjow, Nabil, Julien, Anna
  * gris foncé = #231f20
 */
 
+
+
 /* === JULIEN === */
 
 #header {
@@ -29,6 +31,18 @@ Author: Tyjow, Nabil, Julien, Anna
 
 .content-button {
     /*margin: 80vh 0;*/
+}
+
+.block-opaque {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .content-button {
@@ -62,18 +76,6 @@ button:hover.content-button  a {
     transition: .3s;
 }
 
-.block-opaque {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100%;
-}
 
 .menu-top-container {
     position: fixed;
@@ -83,7 +85,7 @@ button:hover.content-button  a {
     background-color: #fff;
     font-weight: 700;
     border-bottom: 3px solid #009b9d;
-    box-shadow: 0 0 15px #444;
+    box-shadow: 0 0 15px #777;
     z-index: 999;
 }
 
@@ -123,15 +125,88 @@ button:hover.content-button  a {
 
 /* === NABIL === */
 
-.front,.back{
-    min-height: 400px;
+@font-face {
+font-family: 'OpenSans-Light';
+src: url('fonts/OpenSans/OpenSans-Light.ttf');
 }
-
+@font-face {
+font-family: 'OpenSans-Regular';
+src: url('fonts/OpenSans/OpenSans-Regular.ttf');
+}
+@font-face {
+font-family: 'OpenSans-Semibold';
+src: url('fonts/OpenSans/OpenSans-Semibold.ttf');
+}
+@font-face {
+font-family: 'OpenSans-Bold';
+src: url('fonts/OpenSans/OpenSans-Bold.ttf');
+}
+.listApprenant{
+background-image: url('img/bg.png');
+padding-top: 2em;
+}
+.listApprenant img{
+width:160px;
+height: 160px;
+border-radius:80px;
+background-image: url('img/user.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+margin-bottom: 20px;
+}
+.listApprenant h2{
+font-family: ;
+font-size:3em;
+height: 60px;
+line-height: 60px;
+width: 90%;
+margin: auto;
+border-radius: 2px;
+padding-left: 2em;
+color: #fff;
+font-family: 'OpenSans-Light';
+}
+.backTitre{
+background-image: url('img/settings.png');
+}
+.frontTitre{
+background-image: url('img/ungroup.png');
+}
+.backTitre,.frontTitre{
+background-size: 8%;
+background-position: 0.5em center;
+background-color: rgba(56,152,157,0.9);
+background-repeat: no-repeat;
+}
+.apprenant{
+padding: 20px;
+margin-top: 3em;
+}
+.apprenant h3{
+font-size: 1.5em;
+margin-bottom: 0.8em;
+font-family: 'OpenSans-Semibold';
+}
 .front{
-    border-right: 2px dotted #231f20; 
+border-right: 4px dashed rgba(147,126,144,0.5);
+}
+.btnCv,.btnFolio{
+height: auto;
+width: auto;
+padding:0.5em;
+background-color: red;
+border-radius: 2px;
+}
+.btnFolio{
+background-color: rgba(56,152,157,0.9);
+color: #fff;
+}
+.btnCv{
+border: 1px solid rgba(56,152,157,0.9);
+background-color: #fff;
 }
 
-.back{}
+
 
 /* === ANNA === */
 
@@ -170,7 +245,6 @@ button:hover.content-button  a {
     font-size: 1.5em;
     color: #009b9d;
     padding-top: 30px;
-
 }
 
 #center p, #a_propos p {
@@ -180,15 +254,19 @@ button:hover.content-button  a {
 }
 
 #footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
     background-color: #009b9d;
     text-align: center;
     color: #ffffff;
-    padding-top: 5px!important;
 }
 
 #footer a {
-    color: #ffffff;
-    text-decoration: underline;
+    color: #E9C70C;
+    font-weight: 600;
 }
 
 
