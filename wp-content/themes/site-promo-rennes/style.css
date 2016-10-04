@@ -338,9 +338,6 @@ background-color: #fff;
 
 /*=== Single Page Content ===*/
 
-#menu-deroulant {
-	height: 50px;
-}
 .bandeau > h2 {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -355,7 +352,6 @@ background-color: #fff;
 }
 .single-article {
 	width: 50%;
-	justify-content: space-around;
 	background-color: #fff;
 	margin-top: 30px;
 	margin-bottom: 30px;
@@ -370,7 +366,8 @@ background-color: #fff;
 	border-top-right-radius: 5px;
 }
 .content-single p {
-	margin: 10px 0 10px 0;
+	margin: 20px 0 20px 0;
+	padding: 0 20px 0 20px;
 }
 .content-single a {
 	margin: 10px;
