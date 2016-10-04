@@ -13,7 +13,7 @@
             // SCROLL FLUIDE
             $('#skr').click(function(){
     	       $('html, body').animate({
-    		      scrollTop:$('#skr').offset().top
+    		      scrollTop:$('#content').offset().top
     	       }, 'slow');
     	       return false;
             });
