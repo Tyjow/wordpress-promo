@@ -36,8 +36,8 @@
 
     <body>
        
-    <div id="menu-deroulant">
-        <?php wp_nav_menu(array('theme_location' => 'Top')); ?>
-    </div>
+        <div id="menu-deroulant">
+            <?php wp_nav_menu(array('theme_location' => 'Top')); ?>
+        </div>
     
        
