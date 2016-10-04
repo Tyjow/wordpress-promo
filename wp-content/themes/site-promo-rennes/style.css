@@ -245,14 +245,15 @@ button:hover.content-button  a {
 	margin-top: 10px;
 }
 .title-news a {
-	color: #fff;
-	background-color: #009b9d;
+	color: #009b9d;
+	background-color: #fff;
 	padding: 5px 10px;
 	border-radius: 50%;
 	box-shadow: 0px 2px 3px #333;
+	transition: all 0.50s;
 }
 .title-news a:hover {
 	color: #fff;
-	background-color: #333;
+	background-color: #009b9d;
 	box-shadow: 0px 2px 3px #000;
 }
