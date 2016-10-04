@@ -125,11 +125,18 @@ Author: Tyjow, Nabil, Julien, Anna
 	color: #fff;
 }
 .sidebar p {
-	
+	padding: 10px;
 }
 .newsletter {
-	width: 25vw;
-	height: 30vh;
+	width: 80%;
 	background-color: #fff;
 	box-shadow: 1px 1px 5px #000;
+	justify-content: space-around;
+}
+.input-box {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
 }

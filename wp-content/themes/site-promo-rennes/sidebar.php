@@ -3,10 +3,12 @@
 ?>
 <div class="sidebar flex-sidebar col-md-4">
     <h2>Newsletter inscription</h2>
-    <div class="newsletter">
-        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-        <input type="text" name="field" size="15" placeholder="Email">
-        <button type="submit">GO</button>
+    <div class="newsletter flex-sidebar">
+        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+        <div class="input-box">
+            <input type="text" name="field" size="25" placeholder="Email">
+            <button type="submit">Envoyez</button>
+        </div>
     </div>
     <h2>Actualité</h2>
             <div id="content">
