@@ -1,10 +1,9 @@
 <?php get_header(); ?>
    
-    <div class="page">
+    <div class="page container-fluid">
        
-       
-        <div id="header" style='background-image:url(<?php header_image(); ?>)'></div>   
-       
+        <div id="header" class="row" style='background-image:url(<?php header_image(); ?>)'></div>   
+        
         <div class="row">
 
             <div class="col-md-8">
