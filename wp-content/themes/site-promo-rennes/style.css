@@ -135,10 +135,15 @@ button:hover.content-button  a {
 
 /* === ANNA === */
 
+.col-md-8 {
+    padding: 0 50px 50px 50px!important;
+}
+
 #a_propos {
     display: flex;
     justify-content: space-around;
     border-bottom: 2px solid #009b9d;
+    padding-bottom: 30px;
 }
 
 #logo_a_propos {
@@ -150,19 +155,43 @@ button:hover.content-button  a {
 
 #a_propos h2 {
     display: block;
-    border-bottom: 2px solid #009b9d ;
+    border-bottom: 2px solid #009b9d;
     width: 250px;
     color: #009b9d;
     font-size: 1.8em;
+    margin-bottom: 20px;
 }
 
 #a_propos p {
     margin-top: 70px;
 }
 
-#center {
-    
+#center h3 {
+    font-size: 1.5em;
+    color: #009b9d;
+    padding-top: 30px;
+
 }
+
+#center p, #a_propos p {
+    text-align: justify;
+    text-indent: 40px;
+    padding: 20px;
+}
+
+#footer {
+    background-color: #009b9d;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5px!important;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
 /* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
 
 .flex-sidebar {
@@ -178,11 +207,18 @@ button:hover.content-button  a {
 	color: #fff;
 }
 .sidebar p {
-	
+	padding: 10px;
 }
 .newsletter {
-	width: 25vw;
-	height: 30vh;
+	width: 80%;
 	background-color: #fff;
 	box-shadow: 1px 1px 5px #000;
+	justify-content: space-around;
+}
+.input-box {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
 }
