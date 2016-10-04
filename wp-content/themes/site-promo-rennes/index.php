@@ -5,19 +5,17 @@
         <div id="header" class="row" style='background-image:url(<?php header_image(); ?>)'>
             <div class="block-opaque">
                 <h1><?php bloginfo('name'); ?></h1>
-                <button class="content-button center-block"><a href="#content">Partez à la découverte de notre formation</a></button>
+                <button id="skr" class="content-button center-block"><a href="#content">Partez à la découverte de notre formation</a></button>
             </div>
         </div> 
         
         <script>
             // SCROLL FLUIDE
-            $('a[href^="#"]').click(function(){
-	       var the_id = $(this).attr("href");
-
-	       $('html, body').animate({
-		      scrollTop:$(the_id).offset().top
-	       }, 'slow');
-	       return false;
+            $('#skr').click(function(){
+    	       $('html, body').animate({
+    		      scrollTop:$('#skr').offset().top
+    	       }, 'slow');
+    	       return false;
             });
         </script>  
         
