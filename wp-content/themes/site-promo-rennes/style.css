@@ -29,6 +29,10 @@ Author: Tyjow, Nabil, Julien, Anna
     color: #fff;
 }
 
+#content {
+    padding-top: 50px;
+}
+
 .content-button {
     /*margin: 80vh 0;*/
 }
