@@ -20,9 +20,62 @@ Author: Tyjow, Nabil, Julien, Anna
     height: 100vh;
     background-size: cover;
     background-position: center center;
-    -webkit-filter: contrast(135%) saturate(103%);
-    filter: contrast(135%) saturate(103%);
 }
+
+#header h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.content-button {
+    /*margin: 80vh 0;*/
+}
+
+.block-opaque {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-button {
+    background-color: rgba(255, 255, 255, .7);
+    width: 50%;
+    padding: 15px 45px;
+    border: 1px solid white;
+    transition: .3s;
+}
+
+button:hover.content-button {
+    background-color: #009b9d;
+    border: 1px solid #009b9d;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.content-button a {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #009b9d;
+    text-decoration: none;
+    transition: .3s;
+}
+
+button:hover.content-button  a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
 
 .menu-top-container {
     position: fixed;
@@ -32,7 +85,7 @@ Author: Tyjow, Nabil, Julien, Anna
     background-color: #fff;
     font-weight: 700;
     border-bottom: 3px solid #009b9d;
-    box-shadow: 0 0 15px #444;
+    box-shadow: 0 0 15px #777;
     z-index: 999;
 }
 
@@ -157,14 +210,15 @@ background-color: #fff;
 
 /* === ANNA === */
 
-.content {
-    
-    margin-left: 50px;
+.col-md-8 {
+    padding: 0 50px 50px 50px!important;
 }
+
 #a_propos {
     display: flex;
     justify-content: space-around;
     border-bottom: 2px solid #009b9d;
+    padding-bottom: 30px;
 }
 
 #logo_a_propos {
@@ -176,19 +230,46 @@ background-color: #fff;
 
 #a_propos h2 {
     display: block;
-    border-bottom: 2px solid #009b9d ;
+    border-bottom: 2px solid #009b9d;
     width: 250px;
     color: #009b9d;
     font-size: 1.8em;
+    margin-bottom: 20px;
 }
 
 #a_propos p {
     margin-top: 70px;
 }
 
-#center {
-    
+#center h3 {
+    font-size: 1.5em;
+    color: #009b9d;
+    padding-top: 30px;
 }
+
+#center p, #a_propos p {
+    text-align: justify;
+    text-indent: 40px;
+    padding: 20px;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #009b9d;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #E9C70C;
+    font-weight: 600;
+}
+
+
 /* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
 
 .flex-sidebar {
@@ -197,6 +278,11 @@ background-color: #fff;
 	align-items: center;
 	flex-direction: column;
 }
+#content > a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .sidebar {
 	background-color: #009b9d;
 }
@@ -204,11 +290,48 @@ background-color: #fff;
 	color: #fff;
 }
 .sidebar p {
-	padding: 5px 5px;
+	padding: 15px 25px;
 }
 .newsletter {
-	width: 20vw;
-	height: 20vh;
+	width: 80%;
 	background-color: #fff;
-	box-shadow: 1px 1px 5px #000;
+	box-shadow: 1px 1px 5px #333;
+	justify-content: space-around;
+}
+.input-box {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.post_content p {
+	color: #fff;
+	padding: 15px 30px;
+}
+.postmetadata {
+	box-shadow: 1px 1px 5px #333;
+}
+.title-news {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.title-news h2 {
+	color: #333;
+	margin-top: 10px;
+}
+.title-news a {
+	color: #009b9d;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 50%;
+	box-shadow: 0px 2px 3px #333;
+	transition: all 0.50s;
+}
+.title-news a:hover {
+	color: #fff;
+	background-color: #009b9d;
+	box-shadow: 0px 2px 3px #000;
 }
