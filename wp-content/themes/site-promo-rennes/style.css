@@ -269,7 +269,20 @@ background-color: #fff;
     font-weight: 600;
 }
 
-
+.wpcf7 .wpcf7-text,
+.wpcf7 .wpcf7-textarea{
+	text-indent: 30px;
+}
+.wpcf7 p{ position: relative; }
+.wpcf7 p .icon{
+	position: absolute;
+	color: #cdcac3;
+	z-index: 100;
+	font-size: 18px;
+	top: 22%;
+	left: 3%;
+}
+.wpcf7 p .icon-pencil{ top: 4%; }
 /* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
 
 .flex-sidebar {
