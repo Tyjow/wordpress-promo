@@ -6,7 +6,7 @@
         <div id="header" style='background-image:url(<?php header_image(); ?>)'></div>   
        
         <div class="row">
-            <div class="content col-md-8">
+            <div class="col-md-8">
 
                 <!-- contenue du site ici -->
                 <article id="a_propos">
