@@ -257,3 +257,28 @@ button:hover.content-button  a {
 	background-color: #009b9d;
 	box-shadow: 0px 2px 3px #000;
 }
+
+/*=== Single Page Content ===*/
+
+#menu-deroulant {
+	height: 50px;
+}
+.bandeau {
+	margin-top: 0;
+	color: #009b9d;
+	font-size: 60px;
+}
+.fond-single {
+	display: flex;
+	justify-content: center;
+}
+.single-article {
+	width: 50%;
+	justify-content: space-around;
+}
+.content-single p {
+	margin: 10px 0 10px 0;
+}
+.content-single a {
+	margin: 10px;
+}
