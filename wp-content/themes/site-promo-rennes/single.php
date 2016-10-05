@@ -11,7 +11,7 @@
             <div><?php the_post_thumbnail(array(678,0));?></div>
             <div class="content-single">
                 <p><?php the_content(); ?></p>
-                <a class="button-news" href="http://localhost/wordpress-promo/">Retour à l'accueil</a>
+                <a class="button-news" href="http://localhost/wordpress-promo/index.php">Retour à l'accueil</a>
             </div>   
                 
     </section>
