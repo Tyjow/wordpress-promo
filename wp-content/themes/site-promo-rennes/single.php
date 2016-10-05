@@ -10,8 +10,18 @@
                 <p><?php the_content(); ?></p>
 
                 <a class="button-news" href="http://localhost/wordpress-promo/">Retour aux news</a>
-            </div>   
-                
+            </div>
+                 
+            <div class="pagination">  
+            <?php  // Previous/next post navigation.
+			 the_post_navigation( array(
+            'next_text' => '<button class="btn-pagination"' . '<span aria-hidden="true">' . __( '&laquo;', 'sitepromo1' ) . '</span> ' .
+            '<span>' . __( '', 'sitepromo1' ) . '</span> ' .
+            '<span>%title</span>' . '</button>',
+            'prev_text' => '<button class="btn-pagination"' . '<span>' . __( '', 'sitepromo1' ) . '</span> ' .
+            '<span>%title</span>' . '<span aria-hidden="true">' . __( ' &raquo;', 'sitepromo1' ) . '</span> ' . '</button>',
+            )); ?>               
+            </div>                       
     </section>
 </div>    
     <!-- s'il n'y a pas d'article -->

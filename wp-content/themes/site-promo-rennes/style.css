@@ -126,6 +126,20 @@ button:hover.content-button  a {
     color: #fff!important;
 }
 
+/*---pagination-style---*/
+.pagination {
+    width: 100%;
+    display: flex;
+    
+    background-color: royalblue;
+}
+.btn-pagination {
+    background-color: #eee;
+    width: 25%;
+    padding: 15px 45px;
+    border: 1px solid #009b9d;
+    transition: .3s;
+}
 
 /* === NABIL === */
 
@@ -332,9 +346,107 @@ color:grey;
     font-weight: 600;
 }
 
+.wpcf7 .wpcf7-text, .wpcf7 .wpcf7-textarea {
+	text-indent: 30px;
+}
+
+.wpcf7 p { 
+    position: relative; 
+}
+
+.wpcf7 p .icon {
+	position: absolute;
+	color: #cdcac3;
+	z-index: 100;
+	font-size: 18px;
+	top: 22%;
+	left: 3%;
+}
+
+div.wpcf7 {
+    padding-top: 150px;
+}
+
+.wpcf7 p .icon-pencil { 
+    top: 4%; 
+}
+
+input, textarea {     
+    width: 70vh;    
+    margin-top: 30px;     
+    padding: 20px;     
+    border: 1px solid #ccc;     
+    color: #222; 
+}  
+
+.wpcf7-submit {     
+    width: 200px;     
+    float: none;
+}
+
+#wpcf7-f4-p5-ol {
+    padding-top: 150px;
+}
+
+.formulaire_de_contact {
+    background-image: url(img/bg.png);
+}
+
+#formulaire {
+    width: 100vh;
+    box-shadow: 0px 0px 5px #333;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+legend {
+    text-align: center;
+}
+
+legend p {
+    color: #009b9d;
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#identite {
+    padding-top: 20px;
+}
+
+#icone_identite, #icone_email, #icone_objet, #icone_message {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#icone_message {
+    position: relative;
+    bottom: 200px;
+}
+
+#bouton_valider {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+input[type=submit] {
+    background-color: #009B9D;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input[type=submit]:focus {
+    background-image: linear-gradient(#009B9D,#61DEE0);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 /* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
-
 .flex-sidebar {
 	display: flex;
 	justify-content: center;
@@ -374,8 +486,8 @@ color:grey;
 	color: #333;
 	padding: 15px 30px;
 }
-.postmetadata {
-	box-shadow: 1px 1px 5px #333;
+.post {
+    padding: 20px 5px 50px 5px;
 }
 .title-news {
     margin: 10px auto;
@@ -392,17 +504,26 @@ color:grey;
     border-bottom: 2px solid #009b9d;
 }
 .title-news a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    
 	color: #009b9d;
 	background-color: #fff;
 	padding: 5px 10px;
 	border-radius: 50%;
-	box-shadow: 0px 2px 3px #333;
+	box-shadow: 0px 2px 3px #666;
 	transition: all 0.50s;
 }
 .title-news a:hover {
 	color: #fff;
+    text-decoration: none;
 	background-color: #009b9d;
-	box-shadow: 0px 2px 3px #000;
+	box-shadow: 0px 2px 3px #555;
 }
 .title-news img {
     width: 100%;
@@ -411,11 +532,25 @@ color:grey;
 
 /*=== Single Page Content ===*/
 
+
+.bandeau {
+	padding-top: 50px;
+}
+
+.bandeau > h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 60px;
+	background-color: #009b9d;
+}
+
 .fond-single {
 	display: flex;
 	justify-content: center;
 	background-image: url('img/bg.png');
 }
+
 .single-article {
 	width: 50%;
 	background-color: #fff;
@@ -423,6 +558,11 @@ color:grey;
 	margin-bottom: 50px;
 	box-shadow: 0px 0px 15px #999;
 }
+
+.single-article > div {
+	border-radius: 5px;
+}
+
 .article-title {
     width: 50%;
     margin: 20px auto;
@@ -432,10 +572,12 @@ color:grey;
     color: #009b9d;
     border-bottom: 2px solid #009b9d;
 }
+
 .single-article > div img {
 	width: 100%;
     height: auto;
 }
+
 .content-single p {
 	margin: 50px 0;
 	padding: 0 50px;
@@ -443,6 +585,7 @@ color:grey;
 .content-single a {
 	padding: 13px;
 }
+
 .button-news {
 	display: flex;
 	justify-content: center;
@@ -456,6 +599,7 @@ color:grey;
 	color: #fff;
 	text-decoration: none;
 }
+
 .button-news:hover {
 	color: #009b9d;
 	text-decoration: none;
