@@ -374,8 +374,8 @@ color:grey;
 	color: #333;
 	padding: 15px 30px;
 }
-.postmetadata {
-	box-shadow: 1px 1px 5px #333;
+.post {
+    padding: 20px 5px 50px 5px;
 }
 .title-news {
     margin: 10px auto;
