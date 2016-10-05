@@ -11,18 +11,21 @@
 
                 <a class="button-news" href="http://localhost/wordpress-promo/">Retour aux news</a>
             </div>
-                 
+                
+            
+            
             <div class="pagination">  
             <?php  // Previous/next post navigation.
 			 the_post_navigation( array(
-            'next_text' => '<button class="btn-pagination"' . '<span aria-hidden="true">' . __( '&laquo;', 'sitepromo1' ) . '</span> ' .
-            '<span>' . __( '', 'sitepromo1' ) . '</span> ' .
-            '<span>%title</span>' . '</button>',
-            'prev_text' => '<button class="btn-pagination"' . '<span>' . __( '', 'sitepromo1' ) . '</span> ' .
-            '<span>%title</span>' . '<span aria-hidden="true">' . __( ' &raquo;', 'sitepromo1' ) . '</span> ' . '</button>',
+            'next_text' => '<button class="btn-pagination-R">' . '<span aria-hidden="true">' . '</span> ' .
+            '<span>' . '</span> ' .
+            '<span>%title</span>' . '<i class="fa fa-paw"></i>' . '</button>',
+            'prev_text' => '<button class="btn-pagination-L">' . '<i class="fa fa-paw"></i>' . '<span>' . '</span> ' .
+            '<span>%title</span>' . '<span aria-hidden="true">' . '</span> ' . '</button>',
             )); ?>               
             </div>                       
-    </section>
+            <script>$('.screen-reader-text').css('display', 'none');</script>
+    </section><!--__( ' &raquo;', 'sitepromo1' )-->
 </div>    
     <!-- s'il n'y a pas d'article -->
     <?php endwhile; else: ?>
