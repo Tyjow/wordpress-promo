@@ -25,7 +25,7 @@
                        <?php the_post_thumbnail(array(500,500));?>
                         <h2><?php the_title(); ?></h2>
                         
-                        <p><?php the_content(__('<i class="fa fa-2x fa-plus" aria-hidden="true"></i>')); ?></p>
+                        <?php the_content(__('<i class="fa fa-2x fa-plus" aria-hidden="true"></i>')); ?>
                     
                         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><i class="fa fa-2x fa-plus" aria-hidden="true"></i></a>
                     </div>

@@ -365,17 +365,26 @@ color: rgba(220,172,0,0.9);
     border-bottom: 2px solid #009b9d;
 }
 .title-news a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    
 	color: #009b9d;
 	background-color: #fff;
 	padding: 5px 10px;
 	border-radius: 50%;
-	box-shadow: 0px 2px 3px #333;
+	box-shadow: 0px 2px 3px #666;
 	transition: all 0.50s;
 }
 .title-news a:hover {
 	color: #fff;
+    text-decoration: none;
 	background-color: #009b9d;
-	box-shadow: 0px 2px 3px #000;
+	box-shadow: 0px 2px 3px #555;
 }
 .title-news img {
     width: 100%;
