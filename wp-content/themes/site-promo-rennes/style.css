@@ -126,20 +126,30 @@ button:hover.content-button  a {
     color: #fff!important;
 }
 
+
 /*---pagination-style---*/
 .pagination {
     width: 100%;
-    display: flex;
-    
-    background-color: royalblue;
+    padding: 50px 0 0 0;
+    border-top: 1px solid #ccc;
 }
-.btn-pagination {
+[class*='btn-pagination-']  {
     background-color: #eee;
     width: 25%;
     padding: 15px 45px;
     border: 1px solid #009b9d;
     transition: .3s;
 }
+.btn-pagination-R {
+    float: right;
+    margin-right: 20px;
+}
+.btn-pagination-L {
+    float: left;
+    margin-left: 20px;
+}
+
+/* [class*='btn-pagination-'] 
 
 /* === NABIL === */
 

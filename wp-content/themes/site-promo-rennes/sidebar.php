@@ -48,7 +48,7 @@
                 
                 <?php the_content(__('<i class="fa fa-2x fa-plus" aria-hidden="true"></i>')); ?>
             
-                <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><i class="fa fa-2x fa-plus" aria-hidden="true"></i></a>
+                <!--<a href="<?php //the_permalink(); ?>" title="<?php //the_title(); ?>"><i class="fa fa-2x fa-plus" aria-hidden="true"></i></a>-->
             </div>
             
         </div>
