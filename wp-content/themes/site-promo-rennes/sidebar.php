@@ -32,6 +32,5 @@
         </div>
         <?php endwhile; ?>
         <?php endif; ?>
-        <a href="#"><button class="normal-button">News Letters</button></a>
     </div>
 </div>
