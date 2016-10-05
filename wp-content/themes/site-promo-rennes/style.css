@@ -144,6 +144,12 @@ src: url('fonts/OpenSans/OpenSans-Semibold.ttf');
 font-family: 'OpenSans-Bold';
 src: url('fonts/OpenSans/OpenSans-Bold.ttf');
 }
+
+/* Couleurs simplon
+noir : rgb(31,31,30) / #1F1F1E
+rouge : rgb(223,0,76) / #DC003C
+*/
+
 .listApprenant{
 background-image: url('img/bg.png');
 padding-top: 6em;
@@ -153,6 +159,7 @@ padding-top: 6em;
 text-align: center;
 font-family: 'OpenSans-Light';
 }
+
 .listApprenant img{
 width:160px;
 height: 160px;
@@ -162,6 +169,7 @@ background-repeat: no-repeat;
 background-position: center center;
 margin-bottom: 20px;
 }
+
 .listApprenant h2{
 font-family: ;
 font-size:2.5em;
@@ -176,32 +184,37 @@ font-family: 'OpenSans-Light';
 background-size: 8%;
 background-position: 0.5em center;
 background-repeat: no-repeat;
-background-color: rgba(56,152,157,0.9);
 }
+
 .front{
 border-right: 4px dashed rgba(147,126,144,0.5);
 }
-.backTitre{
-background-image: url('img/settings.png');
+
+.front,.back{
+padding-bottom :9em;
 }
 .frontTitre{
 background-image: url('img/ungroup.png');
+background-color: rgba(56,152,157,0.8); 
 }
+
+.backTitre{
+background-image: url('img/settings.png');
+background-color: rgba(31,31,30,0.8); 
+}
+
 .apprenant{
 padding: 20px;
 margin-top: 3em;
 }
+
 .nomApprenant{
 font-size: 1.5em;
 margin-bottom: 0.8em;
 font-family: 'OpenSans-Semibold';
 cursor: pointer;
 }
-.infoBox i{
-font-size: 1.5em;
-color: grey;
-float: right;
-}
+
 .infoBox{
 display: none;
 width:auto;
@@ -215,32 +228,46 @@ position: relative;
 box-shadow: 2px 1px 2px 0px #9b9b9b;
 filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=116, Strength=2);  
 }
-.progress-bar{
-background-color: grey!important;
+
+.front .progress-bar{
+background-color: #009b9d!important;
 }
+
+.back .progress-bar{
+background-color: #1F1F1E!important;
+}
+
 .btnCv,.btnFolio{
 height: auto;
 width: auto;
 padding:0.5em;
-background-color: red;
 border-radius: 2px;
 }
+
 .btnFolio{
 background-color: rgba(56,152,157,0.9);
 color: #fff;
 }
+
 .btnCv{
 border: 1px solid rgba(56,152,157,0.9);
 background-color: #fff;
 }
-/*.front .btnFolio{
-background-color: rgba(220,172,0,0.9);
-}
-.front .btnCv{
-border: 1px solid rgba(220,172,0,0.6);
-color: rgba(220,172,0,0.9);
-}*/
 
+.back .btnFolio{
+background-color: rgba(31,31,30,0.9);
+}
+.back .btnCv{
+border: 1px solid rgba(31,31,30,0.6);
+color: rgba(31,31,30,0.9);
+}
+
+.apprenant a:hover{
+text-decoration: none;
+}
+.back a:hover{
+color:grey;
+}
 
 
 /* === ANNA === */
