@@ -23,7 +23,6 @@
 				<!-- hidden info box-->
 
 				<div class="infoBox">
-					<i class="fa fa-times-circle" aria-hidden="true"></i>
 					<h4>Lorem Ben Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis tempora eos totam!</p>
 					<div class="progress">
@@ -48,7 +47,6 @@
 				<!-- hidden info box-->
 
 				<div class="infoBox">
-					<i class="fa fa-times-circle" aria-hidden="true"></i>
 					<h4>Lorem Ben Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis tempora eos totam!</p>
 					<div class="progress">
@@ -72,7 +70,6 @@
 				<!-- hidden info box-->
 
 				<div class="infoBox">
-					<i class="fa fa-times-circle" aria-hidden="true"></i>
 					<h4>Lorem Ben Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis tempora eos totam!</p>
 					<div class="progress">
@@ -107,7 +104,6 @@
 				<!-- hidden info box-->
 
 				<div class="infoBox">
-					<i class="fa fa-times-circle" aria-hidden="true"></i>
 					<h4>Lorem Ben Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis tempora eos totam!</p>
 					<div class="progress">
@@ -131,7 +127,6 @@
 				<!-- hidden info box-->
 
 				<div class="infoBox">
-					<i class="fa fa-times-circle" aria-hidden="true"></i>
 					<h4>Lorem Ben Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis tempora eos totam!</p>
 					<div class="progress">
@@ -155,7 +150,6 @@
 				<!-- hidden info box-->
 
 				<div class="infoBox">
-					<i class="fa fa-times-circle" aria-hidden="true"></i>
 					<h4>Lorem Ben Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis tempora eos totam!</p>
 					<div class="progress">
@@ -179,7 +173,6 @@
 				<!-- hidden info box-->
 
 				<div class="infoBox">
-					<i class="fa fa-times-circle" aria-hidden="true"></i>
 					<h4>Lorem Ben Ipsum</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis tempora eos totam!</p>
 					<div class="progress">
@@ -201,6 +194,9 @@
 		
 </div>
 
+<?php get_footer() ?>
+
+<!-- = = script pour le hover des apprenants = = -->
 
 <script>
 $(document).ready(function(){
@@ -208,11 +204,9 @@ $(document).ready(function(){
     	$(this).next().slideDown();
     });  
 });
-
 $(document).ready(function(){
-    $('i').click(function(){
-    	$('.infoBox').slideUp();
-    	//$(this).parent().slideUp();
+    $('.imgApprenant').mouseout(function(){
+    	$(this).next().slideUp();
     });  
 });
 </script>
