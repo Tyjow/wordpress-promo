@@ -273,12 +273,15 @@ background-color: #fff;
     font-weight: 600;
 }
 
-.wpcf7 .wpcf7-text,
-.wpcf7 .wpcf7-textarea{
+.wpcf7 .wpcf7-text, .wpcf7 .wpcf7-textarea {
 	text-indent: 30px;
 }
-.wpcf7 p{ position: relative; }
-.wpcf7 p .icon{
+
+.wpcf7 p { 
+    position: relative; 
+}
+
+.wpcf7 p .icon {
 	position: absolute;
 	color: #cdcac3;
 	z-index: 100;
@@ -286,9 +289,91 @@ background-color: #fff;
 	top: 22%;
 	left: 3%;
 }
-.wpcf7 p .icon-pencil{ top: 4%; }
-/* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
 
+div.wpcf7 {
+    padding-top: 150px;
+}
+
+.wpcf7 p .icon-pencil { 
+    top: 4%; 
+}
+
+input, textarea {     
+    width: 70vh;    
+    margin-top: 30px;     
+    padding: 20px;     
+    border: 1px solid #ccc;     
+    color: #222; 
+}  
+
+.wpcf7-submit {     
+    width: 200px;     
+    float: none;
+}
+
+#wpcf7-f4-p5-ol {
+    padding-top: 150px;
+}
+
+.formulaire_de_contact {
+    background-image: url(img/bg.png);
+}
+
+#formulaire {
+    width: 100vh;
+    box-shadow: 0px 0px 5px #333;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+legend {
+    text-align: center;
+}
+
+legend p {
+    color: #009b9d;
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#identite {
+    padding-top: 20px;
+}
+
+#icone_identite, #icone_email, #icone_objet, #icone_message {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#icone_message {
+    position: relative;
+    bottom: 200px;
+}
+
+#bouton_valider {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+input[type=submit] {
+    background-color: #009B9D;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input[type=submit]:focus {
+    background-image: linear-gradient(#009B9D,#61DEE0);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
 .flex-sidebar {
 	display: flex;
 	justify-content: center;
@@ -358,6 +443,7 @@ background-color: #fff;
 .bandeau {
 	padding-top: 50px;
 }
+
 .bandeau > h2 {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -365,11 +451,13 @@ background-color: #fff;
 	font-size: 60px;
 	background-color: #009b9d;
 }
+
 .fond-single {
 	display: flex;
 	justify-content: center;
 	background-image: url('img/bg.png');
 }
+
 .single-article {
 	width: 50%;
 	background-color: #fff;
@@ -378,13 +466,16 @@ background-color: #fff;
 	box-shadow: 0px 0px 5px #333;
 	border-radius: 5px;
 }
+
 .single-article > div {
 	border-radius: 5px;
 }
+
 .single-article > div img {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
+
 .content-single p {
 	margin: 20px 0 20px 0;
 	padding: 0 20px 0 20px;
@@ -392,6 +483,7 @@ background-color: #fff;
 .content-single a {
 	padding: 13px;
 }
+
 .button-news {
 	display: flex;
 	justify-content: center;
@@ -405,6 +497,7 @@ background-color: #fff;
 	color: #fff;
 	text-decoration: none;
 }
+
 .button-news:hover {
 	color: #009b9d;
 	text-decoration: none;
