@@ -42,18 +42,20 @@
         <!-- affichage des articles -->
         <div class= "post" id="post-<?php the_ID(); ?>"> 
             <div class= "post_content flex-sidebar">
-                <div class="postmetadata">
-                    <?php the_post_thumbnail(array(350,350));?>
+               
                     <div class="title-news">
+                       <?php the_post_thumbnail(array(500,500));?>
                         <h2><?php the_title(); ?></h2>
+                        
+                        <p><?php the_content(__('<i class="fa fa-2x fa-plus" aria-hidden="true"></i>')); ?></p>
+                    
                         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><i class="fa fa-2x fa-plus" aria-hidden="true"></i></a>
                     </div>
-                </div>
-                <?php the_content(__('<i class="fa fa-3x fa-plus-circle read-more"></i>')); ?>
+                
+                
             </div> 
         </div>
         <?php endwhile; ?>
         <?php endif; ?>
-        <a href="#"><button class="normal-button">News Letters</button></a>
     </div>
 </div>
