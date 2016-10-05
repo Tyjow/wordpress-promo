@@ -11,23 +11,17 @@
 
                 <a class="button-news" href="http://localhost/wordpress-promo/">Retour aux news</a>
             </div>
-               
-                  
-                     
-                        
+                 
+            <div class="pagination">  
             <?php  // Previous/next post navigation.
 			 the_post_navigation( array(
-            'next_text' => '<button class="prev-next float-left"' . '<span class="meta-nav" aria-hidden="true">' . __( '&laquo;', 'sitepromo1' ) . '</span> ' .
-            '<span class="screen-reader-text">' . __( '', 'sitepromo1' ) . '</span> ' .
-            '<span class="post-title">%title</span>' . '</button>',
-            'prev_text' => '<button class="prev-next"' . '<span class="screen-reader-text">' . __( '', 'sitepromo1' ) . '</span> ' .
-            '<span class="post-title">%title</span>' . '<span class="meta-nav" aria-hidden="true">' . __( ' &raquo;', 'sitepromo1' ) . '</span> ' . '</button>',
+            'next_text' => '<button class="btn-pagination"' . '<span aria-hidden="true">' . __( '&laquo;', 'sitepromo1' ) . '</span> ' .
+            '<span>' . __( '', 'sitepromo1' ) . '</span> ' .
+            '<span>%title</span>' . '</button>',
+            'prev_text' => '<button class="btn-pagination"' . '<span>' . __( '', 'sitepromo1' ) . '</span> ' .
+            '<span>%title</span>' . '<span aria-hidden="true">' . __( ' &raquo;', 'sitepromo1' ) . '</span> ' . '</button>',
             )); ?>               
-                              
-                                 
-                                    
-                   
-                
+            </div>                       
     </section>
 </div>    
     <!-- s'il n'y a pas d'article -->
