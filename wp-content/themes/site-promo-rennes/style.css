@@ -30,6 +30,7 @@ Author: Tyjow, Nabil, Julien, Anna
 }
 
 #content {
+    padding-right: 25px;
     padding-top: 50px;
 }
 
@@ -89,7 +90,6 @@ button:hover.content-button  a {
     background-color: #fff;
     font-weight: 700;
     border-bottom: 3px solid #009b9d;
-    box-shadow: 0 0 15px #777;
     z-index: 999;
 }
 
@@ -126,6 +126,20 @@ button:hover.content-button  a {
     color: #fff!important;
 }
 
+/*---pagination-style---*/
+.pagination {
+    width: 100%;
+    display: flex;
+    
+    background-color: royalblue;
+}
+.btn-pagination {
+    background-color: #eee;
+    width: 25%;
+    padding: 15px 45px;
+    border: 1px solid #009b9d;
+    transition: .3s;
+}
 
 /* === NABIL === */
 
@@ -145,10 +159,22 @@ src: url('fonts/OpenSans/OpenSans-Semibold.ttf');
 font-family: 'OpenSans-Bold';
 src: url('fonts/OpenSans/OpenSans-Bold.ttf');
 }
+
+/* Couleurs simplon
+noir : rgb(31,31,30) / #1F1F1E
+rouge : rgb(223,0,76) / #DC003C
+*/
+
 .listApprenant{
 background-image: url('img/bg.png');
-padding-top: 2em;
+padding-top: 6em;
 }
+
+.textApprenant p{
+text-align: center;
+font-family: 'OpenSans-Light';
+}
+
 .listApprenant img{
 width:160px;
 height: 160px;
@@ -158,58 +184,105 @@ background-repeat: no-repeat;
 background-position: center center;
 margin-bottom: 20px;
 }
+
 .listApprenant h2{
 font-family: ;
-font-size:3em;
+font-size:2.5em;
 height: 60px;
 line-height: 60px;
 width: 90%;
 margin: auto;
 border-radius: 2px;
-padding-left: 2em;
+padding-left: 2.4em;
 color: #fff;
 font-family: 'OpenSans-Light';
+background-size: 8%;
+background-position: 0.5em center;
+background-repeat: no-repeat;
 }
-.backTitre{
-background-image: url('img/settings.png');
+
+.front{
+border-right: 4px dashed rgba(147,126,144,0.5);
+}
+
+.front,.back{
+padding-bottom :9em;
 }
 .frontTitre{
 background-image: url('img/ungroup.png');
+background-color: rgba(56,152,157,0.8); 
 }
-.backTitre,.frontTitre{
-background-size: 8%;
-background-position: 0.5em center;
-background-color: rgba(56,152,157,0.9);
-background-repeat: no-repeat;
+
+.backTitre{
+background-image: url('img/settings.png');
+background-color: rgba(31,31,30,0.8); 
 }
+
 .apprenant{
 padding: 20px;
 margin-top: 3em;
 }
-.apprenant h3{
+
+.nomApprenant{
 font-size: 1.5em;
 margin-bottom: 0.8em;
 font-family: 'OpenSans-Semibold';
+cursor: pointer;
 }
-.front{
-border-right: 4px dashed rgba(147,126,144,0.5);
+
+.infoBox{
+display: none;
+width:auto;
+height: auto;
+padding:1em;
+background-color: rgba(250,250,250,0.8);
+position: relative;
+-moz-box-shadow: 2px 1px 2px 0px #9b9b9b;
+-webkit-box-shadow: 2px 1px 2px 0px #9b9b9b;
+-o-box-shadow: 2px 1px 2px 0px #9b9b9b;
+box-shadow: 2px 1px 2px 0px #9b9b9b;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=116, Strength=2);  
 }
+
+.front .progress-bar{
+background-color: #009b9d!important;
+}
+
+.back .progress-bar{
+background-color: #1F1F1E!important;
+}
+
 .btnCv,.btnFolio{
 height: auto;
 width: auto;
 padding:0.5em;
-background-color: red;
 border-radius: 2px;
 }
+
 .btnFolio{
 background-color: rgba(56,152,157,0.9);
 color: #fff;
 }
+
 .btnCv{
 border: 1px solid rgba(56,152,157,0.9);
 background-color: #fff;
 }
 
+.back .btnFolio{
+background-color: rgba(31,31,30,0.9);
+}
+.back .btnCv{
+border: 1px solid rgba(31,31,30,0.6);
+color: rgba(31,31,30,0.9);
+}
+
+.apprenant a:hover{
+text-decoration: none;
+}
+.back a:hover{
+color:grey;
+}
 
 
 /* === ANNA === */
@@ -386,6 +459,8 @@ input[type=submit]:focus {
 	align-items: center;
 }
 .sidebar {
+    margin: 50px 0;
+    border: 1px solid #bbb;
 	background-image: url('img/bg.png');
 }
 .sidebar h2 {
@@ -411,34 +486,52 @@ input[type=submit]:focus {
 	color: #333;
 	padding: 15px 30px;
 }
-.postmetadata {
-	box-shadow: 1px 1px 5px #333;
+.post {
+    padding: 20px 5px 50px 5px;
 }
 .title-news {
+    margin: 10px auto;
+    border: 1px solid #aaa;
 	background-color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+    flex-wrap: nowrap;
 }
 .title-news h2 {
-	color: #333;
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+	color: #009b9d;
 	margin-top: 10px;
+    border-bottom: 2px solid #009b9d;
 }
 .title-news a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    
 	color: #009b9d;
 	background-color: #fff;
 	padding: 5px 10px;
 	border-radius: 50%;
-	box-shadow: 0px 2px 3px #333;
+	box-shadow: 0px 2px 3px #666;
 	transition: all 0.50s;
 }
 .title-news a:hover {
 	color: #fff;
+    text-decoration: none;
 	background-color: #009b9d;
-	box-shadow: 0px 2px 3px #000;
+	box-shadow: 0px 2px 3px #555;
+}
+.title-news img {
+    width: 100%;
+    height: auto;
 }
 
 /*=== Single Page Content ===*/
+
 
 .bandeau {
 	padding-top: 50px;
@@ -461,24 +554,33 @@ input[type=submit]:focus {
 .single-article {
 	width: 50%;
 	background-color: #fff;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	box-shadow: 0px 0px 5px #333;
-	border-radius: 5px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 15px #999;
 }
 
 .single-article > div {
 	border-radius: 5px;
 }
 
+.article-title {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #009b9d;
+    border-bottom: 2px solid #009b9d;
+}
+
 .single-article > div img {
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	width: 100%;
+    height: auto;
 }
 
 .content-single p {
-	margin: 20px 0 20px 0;
-	padding: 0 20px 0 20px;
+	margin: 50px 0;
+	padding: 0 50px;
 }
 .content-single a {
 	padding: 13px;
@@ -489,7 +591,7 @@ input[type=submit]:focus {
 	justify-content: center;
 	align-items: center;
 	background-color: #009b9d;
-	box-shadow: 0px 2px 3px #333;
+	box-shadow: 0px 1px 2px #333;
 	transition: all 0.50s;
 	width: 10vw;
 	margin: 20px;
@@ -502,5 +604,5 @@ input[type=submit]:focus {
 	color: #009b9d;
 	text-decoration: none;
 	background-color: #fff;
-	box-shadow: 0px 2px 3px #000;
+	box-shadow: 0px 1px 2px #000;
 }
