@@ -371,7 +371,7 @@ div.wpcf7 {
     top: 4%; 
 }
 
-input, textarea {     
+.formulaire_de_contact input, .formulaire_de_contact textarea {     
     width: 70vh;    
     margin-top: 30px;     
     padding: 20px;     
