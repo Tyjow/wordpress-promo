@@ -344,16 +344,6 @@ background-color: #fff;
 
 /*=== Single Page Content ===*/
 
-.bandeau {
-	padding-top: 50px;
-}
-.bandeau > h2 {
-	margin-top: 0;
-	margin-bottom: 0;
-	color: #fff;
-	font-size: 60px;
-	background-color: #009b9d;
-}
 .fond-single {
 	display: flex;
 	justify-content: center;
@@ -362,21 +352,26 @@ background-color: #fff;
 .single-article {
 	width: 50%;
 	background-color: #fff;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	box-shadow: 0px 0px 5px #333;
-	border-radius: 5px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 15px #999;
 }
-.single-article > div {
-	border-radius: 5px;
+.article-title {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #009b9d;
+    border-bottom: 2px solid #009b9d;
 }
 .single-article > div img {
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	width: 100%;
+    height: auto;
 }
 .content-single p {
-	margin: 20px 0 20px 0;
-	padding: 0 20px 0 20px;
+	margin: 50px 0;
+	padding: 0 50px;
 }
 .content-single a {
 	padding: 13px;
