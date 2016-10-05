@@ -30,6 +30,7 @@ Author: Tyjow, Nabil, Julien, Anna
 }
 
 #content {
+    padding-right: 25px;
     padding-top: 50px;
 }
 
@@ -144,6 +145,12 @@ src: url('fonts/OpenSans/OpenSans-Semibold.ttf');
 font-family: 'OpenSans-Bold';
 src: url('fonts/OpenSans/OpenSans-Bold.ttf');
 }
+
+/* Couleurs simplon
+noir : rgb(31,31,30) / #1F1F1E
+rouge : rgb(223,0,76) / #DC003C
+*/
+
 .listApprenant{
 background-image: url('img/bg.png');
 padding-top: 6em;
@@ -153,6 +160,7 @@ padding-top: 6em;
 text-align: center;
 font-family: 'OpenSans-Light';
 }
+
 .listApprenant img{
 width:160px;
 height: 160px;
@@ -162,6 +170,7 @@ background-repeat: no-repeat;
 background-position: center center;
 margin-bottom: 20px;
 }
+
 .listApprenant h2{
 font-family: ;
 font-size:2.5em;
@@ -176,32 +185,37 @@ font-family: 'OpenSans-Light';
 background-size: 8%;
 background-position: 0.5em center;
 background-repeat: no-repeat;
-background-color: rgba(56,152,157,0.9);
 }
+
 .front{
 border-right: 4px dashed rgba(147,126,144,0.5);
 }
-.backTitre{
-background-image: url('img/settings.png');
+
+.front,.back{
+padding-bottom :9em;
 }
 .frontTitre{
 background-image: url('img/ungroup.png');
+background-color: rgba(56,152,157,0.8); 
 }
+
+.backTitre{
+background-image: url('img/settings.png');
+background-color: rgba(31,31,30,0.8); 
+}
+
 .apprenant{
 padding: 20px;
 margin-top: 3em;
 }
+
 .nomApprenant{
 font-size: 1.5em;
 margin-bottom: 0.8em;
 font-family: 'OpenSans-Semibold';
 cursor: pointer;
 }
-.infoBox i{
-font-size: 1.5em;
-color: grey;
-float: right;
-}
+
 .infoBox{
 display: none;
 width:auto;
@@ -215,32 +229,46 @@ position: relative;
 box-shadow: 2px 1px 2px 0px #9b9b9b;
 filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=116, Strength=2);  
 }
-.progress-bar{
-background-color: grey!important;
+
+.front .progress-bar{
+background-color: #009b9d!important;
 }
+
+.back .progress-bar{
+background-color: #1F1F1E!important;
+}
+
 .btnCv,.btnFolio{
 height: auto;
 width: auto;
 padding:0.5em;
-background-color: red;
 border-radius: 2px;
 }
+
 .btnFolio{
 background-color: rgba(56,152,157,0.9);
 color: #fff;
 }
+
 .btnCv{
 border: 1px solid rgba(56,152,157,0.9);
 background-color: #fff;
 }
-/*.front .btnFolio{
-background-color: rgba(220,172,0,0.9);
-}
-.front .btnCv{
-border: 1px solid rgba(220,172,0,0.6);
-color: rgba(220,172,0,0.9);
-}*/
 
+.back .btnFolio{
+background-color: rgba(31,31,30,0.9);
+}
+.back .btnCv{
+border: 1px solid rgba(31,31,30,0.6);
+color: rgba(31,31,30,0.9);
+}
+
+.apprenant a:hover{
+text-decoration: none;
+}
+.back a:hover{
+color:grey;
+}
 
 
 /* === ANNA === */
@@ -319,6 +347,8 @@ color: rgba(220,172,0,0.9);
 	align-items: center;
 }
 .sidebar {
+    margin: 50px 0;
+    border: 1px solid #bbb;
 	background-image: url('img/bg.png');
 }
 .sidebar h2 {
@@ -348,14 +378,18 @@ color: rgba(220,172,0,0.9);
 	box-shadow: 1px 1px 5px #333;
 }
 .title-news {
+    margin: 10px auto;
+    border: 1px solid #aaa;
 	background-color: #fff;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+    flex-wrap: nowrap;
 }
 .title-news h2 {
-	color: #333;
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+	color: #009b9d;
 	margin-top: 10px;
+    border-bottom: 2px solid #009b9d;
 }
 .title-news a {
 	color: #009b9d;
@@ -370,19 +404,13 @@ color: rgba(220,172,0,0.9);
 	background-color: #009b9d;
 	box-shadow: 0px 2px 3px #000;
 }
+.title-news img {
+    width: 100%;
+    height: auto;
+}
 
 /*=== Single Page Content ===*/
 
-.bandeau {
-	padding-top: 50px;
-}
-.bandeau > h2 {
-	margin-top: 0;
-	margin-bottom: 0;
-	color: #fff;
-	font-size: 60px;
-	background-color: #009b9d;
-}
 .fond-single {
 	display: flex;
 	justify-content: center;
@@ -391,21 +419,26 @@ color: rgba(220,172,0,0.9);
 .single-article {
 	width: 50%;
 	background-color: #fff;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	box-shadow: 0px 0px 5px #333;
-	border-radius: 5px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 15px #999;
 }
-.single-article > div {
-	border-radius: 5px;
+.article-title {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #009b9d;
+    border-bottom: 2px solid #009b9d;
 }
 .single-article > div img {
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	width: 100%;
+    height: auto;
 }
 .content-single p {
-	margin: 20px 0 20px 0;
-	padding: 0 20px 0 20px;
+	margin: 50px 0;
+	padding: 0 50px;
 }
 .content-single a {
 	padding: 13px;
