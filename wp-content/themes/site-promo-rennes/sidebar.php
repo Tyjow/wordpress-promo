@@ -54,7 +54,7 @@
         </div>
         <div class="archives">
         <h2>Archives</h2>
-        <a href="#"><i class="fa fa-folder-open" aria-hidden="true"></i></a>
+        <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><i class="fa fa-folder-open" aria-hidden="true"></i></a>
         </div>
         <?php endwhile; ?>
         <?php endif; ?>

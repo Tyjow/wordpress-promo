@@ -545,7 +545,7 @@ input[type=submit]:focus {
     border: 1px solid #aaa;
 	background-color: #fff;
     flex-wrap: nowrap;
-    width:396px;
+    width:96%;
 }
 .archives h2 {
     width: 50%;
