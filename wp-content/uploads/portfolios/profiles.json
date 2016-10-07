@@ -13,8 +13,8 @@
 			"IMG": "img/img-apprenant/Jonathan.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
-			"CV": "#",
-			"PORTFOLIO": "#"
+			"CV": "https://tyjow.github.io/",
+			"PORTFOLIO": "https://tyjow.github.io/"
 		},
 		{
 			"NAME": "Floryan LOLLIVIER",
