@@ -18,11 +18,11 @@
         <!--END Scripts-->
         <div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html57f4c1ac08aac-1" class="wysija-msg ajax"></div><form id="form-wysija-html57f4c1ac08aac-1" method="post" action="#wysija" class="widget_wysija html_wysija">
         <p class="wysija-paragraph">
-            <label>E-mail <span class="wysija-required">*</span></label>
-                <input type="text" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" title="E-mail"  value="" />
-            <span class="abs-req">
+            <label>E-mail <span class="wysija-required">:</span></label>
+                <input type="text" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" title="E-mail"  value="" /> </br>
+            <label>Valider <span class="abs-req"</span>:</label>
                 <input type="text" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
-            </span>
+
         </p>
         <input class="wysija-submit wysija-submit-field" type="submit" value="Je m'abonne !" />
             <input type="hidden" name="form_id" value="1" />
