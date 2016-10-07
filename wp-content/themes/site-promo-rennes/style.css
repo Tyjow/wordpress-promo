@@ -188,7 +188,7 @@ font-family: 'OpenSans-Light';
 .listApprenant img{
 width:160px;
 height: 160px;
-border-radius:80px;
+border-radius:50%;
 background-image: url('img/user.jpg');
 background-repeat: no-repeat;
 background-position: center center;
@@ -211,6 +211,11 @@ background-position: 0.5em center;
 background-repeat: no-repeat;
 }
 
+.imgApprenant {
+width: 80% !important;
+height: 200px !important;
+}
+
 .front{
 border-right: 4px dashed rgba(147,126,144,0.5);
 }
@@ -231,6 +236,10 @@ background-color: rgba(31,31,30,0.8);
 .apprenant{
 padding: 20px;
 margin-top: 3em;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
 }
 
 .nomApprenant{

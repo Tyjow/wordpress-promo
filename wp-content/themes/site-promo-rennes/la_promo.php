@@ -29,7 +29,7 @@ shuffle($back);
 		<h2 class="frontTitre">Front-end</h2>
 		<?php
 			foreach ($front as $elements) {
-				echo "<div class='apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-xs-8'>
+				echo "<div class='apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8'>
 
 					<img class='img-responsive imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
 
@@ -45,8 +45,10 @@ shuffle($back);
 					</div>
 
 					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3>
-					<a href='". $elements['CV'] . "' class='btnCv'>CV</a>
-					<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>
+					<div class='box-link'>
+						<a href='". $elements['CV'] . "' class='btnCv'>CV</a>
+						<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>
+					</div>
 				</div>";
 			}
 		?>
@@ -60,7 +62,7 @@ shuffle($back);
 
 			<?php
 			foreach ($back as $elements) {
-				echo "<div class='apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-xs-8'>
+				echo "<div class='apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8'>
 
 					<img class='img-responsive imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
 
@@ -76,8 +78,10 @@ shuffle($back);
 					</div>
 
 					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3>
-					<a href='". $elements['CV'] . "' class='btnCv'>CV</a>
-					<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>
+					<div class='box-link'>
+						<a href='". $elements['CV'] . "' class='btnCv'>CV</a>
+						<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>
+					</div>
 				</div>";
 			}
 		?>	
