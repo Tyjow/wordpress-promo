@@ -6,7 +6,7 @@
 <?php get_header(); ?>
 
 <?php
-$string = file_get_contents("profiles.json", FILE_USE_INCLUDE_PATH);
+$string = file_get_contents("../wordpress-promo/wp-content/uploads/portfolios/profiles.json", FILE_USE_INCLUDE_PATH);
 $brut = json_decode($string, true);
 $front = $brut["FrontEnd"];
 $back = $brut["BackEnd"];
