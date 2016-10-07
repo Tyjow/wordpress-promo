@@ -19,8 +19,11 @@
 			 the_post_navigation( array(
             'next_text' => '<button class="btn-pagination-R">' . '<span aria-hidden="true">' . '</span> ' .
             '<span>' . '</span> ' .
-            '<span>%title</span>' . '<i class="fa fa-paw"></i>' . '</button>',
-            'prev_text' => '<button class="btn-pagination-L">' . '<i class="fa fa-paw"></i>' . '<span>' . '</span> ' .
+            '<span>%title</span>' . '<i class="fa fa-hand-o-right" aria-hidden="true"></i>
+' . '</button>',
+            'prev_text' => '<button class="btn-pagination-L">' . '<i class="fa fa-hand-o-left" aria-hidden="true"></i>
+
+' . '<span>' . '</span> ' .
             '<span>%title</span>' . '<span aria-hidden="true">' . '</span> ' . '</button>',
             )); ?>               
             </div>                       
@@ -34,4 +37,3 @@
                     
 <?php get_footer(); ?>
 
-    
