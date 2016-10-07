@@ -2,7 +2,7 @@
     //ça en ligne 1 sinon ça plante.
 ?>
 <div class="sidebar flex-sidebar col-md-4">
-    <h2>Newsletter inscription</h2>
+    <h2>Newsletter</h2>
     <div class="newsletter flex-sidebar">
         <p>Pour être avertis de toutes nos nouveautées !</p>
         <!--START Scripts : this is the script part you can add to the header of your theme-->

@@ -521,7 +521,7 @@ input[type=submit]:focus {
 	margin-top: 10px;
     border-bottom: 2px solid #009b9d;
 }
-.title-news a {
+.title-news > a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -537,7 +537,7 @@ input[type=submit]:focus {
 	box-shadow: 0px 2px 3px #666;
 	transition: all 0.50s;
 }
-.title-news a:hover {
+.title-news > a:hover {
 	color: #fff;
     text-decoration: none;
 	background-color: #009b9d;
