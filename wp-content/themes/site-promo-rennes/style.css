@@ -188,7 +188,7 @@ font-family: 'OpenSans-Light';
 .listApprenant img{
 width:160px;
 height: 160px;
-border-radius:80px;
+border-radius:50%;
 background-image: url('img/user.jpg');
 background-repeat: no-repeat;
 background-position: center center;
@@ -211,6 +211,11 @@ background-position: 0.5em center;
 background-repeat: no-repeat;
 }
 
+.imgApprenant {
+width: 80% !important;
+height: 200px !important;
+}
+
 .front{
 border-right: 4px dashed rgba(147,126,144,0.5);
 }
@@ -231,6 +236,10 @@ background-color: rgba(31,31,30,0.8);
 .apprenant{
 padding: 20px;
 margin-top: 3em;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
 }
 
 .nomApprenant{
@@ -504,7 +513,7 @@ input[type=submit]:focus {
 	margin-top: 10px;
     border-bottom: 2px solid #009b9d;
 }
-.title-news a {
+.title-news > a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -520,7 +529,7 @@ input[type=submit]:focus {
 	box-shadow: 0px 2px 3px #666;
 	transition: all 0.50s;
 }
-.title-news a:hover {
+.title-news > a:hover {
 	color: #fff;
     text-decoration: none;
 	background-color: #009b9d;
