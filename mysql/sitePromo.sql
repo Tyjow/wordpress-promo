@@ -2,10 +2,10 @@
 -- version 4.5.4.1deb2ubuntu2
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Oct 07, 2016 at 10:25 AM
--- Server version: 5.7.13-0ubuntu0.16.04.2
--- PHP Version: 7.0.8-0ubuntu0.16.04.2
+-- Client :  localhost
+-- Généré le :  Ven 07 Octobre 2016 à 12:00
+-- Version du serveur :  5.7.15-0ubuntu0.16.04.1
+-- Version de PHP :  7.0.8-0ubuntu0.16.04.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `sitePromo`
+-- Base de données :  `sitePromo`
 --
 CREATE DATABASE IF NOT EXISTS `sitePromo` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
 USE `sitePromo`;
@@ -25,7 +25,7 @@ USE `sitePromo`;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_commentmeta`
+-- Structure de la table `wp_commentmeta`
 --
 
 DROP TABLE IF EXISTS `wp_commentmeta`;
@@ -39,7 +39,7 @@ CREATE TABLE `wp_commentmeta` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_comments`
+-- Structure de la table `wp_comments`
 --
 
 DROP TABLE IF EXISTS `wp_comments`;
@@ -62,7 +62,7 @@ CREATE TABLE `wp_comments` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_comments`
+-- Contenu de la table `wp_comments`
 --
 
 INSERT INTO `wp_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `comment_author_email`, `comment_author_url`, `comment_author_IP`, `comment_date`, `comment_date_gmt`, `comment_content`, `comment_karma`, `comment_approved`, `comment_agent`, `comment_type`, `comment_parent`, `user_id`) VALUES
@@ -71,7 +71,7 @@ INSERT INTO `wp_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `c
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_links`
+-- Structure de la table `wp_links`
 --
 
 DROP TABLE IF EXISTS `wp_links`;
@@ -94,7 +94,7 @@ CREATE TABLE `wp_links` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_options`
+-- Structure de la table `wp_options`
 --
 
 DROP TABLE IF EXISTS `wp_options`;
@@ -106,7 +106,7 @@ CREATE TABLE `wp_options` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_options`
+-- Contenu de la table `wp_options`
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
@@ -263,12 +263,14 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (231, '_transient_timeout_plugin_slugs', '1475914945', 'no'),
 (232, '_transient_plugin_slugs', 'a:5:{i:0;s:19:"akismet/akismet.php";i:1;s:43:"better-font-awesome/better-font-awesome.php";i:2;s:36:"contact-form-7/wp-contact-form-7.php";i:3;s:9:"hello.php";i:4;s:28:"wysija-newsletters/index.php";}', 'no'),
 (233, '_transient_timeout_dash_bd94b8f41e74bae2f4dc72e9bd8379af', '1475871746', 'no'),
-(234, '_transient_dash_bd94b8f41e74bae2f4dc72e9bd8379af', '<div class="rss-widget"><ul><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/WordpressFrancophone/~3/5e8SDCecxmc/\'>Un nouveau site pour WordPress Francophone</a> <span class="rss-date">15 septembre 2016</span><div class="rssSummary">Après plus de quatre mois de chantier, nous sommes fiers de vous présenter le nouveau site WPFR ! Nous l’avions annoncé en mai, le site de l’association était en cours de refonte, l’ancien étant dépassé tant en termes d’aspect que de fonctionnalités. Une quinzaine de bénévoles ont répondu à notre appel pour travailler avec nous sur ce projet. Cette entreprise a aujourd’hui porté [&hellip;]</div></li></ul></div><div class="rss-widget"><ul><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/nHjDwjiWDI4/\'>Un code de base pour bien démarrer vos plugins WordPress</a></li><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/swPCtwPGuUY/\'>Cahier des charges : pourquoi et comment en faire un ?</a></li><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/PXRWQnLQXlA/\'>Social Warfare – L’ultime Plugin WordPress pour le Partage Social</a></li></ul></div><div class="rss-widget"><ul><li class="dashboard-news-plugin"><span>Extensions populaires :</span> Clef Two-Factor Authentication&nbsp;<a href="plugin-install.php?tab=plugin-information&amp;plugin=wpclef&amp;_wpnonce=644bdec91b&amp;TB_iframe=true&amp;width=600&amp;height=800" class="thickbox open-plugin-details-modal" aria-label="Installer Clef Two-Factor Authentication">(Installer)</a></li></ul></div>', 'no');
+(234, '_transient_dash_bd94b8f41e74bae2f4dc72e9bd8379af', '<div class="rss-widget"><ul><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/WordpressFrancophone/~3/5e8SDCecxmc/\'>Un nouveau site pour WordPress Francophone</a> <span class="rss-date">15 septembre 2016</span><div class="rssSummary">Après plus de quatre mois de chantier, nous sommes fiers de vous présenter le nouveau site WPFR ! Nous l’avions annoncé en mai, le site de l’association était en cours de refonte, l’ancien étant dépassé tant en termes d’aspect que de fonctionnalités. Une quinzaine de bénévoles ont répondu à notre appel pour travailler avec nous sur ce projet. Cette entreprise a aujourd’hui porté [&hellip;]</div></li></ul></div><div class="rss-widget"><ul><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/nHjDwjiWDI4/\'>Un code de base pour bien démarrer vos plugins WordPress</a></li><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/swPCtwPGuUY/\'>Cahier des charges : pourquoi et comment en faire un ?</a></li><li><a class=\'rsswidget\' href=\'http://feedproxy.google.com/~r/wpfr/~3/PXRWQnLQXlA/\'>Social Warfare – L’ultime Plugin WordPress pour le Partage Social</a></li></ul></div><div class="rss-widget"><ul><li class="dashboard-news-plugin"><span>Extensions populaires :</span> Clef Two-Factor Authentication&nbsp;<a href="plugin-install.php?tab=plugin-information&amp;plugin=wpclef&amp;_wpnonce=644bdec91b&amp;TB_iframe=true&amp;width=600&amp;height=800" class="thickbox open-plugin-details-modal" aria-label="Installer Clef Two-Factor Authentication">(Installer)</a></li></ul></div>', 'no'),
+(236, '_site_transient_timeout_browser_1e61bcee9a0f0af908e28ad38763cd0c', '1476434562', 'no'),
+(237, '_site_transient_browser_1e61bcee9a0f0af908e28ad38763cd0c', 'a:9:{s:8:"platform";s:5:"Linux";s:4:"name";s:7:"Firefox";s:7:"version";s:4:"49.0";s:10:"update_url";s:23:"http://www.firefox.com/";s:7:"img_src";s:50:"http://s.wordpress.org/images/browsers/firefox.png";s:11:"img_src_ssl";s:49:"https://wordpress.org/images/browsers/firefox.png";s:15:"current_version";s:2:"16";s:7:"upgrade";b:0;s:8:"insecure";b:0;}', 'no');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_postmeta`
+-- Structure de la table `wp_postmeta`
 --
 
 DROP TABLE IF EXISTS `wp_postmeta`;
@@ -280,16 +282,16 @@ CREATE TABLE `wp_postmeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_postmeta`
+-- Contenu de la table `wp_postmeta`
 --
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1, 2, '_wp_page_template', 'default'),
 (2, 1, '_edit_lock', '1475828508:1'),
-(3, 4, '_form', '<div id="formulaire">\n\n<legend><p>Ecrivez-nous</p></legend>\n<p id="identite"><i id="icone_identite" class="fa fa-user fa-2x" aria-hidden="true"></i><span class="icon icon-user"></span>  [text* your-name placeholder "Name"] </p>\n\n<p><i id="icone_email" class="fa fa-at fa-2x" aria-hidden="true"></i><span class="icon icon-envelope"></span> [email* your-email placeholder "Email"] </p>\n\n<p><i id="icone_objet" class="fa fa-info-circle fa-2x" aria-hidden="true"></i><span class="icon icon-phone"></span>[text* your-subject placeholder "Objet"]</p>\n\n<p><i id="icone_message" class="fa fa-comment-o fa-2x" aria-hidden="true"></i><span class="icon icon-pencil"></span>[textarea your-message placeholder "Message"] </p>\n\n<p id="bouton_valider">[submit "Send"  id="valider" ]</p>\n\n</div>'),
-(4, 4, '_mail', 'a:8:{s:7:"subject";s:32:"Test Site Promo "[your-subject]"";s:6:"sender";s:39:"[your-name] <platon.jonathan@gmail.com>";s:4:"body";s:185:"From: [your-name] <[your-email]>\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on Test Site Promo (http://localhost/wordpress-promo)";s:9:"recipient";s:25:"platon.jonathan@gmail.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}'),
+(3, 4, '_form', '<div id="formulaire">\n\n<legend><p>Ecrivez-nous</p></legend>\n<p id="identite"><i id="icone_identite" class="fa fa-user fa-2x" aria-hidden="true"></i><span class="icon icon-user"></span>  [text* your-name placeholder "Name"] </p>\n\n<p><i id="icone_email" class="fa fa-at fa-2x" aria-hidden="true"></i><span class="icon icon-envelope"></span> [email* your-email placeholder "Email"] </p>\n\n<p><i id="icone_objet" class="fa fa-info-circle fa-2x" aria-hidden="true"></i><span class="icon icon-phone"></span>[text* your-subject placeholder "Objet"]</p>\n\n<p><i id="icone_message" class="fa fa-comment-o fa-2x" aria-hidden="true"></i><span class="icon icon-pencil"></span>[textarea your-message placeholder "Message"] </p>\n\n<p id="bouton_valider">[submit id:valider "Envoyer"]</p>\n\n</div>'),
+(4, 4, '_mail', 'a:8:{s:7:"subject";s:32:"Test Site Promo "[your-subject]"";s:6:"sender";s:41:"[your-name] <abdulrahman.rasho@gmail.com>";s:4:"body";s:185:"From: [your-name] <[your-email]>\nSubject: [your-subject]\n\nMessage Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on Test Site Promo (http://localhost/wordpress-promo)";s:9:"recipient";s:27:"abdulrahman.rasho@gmail.com";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:1;s:13:"exclude_blank";b:0;}'),
 (5, 4, '_mail_2', 'a:9:{s:6:"active";b:0;s:7:"subject";s:32:"Test Site Promo "[your-subject]"";s:6:"sender";s:43:"Test Site Promo <platon.jonathan@gmail.com>";s:4:"body";s:127:"Message Body:\n[your-message]\n\n--\nThis e-mail was sent from a contact form on Test Site Promo (http://localhost/wordpress-promo)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:35:"Reply-To: platon.jonathan@gmail.com";s:11:"attachments";s:0:"";s:8:"use_html";b:0;s:13:"exclude_blank";b:0;}'),
-(6, 4, '_messages', 'a:23:{s:12:"mail_sent_ok";s:45:"Thank you for your message. It has been sent.";s:12:"mail_sent_ng";s:71:"There was an error trying to send your message. Please try again later.";s:16:"validation_error";s:61:"One or more fields have an error. Please check and try again.";s:4:"spam";s:71:"There was an error trying to send your message. Please try again later.";s:12:"accept_terms";s:69:"You must accept the terms and conditions before sending your message.";s:16:"invalid_required";s:22:"The field is required.";s:16:"invalid_too_long";s:22:"The field is too long.";s:17:"invalid_too_short";s:23:"The field is too short.";s:12:"invalid_date";s:29:"The date format is incorrect.";s:14:"date_too_early";s:44:"The date is before the earliest one allowed.";s:13:"date_too_late";s:41:"The date is after the latest one allowed.";s:13:"upload_failed";s:46:"There was an unknown error uploading the file.";s:24:"upload_file_type_invalid";s:49:"You are not allowed to upload files of this type.";s:21:"upload_file_too_large";s:20:"The file is too big.";s:23:"upload_failed_php_error";s:38:"There was an error uploading the file.";s:14:"invalid_number";s:29:"The number format is invalid.";s:16:"number_too_small";s:47:"The number is smaller than the minimum allowed.";s:16:"number_too_large";s:46:"The number is larger than the maximum allowed.";s:23:"quiz_answer_not_correct";s:36:"The answer to the quiz is incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:38:"The e-mail address entered is invalid.";s:11:"invalid_url";s:19:"The URL is invalid.";s:11:"invalid_tel";s:32:"The telephone number is invalid.";}'),
+(6, 4, '_messages', 'a:23:{s:12:"mail_sent_ok";s:35:"merci votre message a été envoyé";s:12:"mail_sent_ng";s:70:"Désolé votre  message n\'a pas pu être envoyé, ressayez du nouveau.";s:16:"validation_error";s:89:"Un ou plusieurs champs ont une erreur. S\'il vous plaît, vérifiez et essayez à nouveau.";s:4:"spam";s:89:"Il y avait une erreur en essayant d\'envoyer votre message. Veuillez réessayer plus tard.";s:12:"accept_terms";s:75:"Vous devez accepter les termes et conditions avant d\'envoyer votre message.";s:16:"invalid_required";s:25:"Le champ est obligatoire.";s:16:"invalid_too_long";s:23:"Le champ est trop long.";s:17:"invalid_too_short";s:24:"Le champ est trop court.";s:12:"invalid_date";s:33:"Le format de date est incorrecte.";s:14:"date_too_early";s:48:"La date choisie est inférieur celles possibles.";s:13:"date_too_late";s:49:"La date choisie est supérieur  celles possibles.";s:13:"upload_failed";s:57:"Il y avait une erreur inconnue, télécharger le fichier.";s:24:"upload_file_type_invalid";s:68:"Vous n\'êtes pas autorisé à télécharger des fichiers de ce type.";s:21:"upload_file_too_large";s:26:"Le fichier est trop grand.";s:23:"upload_failed_php_error";s:53:"Il y avait une erreur de téléchargement de fichier.";s:14:"invalid_number";s:34:"Le format du numéro est invalide.";s:16:"number_too_small";s:46:"Le nombre est inférieur au minimum autorisé.";s:16:"number_too_large";s:46:"Le nombre est supérieur au maximum autorisé.";s:23:"quiz_answer_not_correct";s:34:"La réponse du quiz est incorrect.";s:17:"captcha_not_match";s:31:"Your entered code is incorrect.";s:13:"invalid_email";s:37:"L\'adresse e-mail saisie est invalide.";s:11:"invalid_url";s:19:"L\'URL est invalide.";s:11:"invalid_tel";s:39:"Le numéro de téléphone est invalide.";}'),
 (7, 4, '_additional_settings', ''),
 (8, 4, '_locale', 'fr_FR'),
 (9, 5, '_edit_last', '1'),
@@ -330,7 +332,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_posts`
+-- Structure de la table `wp_posts`
 --
 
 DROP TABLE IF EXISTS `wp_posts`;
@@ -361,14 +363,14 @@ CREATE TABLE `wp_posts` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_posts`
+-- Contenu de la table `wp_posts`
 --
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
 (1, 1, '2016-10-03 12:15:49', '2016-10-03 10:15:49', 'Bienvenue dans WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis lancez-vous !', 'Article 1', '', 'publish', 'open', 'open', '', 'bonjour-tout-le-monde', '', '', '2016-10-07 10:23:33', '2016-10-07 08:23:33', '', 0, 'http://localhost/wordpress-promo/?p=1', 0, 'post', '', 1),
 (2, 1, '2016-10-03 12:15:49', '2016-10-03 10:15:49', 'Voici un exemple de page. Elle est différente d’un article de blog, en cela qu’elle restera à la même place, et s’affichera dans le menu de navigation de votre site (en fonction de votre thème). La plupart des gens commencent par écrire une page « À Propos » qui les présente aux visiteurs potentiels du site. Vous pourriez y écrire quelque chose de ce tenant :\n\n<blockquote>Bonjour ! Je suis un mécanicien qui aspire à devenir un acteur, et voici mon blog. J’habite à Bordeaux, j’ai un super chien baptisé Russell, et j’aime la vodka-ananas (ainsi que regarder la pluie tomber).</blockquote>\n\n...ou bien quelque chose comme ça :\n\n<blockquote>La société 123 Machin Truc a été créée en 1971, et n’a cessé de proposer au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et fabrique toutes sortes de bidules super pour la communauté bouzemontoise.</blockquote>\n\nÉtant donné que vous êtes un nouvel utilisateur de WordPress, vous devriez vous rendre sur votre <a href="http://localhost/wordpress-promo/wp-admin/">Tableau de bord</a> pour effacer la présente page, et créer de nouvelles pages avec votre propre contenu. Amusez-vous bien !', 'Page d&rsquo;exemple', '', 'publish', 'closed', 'open', '', 'page-d-exemple', '', '', '2016-10-03 12:15:49', '2016-10-03 10:15:49', '', 0, 'http://localhost/wordpress-promo/?page_id=2', 0, 'page', '', 0),
 (3, 1, '2016-10-03 12:16:05', '0000-00-00 00:00:00', '', 'Brouillon auto', '', 'auto-draft', 'open', 'open', '', '', '', '', '2016-10-03 12:16:05', '0000-00-00 00:00:00', '', 0, 'http://localhost/wordpress-promo/?p=3', 0, 'post', '', 0),
-(4, 1, '2016-10-04 11:38:12', '2016-10-04 09:38:12', '<div id="formulaire">\r\n\r\n<legend><p>Ecrivez-nous</p></legend>\r\n<p id="identite"><i id="icone_identite" class="fa fa-user fa-2x" aria-hidden="true"></i><span class="icon icon-user"></span>  [text* your-name placeholder "Name"] </p>\r\n\r\n<p><i id="icone_email" class="fa fa-at fa-2x" aria-hidden="true"></i><span class="icon icon-envelope"></span> [email* your-email placeholder "Email"] </p>\r\n\r\n<p><i id="icone_objet" class="fa fa-info-circle fa-2x" aria-hidden="true"></i><span class="icon icon-phone"></span>[text* your-subject placeholder "Objet"]</p>\r\n\r\n<p><i id="icone_message" class="fa fa-comment-o fa-2x" aria-hidden="true"></i><span class="icon icon-pencil"></span>[textarea your-message placeholder "Message"] </p>\r\n\r\n<p id="bouton_valider">[submit "Send"  id="valider" ]</p>\r\n\r\n</div>\nTest Site Promo "[your-subject]"\n[your-name] <platon.jonathan@gmail.com>\nFrom: [your-name] <[your-email]>\r\nSubject: [your-subject]\r\n\r\nMessage Body:\r\n[your-message]\r\n\r\n--\r\nThis e-mail was sent from a contact form on Test Site Promo (http://localhost/wordpress-promo)\nplaton.jonathan@gmail.com\nReply-To: [your-email]\n\n\n\n\nTest Site Promo "[your-subject]"\nTest Site Promo <platon.jonathan@gmail.com>\nMessage Body:\r\n[your-message]\r\n\r\n--\r\nThis e-mail was sent from a contact form on Test Site Promo (http://localhost/wordpress-promo)\n[your-email]\nReply-To: platon.jonathan@gmail.com\n\n\n\nThank you for your message. It has been sent.\nThere was an error trying to send your message. Please try again later.\nOne or more fields have an error. Please check and try again.\nThere was an error trying to send your message. Please try again later.\nYou must accept the terms and conditions before sending your message.\nThe field is required.\nThe field is too long.\nThe field is too short.\nThe date format is incorrect.\nThe date is before the earliest one allowed.\nThe date is after the latest one allowed.\nThere was an unknown error uploading the file.\nYou are not allowed to upload files of this type.\nThe file is too big.\nThere was an error uploading the file.\nThe number format is invalid.\nThe number is smaller than the minimum allowed.\nThe number is larger than the maximum allowed.\nThe answer to the quiz is incorrect.\nYour entered code is incorrect.\nThe e-mail address entered is invalid.\nThe URL is invalid.\nThe telephone number is invalid.', 'Contact form 1', '', 'publish', 'closed', 'closed', '', 'contact-form-1', '', '', '2016-10-05 16:19:52', '2016-10-05 14:19:52', '', 0, 'http://localhost/wordpress-promo/?post_type=wpcf7_contact_form&#038;p=4', 0, 'wpcf7_contact_form', '', 0),
+(4, 1, '2016-10-04 11:38:12', '2016-10-04 09:38:12', '<div id="formulaire">\r\n\r\n<legend><p>Ecrivez-nous</p></legend>\r\n<p id="identite"><i id="icone_identite" class="fa fa-user fa-2x" aria-hidden="true"></i><span class="icon icon-user"></span>  [text* your-name placeholder "Name"] </p>\r\n\r\n<p><i id="icone_email" class="fa fa-at fa-2x" aria-hidden="true"></i><span class="icon icon-envelope"></span> [email* your-email placeholder "Email"] </p>\r\n\r\n<p><i id="icone_objet" class="fa fa-info-circle fa-2x" aria-hidden="true"></i><span class="icon icon-phone"></span>[text* your-subject placeholder "Objet"]</p>\r\n\r\n<p><i id="icone_message" class="fa fa-comment-o fa-2x" aria-hidden="true"></i><span class="icon icon-pencil"></span>[textarea your-message placeholder "Message"] </p>\r\n\r\n<p id="bouton_valider">[submit id:valider "Envoyer"]</p>\r\n\r\n</div>\nTest Site Promo "[your-subject]"\n[your-name] <abdulrahman.rasho@gmail.com>\nFrom: [your-name] <[your-email]>\r\nSubject: [your-subject]\r\n\r\nMessage Body:\r\n[your-message]\r\n\r\n--\r\nThis e-mail was sent from a contact form on Test Site Promo (http://localhost/wordpress-promo)\nabdulrahman.rasho@gmail.com\nReply-To: [your-email]\n\n1\n\n\nTest Site Promo "[your-subject]"\nTest Site Promo <platon.jonathan@gmail.com>\nMessage Body:\r\n[your-message]\r\n\r\n--\r\nThis e-mail was sent from a contact form on Test Site Promo (http://localhost/wordpress-promo)\n[your-email]\nReply-To: platon.jonathan@gmail.com\n\n\n\nmerci votre message a été envoyé\nDésolé votre  message n\'a pas pu être envoyé, ressayez du nouveau.\nUn ou plusieurs champs ont une erreur. S\'il vous plaît, vérifiez et essayez à nouveau.\nIl y avait une erreur en essayant d\'envoyer votre message. Veuillez réessayer plus tard.\nVous devez accepter les termes et conditions avant d\'envoyer votre message.\nLe champ est obligatoire.\nLe champ est trop long.\nLe champ est trop court.\nLe format de date est incorrecte.\nLa date choisie est inférieur celles possibles.\nLa date choisie est supérieur  celles possibles.\nIl y avait une erreur inconnue, télécharger le fichier.\nVous n\'êtes pas autorisé à télécharger des fichiers de ce type.\nLe fichier est trop grand.\nIl y avait une erreur de téléchargement de fichier.\nLe format du numéro est invalide.\nLe nombre est inférieur au minimum autorisé.\nLe nombre est supérieur au maximum autorisé.\nLa réponse du quiz est incorrect.\nYour entered code is incorrect.\nL\'adresse e-mail saisie est invalide.\nL\'URL est invalide.\nLe numéro de téléphone est invalide.', 'Contact form 1', '', 'publish', 'closed', 'closed', '', 'contact-form-1', '', '', '2016-10-07 11:49:30', '2016-10-07 09:49:30', '', 0, 'http://localhost/wordpress-promo/?post_type=wpcf7_contact_form&#038;p=4', 0, 'wpcf7_contact_form', '', 0),
 (5, 1, '2016-10-04 12:11:52', '2016-10-04 10:11:52', '', 'Contact', '', 'publish', 'closed', 'closed', '', 'contact', '', '', '2016-10-05 14:36:10', '2016-10-05 12:36:10', '', 0, 'http://localhost/wordpress-promo/?page_id=5', 0, 'page', '', 0),
 (6, 1, '2016-10-04 12:11:52', '2016-10-04 10:11:52', '[contact-form-7 id="4" title="Contact form 1"]', 'Contact', '', 'inherit', 'closed', 'closed', '', '5-revision-v1', '', '', '2016-10-04 12:11:52', '2016-10-04 10:11:52', '', 5, 'http://localhost/wordpress-promo/index.php/2016/10/04/5-revision-v1/', 0, 'revision', '', 0),
 (7, 1, '2016-10-04 14:26:08', '2016-10-04 12:26:08', '', 'Accueil', '', 'publish', 'closed', 'closed', '', 'accueil', '', '', '2016-10-07 10:20:49', '2016-10-07 08:20:49', '', 0, 'http://localhost/wordpress-promo/?p=7', 1, 'nav_menu_item', '', 0),
@@ -386,7 +388,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_termmeta`
+-- Structure de la table `wp_termmeta`
 --
 
 DROP TABLE IF EXISTS `wp_termmeta`;
@@ -400,7 +402,7 @@ CREATE TABLE `wp_termmeta` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_terms`
+-- Structure de la table `wp_terms`
 --
 
 DROP TABLE IF EXISTS `wp_terms`;
@@ -412,7 +414,7 @@ CREATE TABLE `wp_terms` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_terms`
+-- Contenu de la table `wp_terms`
 --
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
@@ -422,7 +424,7 @@ INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_term_relationships`
+-- Structure de la table `wp_term_relationships`
 --
 
 DROP TABLE IF EXISTS `wp_term_relationships`;
@@ -433,7 +435,7 @@ CREATE TABLE `wp_term_relationships` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_term_relationships`
+-- Contenu de la table `wp_term_relationships`
 --
 
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES
@@ -445,7 +447,7 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_term_taxonomy`
+-- Structure de la table `wp_term_taxonomy`
 --
 
 DROP TABLE IF EXISTS `wp_term_taxonomy`;
@@ -459,7 +461,7 @@ CREATE TABLE `wp_term_taxonomy` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_term_taxonomy`
+-- Contenu de la table `wp_term_taxonomy`
 --
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
@@ -469,7 +471,7 @@ INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_usermeta`
+-- Structure de la table `wp_usermeta`
 --
 
 DROP TABLE IF EXISTS `wp_usermeta`;
@@ -481,7 +483,7 @@ CREATE TABLE `wp_usermeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_usermeta`
+-- Contenu de la table `wp_usermeta`
 --
 
 INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALUES
@@ -498,7 +500,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (11, 1, 'wp_user_level', '10'),
 (12, 1, 'dismissed_wp_pointers', ''),
 (13, 1, 'show_welcome_panel', '1'),
-(14, 1, 'session_tokens', 'a:2:{s:64:"2da2912d0e4d8a3935f994cb25a0d705ee2627e94950da5a3e1be7df3934e0a7";a:4:{s:10:"expiration";i:1475843556;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:105:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36";s:5:"login";i:1475670756;}s:64:"8cd4eed316027cf1f2f0078c1d86cc4c3a3cd66f1b6171907ae1f70b3572a251";a:4:{s:10:"expiration";i:1476001097;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0";s:5:"login";i:1475828297;}}'),
+(14, 1, 'session_tokens', 'a:4:{s:64:"2da2912d0e4d8a3935f994cb25a0d705ee2627e94950da5a3e1be7df3934e0a7";a:4:{s:10:"expiration";i:1475843556;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:105:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36";s:5:"login";i:1475670756;}s:64:"8cd4eed316027cf1f2f0078c1d86cc4c3a3cd66f1b6171907ae1f70b3572a251";a:4:{s:10:"expiration";i:1476001097;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0";s:5:"login";i:1475828297;}s:64:"dcd8f9fd9d83d33996a40b15f5775e316bcf569ac6a297d4be50d63ec4eee9c7";a:4:{s:10:"expiration";i:1476002561;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0";s:5:"login";i:1475829761;}s:64:"3ae9e88b4380298bd5530e51af176cd22231230fcc81e87efdb89edbb720e77e";a:4:{s:10:"expiration";i:1476007106;s:2:"ip";s:9:"127.0.0.1";s:2:"ua";s:76:"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:49.0) Gecko/20100101 Firefox/49.0";s:5:"login";i:1475834306;}}'),
 (15, 1, 'wp_dashboard_quick_press_last_post_id', '3'),
 (16, 1, 'managenav-menuscolumnshidden', 'a:5:{i:0;s:11:"link-target";i:1;s:11:"css-classes";i:2;s:3:"xfn";i:3;s:11:"description";i:4;s:15:"title-attribute";}'),
 (17, 1, 'metaboxhidden_nav-menus', 'a:1:{i:0;s:12:"add-post_tag";}'),
@@ -509,7 +511,7 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_users`
+-- Structure de la table `wp_users`
 --
 
 DROP TABLE IF EXISTS `wp_users`;
@@ -527,18 +529,18 @@ CREATE TABLE `wp_users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 --
--- Dumping data for table `wp_users`
+-- Contenu de la table `wp_users`
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
 (1, 'admin', '$P$BxzX8h9kEMNRqDhecIROyX/u04ivb6.', 'admin', 'platon.jonathan@gmail.com', '', '2016-10-03 10:15:48', '', 0, 'admin');
 
 --
--- Indexes for dumped tables
+-- Index pour les tables exportées
 --
 
 --
--- Indexes for table `wp_commentmeta`
+-- Index pour la table `wp_commentmeta`
 --
 ALTER TABLE `wp_commentmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -546,7 +548,7 @@ ALTER TABLE `wp_commentmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_comments`
+-- Index pour la table `wp_comments`
 --
 ALTER TABLE `wp_comments`
   ADD PRIMARY KEY (`comment_ID`),
@@ -557,21 +559,21 @@ ALTER TABLE `wp_comments`
   ADD KEY `comment_author_email` (`comment_author_email`(10));
 
 --
--- Indexes for table `wp_links`
+-- Index pour la table `wp_links`
 --
 ALTER TABLE `wp_links`
   ADD PRIMARY KEY (`link_id`),
   ADD KEY `link_visible` (`link_visible`);
 
 --
--- Indexes for table `wp_options`
+-- Index pour la table `wp_options`
 --
 ALTER TABLE `wp_options`
   ADD PRIMARY KEY (`option_id`),
   ADD UNIQUE KEY `option_name` (`option_name`);
 
 --
--- Indexes for table `wp_postmeta`
+-- Index pour la table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -579,7 +581,7 @@ ALTER TABLE `wp_postmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_posts`
+-- Index pour la table `wp_posts`
 --
 ALTER TABLE `wp_posts`
   ADD PRIMARY KEY (`ID`),
@@ -589,7 +591,7 @@ ALTER TABLE `wp_posts`
   ADD KEY `post_author` (`post_author`);
 
 --
--- Indexes for table `wp_termmeta`
+-- Index pour la table `wp_termmeta`
 --
 ALTER TABLE `wp_termmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -597,7 +599,7 @@ ALTER TABLE `wp_termmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_terms`
+-- Index pour la table `wp_terms`
 --
 ALTER TABLE `wp_terms`
   ADD PRIMARY KEY (`term_id`),
@@ -605,14 +607,14 @@ ALTER TABLE `wp_terms`
   ADD KEY `name` (`name`(191));
 
 --
--- Indexes for table `wp_term_relationships`
+-- Index pour la table `wp_term_relationships`
 --
 ALTER TABLE `wp_term_relationships`
   ADD PRIMARY KEY (`object_id`,`term_taxonomy_id`),
   ADD KEY `term_taxonomy_id` (`term_taxonomy_id`);
 
 --
--- Indexes for table `wp_term_taxonomy`
+-- Index pour la table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
   ADD PRIMARY KEY (`term_taxonomy_id`),
@@ -620,7 +622,7 @@ ALTER TABLE `wp_term_taxonomy`
   ADD KEY `taxonomy` (`taxonomy`);
 
 --
--- Indexes for table `wp_usermeta`
+-- Index pour la table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
   ADD PRIMARY KEY (`umeta_id`),
@@ -628,7 +630,7 @@ ALTER TABLE `wp_usermeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_users`
+-- Index pour la table `wp_users`
 --
 ALTER TABLE `wp_users`
   ADD PRIMARY KEY (`ID`),
@@ -637,61 +639,61 @@ ALTER TABLE `wp_users`
   ADD KEY `user_email` (`user_email`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT pour les tables exportées
 --
 
 --
--- AUTO_INCREMENT for table `wp_commentmeta`
+-- AUTO_INCREMENT pour la table `wp_commentmeta`
 --
 ALTER TABLE `wp_commentmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT for table `wp_comments`
+-- AUTO_INCREMENT pour la table `wp_comments`
 --
 ALTER TABLE `wp_comments`
   MODIFY `comment_ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
--- AUTO_INCREMENT for table `wp_links`
+-- AUTO_INCREMENT pour la table `wp_links`
 --
 ALTER TABLE `wp_links`
   MODIFY `link_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT for table `wp_options`
+-- AUTO_INCREMENT pour la table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=236;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=238;
 --
--- AUTO_INCREMENT for table `wp_postmeta`
+-- AUTO_INCREMENT pour la table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 --
--- AUTO_INCREMENT for table `wp_posts`
+-- AUTO_INCREMENT pour la table `wp_posts`
 --
 ALTER TABLE `wp_posts`
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 --
--- AUTO_INCREMENT for table `wp_termmeta`
+-- AUTO_INCREMENT pour la table `wp_termmeta`
 --
 ALTER TABLE `wp_termmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 --
--- AUTO_INCREMENT for table `wp_terms`
+-- AUTO_INCREMENT pour la table `wp_terms`
 --
 ALTER TABLE `wp_terms`
   MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
--- AUTO_INCREMENT for table `wp_term_taxonomy`
+-- AUTO_INCREMENT pour la table `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
   MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
--- AUTO_INCREMENT for table `wp_usermeta`
+-- AUTO_INCREMENT pour la table `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
   MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 --
--- AUTO_INCREMENT for table `wp_users`
+-- AUTO_INCREMENT pour la table `wp_users`
 --
 ALTER TABLE `wp_users`
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;

@@ -374,7 +374,7 @@ color:grey;
 }
 
 div.wpcf7 {
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 .wpcf7 p .icon-pencil { 
@@ -383,8 +383,8 @@ div.wpcf7 {
 
 .formulaire_de_contact input, .formulaire_de_contact textarea {     
     width: 70vh;    
-    margin-top: 30px;     
-    padding: 20px;     
+    margin-top: 10px;     
+    padding: 10px;     
     border: 1px solid #ccc;     
     color: #222; 
 }  
@@ -392,10 +392,6 @@ div.wpcf7 {
 .wpcf7-submit {     
     width: 200px;     
     float: none;
-}
-
-#wpcf7-f4-p5-ol {
-    padding-top: 150px;
 }
 
 .formulaire_de_contact {
@@ -408,6 +404,7 @@ div.wpcf7 {
     margin: auto;
     text-align: center;
     position: relative;
+    padding-top: 10px;
 }
 
 legend {
@@ -417,13 +414,7 @@ legend {
 legend p {
     color: #009b9d;
     font-size: 1.3em;
-    padding-top: 10px;
-    padding-bottom: 10px;
     text-transform: uppercase;
-}
-
-#identite {
-    padding-top: 20px;
 }
 
 #icone_identite, #icone_email, #icone_objet, #icone_message {
@@ -439,6 +430,7 @@ legend p {
 #bouton_valider {
     padding-left: 70px;
     padding-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 input[type=submit] {
