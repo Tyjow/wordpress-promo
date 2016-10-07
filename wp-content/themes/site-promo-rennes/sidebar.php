@@ -37,7 +37,7 @@
        <?php query_posts('category_name'); ?>
         <?php if(have_posts()) : ?>
         <?php $counter =0; ?>
-        <?php while(have_posts() && $counter<3) : the_post();?>
+        <?php while(have_posts() && $counter<1) : the_post();?>
         <?php $counter++ ?>
         <!-- affichage des articles -->
         <div class= "post" id="post-<?php the_ID(); ?>"> 
