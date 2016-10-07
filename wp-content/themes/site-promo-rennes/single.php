@@ -9,7 +9,7 @@
                <h2 class="article-title"><?php the_title(); ?></h2>
                 <p><?php the_content(); ?></p>
 
-                <a class="button-news" href="http://localhost/wordpress-promo/">Retour aux news</a>
+                <a class="button-news" href="http://localhost/wordpress-promo/">Retour à l'accueil</a>
             </div>
                 
             
