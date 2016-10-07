@@ -4,7 +4,7 @@
 <div class="sidebar flex-sidebar col-md-4">
     <h2>Newsletter inscription</h2>
     <div class="newsletter flex-sidebar">
-        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
+        <p>Pour être avertis de toutes nos nouveautées !</p>
         <!--START Scripts : this is the script part you can add to the header of your theme-->
         <script type="text/javascript" src="http://localhost/wordpress-promo/wp-includes/js/jquery/jquery.js?ver=2.7.5"></script>
         <script type="text/javascript" src="http://localhost/wordpress-promo/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-fr.js?ver=2.7.5"></script>
