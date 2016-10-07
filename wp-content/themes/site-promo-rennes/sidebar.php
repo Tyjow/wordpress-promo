@@ -52,6 +52,10 @@
             </div>
             
         </div>
+        <div class="archives">
+        <h2>Archives</h2>
+        <a href="#"><i class="fa fa-folder-open" aria-hidden="true"></i></a>
+        </div>
         <?php endwhile; ?>
         <?php endif; ?>
     
