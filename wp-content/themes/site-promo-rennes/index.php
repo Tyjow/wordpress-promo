@@ -4,7 +4,7 @@
        
         <div id="header" class="row" style='background-image:url(<?php header_image(); ?>)'>
             <div class="block-opaque">
-                <h1><?php bloginfo('name'); ?></h1>
+                <h1><img src="<?php echo get_template_directory_uri(); ?>/img/logo-codeacademie.png"/></h1>
                 <button id="skr" class="content-button center-block"><a href="#content">Partez à la découverte de notre formation</a></button>
             </div>
         </div> 
@@ -23,11 +23,10 @@
 
             <div class="col-md-8">
                 <!-- contenue du site ici -->
-                <article id="a_propos">
-                    <div>
+                <article class="a_propos">
+                    <div class="a_propos_img">
                         <h2>A PROPOS</h2>
-                        
-                        <div id="logo_a_propos"></div>
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/logo-codeacademie.png"/>
                     </div>
                     <p>La Code Académie, une formation qui permet l'apprentissage du développement avec différents langages de programmation informatique web/mobiles pour tous les profils qui démontrent une fortes motivation à apprendre la programmation.
 Le nom de notre formation Code Académie, formation proposée par la fondation  <a href="http://face.bzh/">FACE </a> qui a répondu à l'appel d'offre afin d’être labellisé a la <a href="https://www.grandeecolenumerique.fr/"> Grande école du numérique </a> et dont <a href="http://simplon.co/"> Simplon</a> est le prestataire de la pédagogie.
@@ -35,7 +34,7 @@ La Code Académie est conventionnée et subventionnée par la Région Bretagne e
 Elle a débuté en mai et se termine fin janvier.</p>
                 </article>
                 
-                <article id="center">
+                <article class="center">
                     <h3>La formation</h3>
                     <p>Spécialement orienté vers les travaux pratiques, cette fromation permet la réalisation de nombreux projets professionnels, en relation direct avec des entreprises. </br>
                 ICI lien de 1/2/3veto -fedala -ebulition </br>

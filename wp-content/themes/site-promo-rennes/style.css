@@ -22,12 +22,12 @@ Author: Tyjow, Nabil, Julien, Anna
     background-position: center center;
 }
 
-#header h1 {
+/*#header h1 {
     font-size: 5em;
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-}
+}*/
 
 #content {
     padding-right: 25px;
@@ -49,7 +49,12 @@ Author: Tyjow, Nabil, Julien, Anna
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
+.block-opaque > h1 {
+    text-align: center;
+}
+.block-opaque > h1 img {
+    opacity: 0.7;
+}
 .content-button {
     background-color: rgba(255, 255, 255, .7);
     width: 50%;
@@ -310,21 +315,15 @@ color:grey;
     padding: 0 50px 50px 50px!important;
 }
 
-#a_propos {
+.a_propos {
     display: flex;
     justify-content: space-around;
     border-bottom: 2px solid #009b9d;
     padding-bottom: 30px;
+    align-items: center;
 }
 
-#logo_a_propos {
-    background-image: url(img/logo-codeacademie.png);
-    background-repeat: no-repeat;
-    width: 522px;
-    height: 284px;
-}
-
-#a_propos h2 {
+.a_propos h2 {
     display: block;
     border-bottom: 2px solid #009b9d;
     width: 250px;
@@ -333,20 +332,14 @@ color:grey;
     margin-bottom: 20px;
 }
 
-#a_propos p {
-    margin-top: 70px;
+.a_propos_img > img {
+    width: 30vw;
 }
 
-#center h3 {
+.center h3 {
     font-size: 1.5em;
     color: #009b9d;
     padding-top: 30px;
-}
-
-#center p, #a_propos p {
-    text-align: justify;
-    text-indent: 40px;
-    padding: 20px;
 }
 
 #footer {
