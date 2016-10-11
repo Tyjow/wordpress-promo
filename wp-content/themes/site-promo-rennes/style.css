@@ -198,6 +198,7 @@ background-image: url('img/user.jpg');
 background-repeat: no-repeat;
 background-position: center center;
 margin-bottom: 20px;
+object-fit: cover;
 }
 
 .listApprenant h2{

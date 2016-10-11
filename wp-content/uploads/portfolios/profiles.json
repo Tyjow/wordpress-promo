@@ -2,7 +2,7 @@
 	"FrontEnd": [
 		{
 			"NAME": "Nabil MASKALI",
-			"IMG": "img/img-apprenant/Nabil.JPG",
+			"IMG": "img/img-apprenant/Nabil_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -10,7 +10,7 @@
 		},
 		{
 			"NAME": "Jonathan PLATON",
-			"IMG": "img/img-apprenant/Jonathan.JPG",
+			"IMG": "img/img-apprenant/Jonathan_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["Vanilla JS", "Jquery"],
 			"CV": "https://tyjow.github.io/",
@@ -18,7 +18,7 @@
 		},
 		{
 			"NAME": "Floryan LOLLIVIER",
-			"IMG": "img/img-apprenant/Floryan.JPG",
+			"IMG": "img/img-apprenant/Floryan_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -26,7 +26,7 @@
 		},
 		{
 			"NAME": "Abdelghaffar ARRAB",
-			"IMG": "img/img-apprenant/Abdelghaffar.JPG",
+			"IMG": "img/img-apprenant/Abdelghaffar_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -34,7 +34,7 @@
 		},
 		{
 			"NAME": "Gaël VENTURIN",
-			"IMG": "img/img-apprenant/Gael.JPG",
+			"IMG": "img/img-apprenant/Gael_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -42,7 +42,7 @@
 		},
 		{
 			"NAME": "Lise POIRIER",
-			"IMG": "img/img-apprenant/Lise.JPG",
+			"IMG": "img/img-apprenant/Lise_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -50,7 +50,7 @@
 		},
 		{
 			"NAME": "Ronald MARCEL",
-			"IMG": "img/img-apprenant/Ronald.JPG",
+			"IMG": "img/img-apprenant/Ronald_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -58,7 +58,7 @@
 		},
 		{
 			"NAME": "Annie-Line LE CLAIR",
-			"IMG": "img/img-apprenant/Annie-line.JPG",
+			"IMG": "img/img-apprenant/Annie-line_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -66,7 +66,7 @@
 		},
 		{
 			"NAME": "Latifa BOUMIZY",
-			"IMG": "img/img-apprenant/Latifa.JPG",
+			"IMG": "img/img-apprenant/Latifa_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -74,7 +74,7 @@
 		},
 		{
 			"NAME": "Patrice GUERNON",
-			"IMG": "img/img-apprenant/Patrice.JPG",
+			"IMG": "img/img-apprenant/Patrice_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -82,7 +82,7 @@
 		},
 		{
 			"NAME": "Jean-Patrice CALVEZ",
-			"IMG": "img/img-apprenant/Jean-Patrice.JPG",
+			"IMG": "img/img-apprenant/Jean-Patrice_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -92,7 +92,7 @@
 	"BackEnd": [
 		{
 			"NAME": "Solène HUAULT",
-			"IMG": "img/img-apprenant/Solene.JPG",
+			"IMG": "img/img-apprenant/Solene_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["Symphony","Ruby"],
 			"CV": "#",
@@ -100,7 +100,7 @@
 		},
 		{
 			"NAME": "Stéphane LE GALLIARD",
-			"IMG": "img/img-apprenant/Stephane.JPG",
+			"IMG": "img/img-apprenant/Stephane_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "#",
@@ -108,7 +108,7 @@
 		},
 		{
 			"NAME": "Antoine LE GONIDEC",
-			"IMG": "img/img-apprenant/Antoine.JPG",
+			"IMG": "img/img-apprenant/Antoine_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "#",
@@ -116,7 +116,7 @@
 		},
 		{
 			"NAME": "Rebecca MACCIO",
-			"IMG": "img/img-apprenant/Rebecca.JPG",
+			"IMG": "img/img-apprenant/Rebecca_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "#",
@@ -124,7 +124,7 @@
 		},
 		{
 			"NAME": "Julien MALLE",
-			"IMG": "img/img-apprenant/Julien Malle.JPG",
+			"IMG": "img/img-apprenant/JulienMalle_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "#",
@@ -132,7 +132,7 @@
 		},
 		{
 			"NAME": "Abdul RASHO",
-			"IMG": "img/img-apprenant/Abdul.JPG",
+			"IMG": "img/img-apprenant/Abdul_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "#",
@@ -140,7 +140,7 @@
 		},
 		{
 			"NAME": "Juliette SAINT JALME",
-			"IMG": "img/img-apprenant/Juliette.JPG",
+			"IMG": "img/img-apprenant/Juliette_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "#",
@@ -148,7 +148,7 @@
 		},
 		{
 			"NAME": "Thomas SANCEO",
-			"IMG": "img/img-apprenant/Thomas.JPG",
+			"IMG": "img/img-apprenant/Thomas_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "#",
@@ -156,7 +156,7 @@
 		},
 		{
 			"NAME": "Valentin SUSSET",
-			"IMG": "img/img-apprenant/Valentin.JPG",
+			"IMG": "img/img-apprenant/Valentin_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "#",
@@ -164,7 +164,7 @@
 		},
 		{
 			"NAME": "Julien VAUPRE",
-			"IMG": "img/img-apprenant/Julien Vaupre.JPG",
+			"IMG": "img/img-apprenant/JulienVaupre_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "#",
@@ -172,7 +172,7 @@
 		},
 		{
 			"NAME": "Youness CHETOUI",
-			"IMG": "img/img-apprenant/Youness.JPG",
+			"IMG": "img/img-apprenant/Youness_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "#",
