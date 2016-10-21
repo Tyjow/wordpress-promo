@@ -86,7 +86,9 @@ button:hover.content-button  a {
     transition: .3s;
 }
 
-
+#menu-deroulant .menu-item{
+    width:140px; 
+}
 .menu-top-container {
     position: fixed;
     width: 100%;
@@ -106,7 +108,8 @@ button:hover.content-button  a {
 
 .menu-top-container ul li a {
     display: block;
-    padding: 0 25px;
+    padding: 0 10px;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     transition: .3s;
@@ -191,8 +194,8 @@ font-family: 'OpenSans-Light';
 }
 
 .listApprenant img{
-width:160px;
-height: 160px;
+width:200px;
+height: 200px;
 border-radius:50%;
 background-image: url('img/user.jpg');
 background-repeat: no-repeat;
@@ -200,27 +203,39 @@ background-position: center center;
 margin-bottom: 20px;
 object-fit: cover;
 }
+@media screen and (max-width: 500px) {
+    .listApprenant h2{  
+        background-image: none;
+        font-size: 7vw!important;
+    }
+    .listApprenant img{
+        width:140px;
+        height: 140px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .listApprenant h2{  
+        background-size: 5%!important;
+        font-size: 2vw!important;
+        padding-left: 4vw!important;
+    }
+}
 
 .listApprenant h2{
-font-family: ;
-font-size:2.5em;
+font-size: 3.4vw;
 height: 60px;
 line-height: 60px;
-width: 90%;
 margin: auto;
 border-radius: 2px;
-padding-left: 2.4em;
+padding-left: 6vw;
 color: #fff;
-font-family: 'OpenSans-Light';
+font-family:'OpenSans-Light';
 background-size: 8%;
 background-position: 0.5em center;
 background-repeat: no-repeat;
 }
 
-.imgApprenant {
-width: 80% !important;
-height: 200px !important;
-}
+
 
 .front{
 border-right: 4px dashed rgba(147,126,144,0.5);
@@ -249,17 +264,18 @@ flex-direction: column;
 }
 
 .nomApprenant{
-font-size: 1.5em;
+font-size: 1.2em;
 margin-bottom: 0.8em;
 font-family: 'OpenSans-Semibold';
 cursor: pointer;
 }
 
 .infoBox{
+margin-top: 1em;
 display: none;
-width:auto;
+width:100%;
 height: auto;
-padding:1em;
+padding:0.5em;
 background-color: rgba(250,250,250,0.8);
 position: relative;
 -moz-box-shadow: 2px 1px 2px 0px #9b9b9b;
@@ -278,10 +294,11 @@ background-color: #1F1F1E!important;
 }
 
 .btnCv,.btnFolio{
-height: auto;
+height: 30px;
 width: auto;
 padding:0.5em;
 border-radius: 2px;
+margin: 20px 0 20px 0;
 }
 
 .btnFolio{
@@ -468,16 +485,38 @@ input[type=submit]:focus {
 	background-image: url('img/bg.png');
 }
 .sidebar h2 {
-	color: #333;
+	
+
+}
+.news,.actu, .arch{
+    color: #333;
+    background-size: 27%;
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: left;
+    height:60px;
+    line-height: 60px;
+    padding-left:2.1em;
+}
+
+.news{
+    background-image:url('img/email.png');/*credit flaticon.com*/
+}
+.actu{
+    background-image:url('img/newspaper.png');/*credit flaticon.com*/
+}
+.arch{
+    background-image:url('img/archives.png');/*credit flaticon.com*/
 }
 .sidebar p {
-	padding: 15px 25px;
+	padding: 5px 25px;
 }
 .newsletter {
 	width: 80%;
 	background-color: #fff;
-	box-shadow: 1px 1px 5px #333;
+	box-shadow: 1px 1px 5px rgba(51,51,51,0.5);
 	justify-content: space-around;
+    padding: 2em;
 }
 .input-box {
 	width: 100%;
@@ -485,6 +524,15 @@ input[type=submit]:focus {
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
+}
+
+.newsletter input{
+    width:100%;
+}
+.wysija-submit{
+    height:40px;
+    line-height: 40px;
+    margin-top:10px;
 }
 .post_content p {
 	color: #333;
