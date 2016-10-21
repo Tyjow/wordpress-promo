@@ -22,10 +22,10 @@
 define('DB_NAME', 'sitePromo');
 
 /** Utilisateur de la base de données MySQL. */
-define('DB_USER', 'root');
+define('DB_USER', 'trainer');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'facesimplon');
+define('DB_PASSWORD', 'facesimplon2016');
 
 /** Adresse de l’hébergement MySQL. */
 define('DB_HOST', 'localhost');
