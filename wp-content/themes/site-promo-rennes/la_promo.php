@@ -16,7 +16,7 @@
 
 		<h2 class="frontTitre">Front-end</h2>
 
-			<div class="apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-xs-8">
+			<div class="apprenant col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
 				<img class="img-responsive imgApprenant" src="" alt="">
 
@@ -40,7 +40,7 @@
 				<a href="" class="btnFolio">PORTFOLIO</a>
 			</div>
 
-			<div class="apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-xs-8">
+			<div class="apprenant col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
 				<img class="img-responsive imgApprenant" src="" alt="">
 
@@ -64,7 +64,7 @@
 				<a href="" class="btnFolio">PORTFOLIO</a>
 			</div>
 
-			<div class="apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-xs-8">
+			<div class="apprenant col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<img class="img-responsive imgApprenant" src="" alt="">
 
 				<!-- hidden info box-->
@@ -98,7 +98,7 @@
 
 		<h2 class="backTitre">Back-end</h2>
 
-			<div class="apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-xs-8">
+			<div class="apprenant col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<img class="img-responsive imgApprenant" src="" alt="">
 
 				<!-- hidden info box-->
@@ -121,7 +121,7 @@
 				<a href="" class="btnFolio">PORTFOLIO</a>
 			</div>
 
-			<div class="apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-xs-8">
+			<div class="apprenant col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<img class="img-responsive imgApprenant" src="" alt="">
 
 				<!-- hidden info box-->
@@ -144,7 +144,7 @@
 				<a href="" class="btnFolio">PORTFOLIO</a>
 			</div>
 
-			<div class="apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-xs-8">
+			<div class="apprenant col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<img class="img-responsive imgApprenant" src="" alt="">
 
 				<!-- hidden info box-->
@@ -167,7 +167,7 @@
 				<a href="" class="btnFolio">PORTFOLIO</a>
 			</div>
 
-			<div class="apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-lg-offset-2 col-xs-8">
+			<div class="apprenant col-lg-6 col-md-6 col-sm-12 col-xs-12">
 				<img class="img-responsive imgApprenant" src="" alt="">
 
 				<!-- hidden info box-->
