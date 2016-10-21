@@ -1,0 +1,182 @@
+{
+	"FrontEnd": [
+		{
+			"NAME": "Nabil MASKALI",
+			"IMG": "img/img-apprenant/Nabil_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["JS", "JS2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Jonathan PLATON",
+			"IMG": "img/img-apprenant/Jonathan_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["Vanilla JS", "Jquery"],
+			"CV": "https://tyjow.github.io/",
+			"PORTFOLIO": "https://tyjow.github.io/"
+		},
+		{
+			"NAME": "Floryan LOLLIVIER",
+			"IMG": "img/img-apprenant/Floryan_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["JS", "JS2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Abdelghaffar ARRAB",
+			"IMG": "img/img-apprenant/Abdelghaffar_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["JS", "JS2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Gaël VENTURIN",
+			"IMG": "img/img-apprenant/Gael_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["JS", "JS2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Lise POIRIER",
+			"IMG": "img/img-apprenant/Lise_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["JS", "JS2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Ronald MARCEL",
+			"IMG": "img/img-apprenant/Ronald_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["JS", "JS2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Annie-Line LE CLAIR",
+			"IMG": "img/img-apprenant/Annie-line_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["JS", "JS2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Latifa BOUMIZY",
+			"IMG": "img/img-apprenant/Latifa_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["JS", "JS2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Patrice GUERNON",
+			"IMG": "img/img-apprenant/Patrice_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["JS", "JS2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Jean-Patrice CALVEZ",
+			"IMG": "img/img-apprenant/Jean-Patrice_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["JS", "JS2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		}
+	],
+	"BackEnd": [
+		{
+			"NAME": "Solène HUAULT",
+			"IMG": "img/img-apprenant/Solene_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["Symphony","Ruby"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Stéphane LE GALLIARD",
+			"IMG": "img/img-apprenant/Stephane_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["PHP","PHP2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Antoine LE GONIDEC",
+			"IMG": "img/img-apprenant/Antoine_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["PHP","PHP2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Rebecca MACCIO",
+			"IMG": "img/img-apprenant/Rebecca_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["PHP","PHP2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Julien MALLE",
+			"IMG": "img/img-apprenant/JulienMalle_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["PHP","PHP2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Abdul RASHO",
+			"IMG": "img/img-apprenant/Abdul_small.JPG",
+			"INFO": "Développeur Web/Back-End  spécialisé dans le framework Symphony2",
+			"SKILLS": ["PHP 7","Symphony 2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Juliette SAINT JALME",
+			"IMG": "img/img-apprenant/Juliette_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["PHP","PHP2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Thomas SANCEO",
+			"IMG": "img/img-apprenant/Thomas_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["PHP","PHP2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Valentin SUSSET",
+			"IMG": "img/img-apprenant/Valentin_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["PHP","PHP2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Julien VAUPRE",
+			"IMG": "img/img-apprenant/JulienVaupre_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["PHP","PHP2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Youness CHETOUI",
+			"IMG": "img/img-apprenant/Youness_small.JPG",
+			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"SKILLS": ["PHP","PHP2"],
+			"CV": "#",
+			"PORTFOLIO": "#"
+		}
+	]
+}
