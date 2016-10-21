@@ -2,7 +2,7 @@
     //ça en ligne 1 sinon ça plante.
 ?>
 <div class="sidebar flex-sidebar col-md-4">
-    <h2>Newsletter</h2>
+    <h2 class="news">Newsletter</h2>
     <div class="newsletter flex-sidebar">
         <p>Pour être avertis de toutes nos nouveautées !</p>
         <!--START Scripts : this is the script part you can add to the header of your theme-->
@@ -18,10 +18,10 @@
         <!--END Scripts-->
         <div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html57f4c1ac08aac-1" class="wysija-msg ajax"></div><form id="form-wysija-html57f4c1ac08aac-1" method="post" action="#wysija" class="widget_wysija html_wysija">
         <p class="wysija-paragraph">
-            <label>E-mail <span class="wysija-required">:</span></label>
-                <input type="text" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" title="E-mail"  value="" /> </br>
-            <label>Valider <span class="abs-req"</span>:</label>
-                <input type="text" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
+            <label><span class="wysija-required"></span></label>
+                <input type="text" placeholder="Votre émail" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" title="E-mail"  value="" /> </br>
+            <label><span class="abs-req"</span></label>
+                <input type="text" placeholder="Valider votre émail" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
 
         </p>
         <input class="wysija-submit wysija-submit-field" type="submit" value="Je m'abonne !" />
@@ -32,7 +32,7 @@
                 <input type="hidden" name="wysija[user_list][list_ids]" value="1" />
          </form></div>
     </div>
-    <h2>Actualité</h2>
+    <h2 class="actu">Actualité</h2>
    
        <?php query_posts('category_name'); ?>
         <?php if(have_posts()) : ?>
@@ -53,7 +53,7 @@
             
         </div>
         <div class="archives">
-        <h2>Archives</h2>
+        <h2 class="arch">Archives</h2>
         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><i class="fa fa-folder-open" aria-hidden="true"></i></a>
         </div>
         <?php endwhile; ?>

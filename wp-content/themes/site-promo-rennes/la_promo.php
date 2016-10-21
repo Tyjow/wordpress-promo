@@ -29,9 +29,9 @@ shuffle($back);
 		<h2 class="frontTitre">Front-end</h2>
 		<?php
 			foreach ($front as $elements) {
-				echo "<div class='apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8'>
+				echo "<div class='apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-10 col-xs-12'>
 
-					<img class='img-responsive imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
+					<img class='imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
 
 					<div class='infoBox'>
 						<h4>" . $elements['NAME'] . "</h4>
@@ -62,9 +62,9 @@ shuffle($back);
 
 			<?php
 			foreach ($back as $elements) {
-				echo "<div class='apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-2 col-sm-8 col-xs-offset-2 col-xs-8'>
+				echo "<div class='apprenant col-lg-offset-1 col-lg-5 col-md-offset-1 col-md-5 col-sm-offset-1 col-sm-10 col-xs-12'>
 
-					<img class='img-responsive imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
+					<img class='imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
 
 					<div class='infoBox'>
 						<h4>" . $elements['NAME'] . "</h4>
