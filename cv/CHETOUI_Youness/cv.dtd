@@ -1,0 +1,33 @@
+<!DOCTYPE CV [
+<!ELEMENT page (section*)>
+<!ELEMENT section (titre*, identite?, contact?, custom?, competence?, formation?, experience?, hobbie?)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT identite (prenom, nom, naissance, site?)>
+	<!ELEMENT prenom (#PCDATA)>
+	<!ELEMENT nom (#PCDATA)>
+	<!ELEMENT naissance (#PCDATA)>
+	<!ELEMENT site (#PCDATA)>
+<!ELEMENT contact (adresse, tel, mail)>
+	<!ELEMENT adresse (numero, rue, cp, ville, pays?)>
+		<!ELEMENT numero (#PCDATA)>
+		<!ELEMENT rue (#PCDATA)>
+		<!ELEMENT cp (#PCDATA)>
+		<!ELEMENT ville (#PCDATA)>
+		<!ELEMENT pays (#PCDATA)>
+	<!ELEMENT tel (#PCDATA)>
+	<!ELEMENT mail (#PCDATA)>
+<!ELEMENT photo EMPTY>
+    <!ATTLIST photo source  CDATA #REQUIRED>
+<!ELEMENT custom (autre*)>
+	<!ELEMENT autre (#PCDATA)>
+<!ELEMENT competence (random*)>
+	<!ELEMENT random(#PCDATA)>
+<!ELEMENT formation (intitule*, date*, ecole*, descriptif*)>
+	<!ELEMENT intitule (#PCDATA)>
+	<!ELEMENT date (#PCDATA)>
+	<!ELEMENT ecole (#PCDATA)>
+	<!ELEMENT descriptif (#PCDATA)>
+<!ELEMENT experience (intitule*, date*, lieux*, descriptif*)>
+	<!ELEMENT lieux (#PCDATA)>
+
+]>

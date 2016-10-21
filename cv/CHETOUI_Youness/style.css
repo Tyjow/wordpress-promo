@@ -1,0 +1,221 @@
+page { /* couleur de fond et petite bande en plus pour la page complete*/
+	background-color: #ddd6bc;
+	padding-bottom: 40px;
+	font-family: Contenu, Helvetica, sans-serif;
+	padding-top: 20px;
+}
+
+@font-face { /*police*/
+    font-family: "Titre";
+    src: url('Font_family/ColabMed.otf');/*Font-family libre de droit, trouver sur : https://www.fontsquirrel.com/fonts/Colaborate */
+}
+
+@font-face { /*police*/
+    font-family: "Contenu";
+    src: url('Font_family/ColabLig.otf');/*Meme Font-family mais plus fine*/
+}
+
+titre { /*Gras et couleur pour tt les titre*/
+	font-weight: bold;
+	color: #5d3327;
+	font-family: Titre, Helvetica, sans-serif;
+}
+
+identite { /*Nom + Prenom + date*/
+	color: #5d3327;
+	font-size: 45px;
+	margin-left: 3%;
+	display: block;
+	line-height: 40px;
+	width: 30%;
+	font-family: Titre, sans-serif;
+}
+
+page > titre { /*Dev Web*/
+	color: #5d3327;
+	font-size: 50px;
+	margin-left: 21%;
+	margin-top: 0px;
+	display:inline;
+	width: 40%;
+}
+
+photo {
+	background-image: url(Image/Profil.jpg);
+	background-size: 100%;
+	background-position: center center;/*centre l'image a l'interieur*/
+	width: 250px;
+	height: 200px;
+	float: left;
+	margin-left: 6%;
+	margin-top: 20px;
+}
+
+Contact {
+	background-color: #f1f4df;
+	color: black;
+	display: block;
+	height: 170px;
+	width: 250px;
+	padding-top: 10px;
+	margin-left: 6%;
+	margin-top: 210px;
+}
+
+Contact > titre:first-child { /*Titre contact*/
+	font-size: 25px;
+	margin-left: 30%;
+}
+
+naissance {
+	font-size: 20px;
+	padding-left: 20%;
+}
+
+adresse, tel, mail { /*donne un margin aux trois en fois*/
+	margin-left: 25%;
+}
+
+adresse {
+	display: block;
+	width: 55%;
+	padding-top: 20px;
+}
+
+tel {
+	width: 30%;
+}
+
+mail {
+	width: 30%;
+	display: block;
+	margin-left: 12%;
+}
+
+formation, competence, hobbie { /*Gere les pading de ces trois section*/
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+competence, Contact, hobbie { /*espacement des ligne pour les trois section*/
+	line-height: 22px;
+}
+
+competence {
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: -300px;
+}	
+
+competence > titre {
+	display: block;
+	margin-left: 40%;
+	font-size: 25px;
+	line-height: 60px;
+	width: 20%;
+}
+
+section > formation > intitule { /* intitule en gras*/
+	font-weight: bold;
+	font-size: 18px;
+}
+
+section > formation:first-child { /*Premiere formation*/
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: -115px;
+}
+
+section > formation > titre:first-child { /*Titre formation*/
+	display: block;
+	margin-left: 40%;
+	font-size: 25px;
+	line-height: 60px;
+	width: 20%;
+}
+
+section > formation:last-child { /*Derniere formation*/
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: -20px;
+	padding-top: 20px;
+	
+}
+
+section > experience > date { /*Date en gras*/
+	font-weight: bold;
+	font-size: 18px;
+}
+
+experience > descriptif { /*descriptif qui retourne a la ligne*/
+	display: block;
+}
+
+section > experience:first-child { /*premiere exp*/
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: 40px;
+	padding-left: 10px;
+}
+
+section > experience > titre:first-child { /*titre experience*/
+	display: block;
+	margin-left: 28%;
+	font-size: 25px;
+	line-height: 60px;
+	width: 45%;
+}
+
+section > experience:nth-child(2) { /*Deuxieme exp*/
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+section > experience:last-child { /*derniere exp*/
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: 0px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+hobbie {
+	background-color: #f1f4df;
+	width: 240px;
+	margin-left: 6%;
+	float: left;
+	margin-top: -190px;
+	padding-bottom: 20px;
+}
+
+hobbie > titre { /*titre hobbi*/
+	display: block;
+	margin-left: 32%;
+	font-size: 25px;
+	line-height: 60px;
+}
+competence, Contact, hobbie {
+	line-height: 22px;
+}

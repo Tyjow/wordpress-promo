@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<contenant>
+<cv>
+<infoPerso>
+
+	<identite>
+		<nom>MACCIO Rebecca</nom> 
+		<age>30 ans</age>
+	</identite>
+
+	<contact>
+		<adresse> 1 Boulevard Emmanuel</adresse>
+		<cp> Mounier 35700 rennes</cp>
+		<telp>06.88.62.49.40</telp>
+		<mail><a href="http://fontawesome.io/icons/">rebeccamaccio@gmail.com</a></mail>
+	</contact>
+
+	<photo></photo>
+
+	<complement>
+		<situation>Situation : célibataire</situation>
+		<nationalite>Nationalité : Française</nationalite>
+		<permis>permis B</permis>
+	</complement>
+
+
+
+</infoPerso>
+
+
+
+<gtitre>COMPETENCES</gtitre>
+	
+	<competence>
+		<type>Informatiques</type>
+		<gtitre><contenu>Pack office</contenu><niveau>80</niveau></gtitre>
+		<gtitre><contenu>Application metiers</contenu><niveau>80</niveau></gtitre>
+		<gtitre><contenu>Git</contenu><niveau>80</niveau></gtitre>
+		<gtitre><contenu>HTML 5</contenu><niveau>60</niveau></gtitre>
+		<gtitre><contenu>CSS 3</contenu><niveau>60</niveau></gtitre>
+		<gtitre><contenu>Boostrap</contenu><niveau>70</niveau></gtitre>
+		<gtitre><contenu>Wordpress</contenu><niveau>70</niveau></gtitre>
+		<gtitre><contenu>PHP</contenu><niveau>50</niveau></gtitre>
+		<gtitre><contenu>Javascript</contenu><niveau>50</niveau></gtitre>
+		<gtitre><contenu>Jquery</contenu><niveau>50</niveau></gtitre>
+	</competence>
+	<competence>
+		<type>Administratives</type>
+		<gtitre><contenu>Organisation</contenu><niveau>80</niveau> </gtitre> 
+		<gtitre><contenu>Autonomie</contenu><niveau>80</niveau></gtitre>
+		<gtitre><contenu>Hierarchie</contenu><niveau>80</niveau></gtitre>
+		<gtitre><contenu>Synthèse</contenu><niveau>60</niveau></gtitre>
+		<gtitre><contenu>Logique</contenu><niveau>70</niveau></gtitre>
+	</competence>
+	<competence>
+		<type>Commerciales</type>
+		<gtitre><contenu>Gout du contact</contenu><niveau>80</niveau></gtitre>
+		<gtitre><contenu>Ecoute</contenu><niveau>80</niveau></gtitre>
+		<gtitre><contenu>Esprit d’équipe</contenu><niveau>80</niveau></gtitre>
+		<gtitre><contenu>Diplomatie</contenu><niveau>80</niveau></gtitre>
+	</competence>
+
+
+
+
+
+<gtitre>EXPERIENCES PROFESSIONELLES</gtitre>
+
+<exPro>
+	<experience>
+		<poste>Assistante commerciale</poste>
+		<date>2014 /2016 (1 an et demi)</date>
+		<lieu>Cesson Sévigné</lieu>
+		<entreprise>PRECOM</entreprise>
+		
+		<gtitre><tache>Elaboration des propositions commerciales sur l’ensemble de la France</tache></gtitre>
+		<gtitre><tache>Edition des ordres d’insertion </tache></gtitre>
+		<gtitre><tache>Tenue et mise à jour des dossiers clients</tache></gtitre>
+		<gtitre><tache>Gestion et suivi des campagnes publicitaires</tache></gtitre>
+		<gtitre><tache>Suivi et mise à jour du chiffre d’affaires</tache></gtitre>
+		<gtitre><tache>Suivi des maquettes</tache></gtitre>
+	</experience>
+
+	<experience>
+	<poste>Téléconseillère</poste>
+	<date>2013/2014 (5 mois)</date>
+	<lieu>Rennes </lieu>
+	<entreprise>MGEN</entreprise>
+	<gtitre><tache>Réception de l'appel.</tache></gtitre>
+	<gtitre><tache>Accueil et identification du client dans l'outil</tache></gtitre>
+	<gtitre><tache>Qualification de la demande</tache></gtitre>
+	<gtitre><tache>Recherche des éléments de réponse</tache></gtitre>
+	<gtitre><tache>Transfert des appels vers les autres services</tache></gtitre>
+	<gtitre><tache>Clôture de l'appel et historisation dans l'outil	</tache></gtitre>
+	</experience>
+
+	<experience>
+	<poste>Téléprospectrice</poste>
+	<date>2008/2013</date>
+	<lieu>Cesson Sévigné</lieu>
+	<entreprise>SODEXO (Chèques Restaurant)</entreprise>
+	<gtitre><tache>Détection de projet</tache></gtitre>
+	<gtitre><tache>Prise de rdv en B to B</tache></gtitre>
+	<gtitre><tache>Prise de rdv grands comptes</tache></gtitre>
+	<gtitre><tache>Gestion et qualification de la base de données</tache></gtitre>
+	<gtitre><tache>Enquête auprès des clients</tache></gtitre>
+	<gtitre><tache>Encadrement à la formation logiciel et prospection</tache></gtitre>
+	<gtitre><tache>Gestion des agendas commerciaux</tache></gtitre>
+	<gtitre><tache>Prise de Commande</tache></gtitre>
+	</experience>
+
+	<experience>
+	<poste>Asistante de direction</poste>
+	<date>2007/2008 (7 mois)</date>
+	<lieu>Vizille et La Mure</lieu>
+	<entreprise>PRESTIGE IMMOBILIER</entreprise>
+	<gtitre><tache>Etablissement des devis</tache></gtitre>
+	<gtitre><tache>Accueil téléphonique et physique</tache></gtitre>
+	<gtitre><tache>Prise de rendez- vous 
+	</tache></gtitre>
+	<gtitre><tache>Saisie des courriers</tache></gtitre>
+	<gtitre><tache>Gestion des comptes</tache></gtitre>
+	<gtitre><tache>Phoning</tache></gtitre>
+	</experience>
+</exPro>
+
+<gtitre>FORMATIONS</gtitre>
+<formation>
+	<annee>2016 </annee>
+	<nomf>Développeur web/mobile junior</nomf>
+</formation>
+<formation>
+	<annee>2007</annee>
+	<nomf>BTS assitante de gestion PMI/PME</nomf>
+</formation>
+<formation>
+	<annee>2005</annee>
+	<nomf> BAC PRO Secrétariat</nomf>
+</formation>
+<formation>
+	<annee>2003</annee>
+	<nomf>BEP Comptabilité</nomf>
+</formation>
+
+
+	<gtitre>LOISIRS</gtitre>
+<interet>Badminton</interet>	
+<interet>Lecture</interet>
+
+	<gtitre>Contact</gtitre>
+<footer>
+	<social>
+		<link>https://www.linkedin.com/in/rebecca-maccio-613297122</link>
+		<icone>my-icons-collection/svg/linkedin-logo.svg</icone>
+	</social>
+
+	<social><icone><a href="https://www.linkedin.com/in/rebecca-maccio-613297122"><img src="my-icons-collection/svg/twitter-logo.svg.svg"/></a>
+	</icone></social>
+	<contact>
+		<telp>06.88.62.49.40</telp>
+		<mail>rebeccamaccio@gmail.com</mail>
+	</contact>
+
+</footer>
+
+</cv>
+</contenant>
+
+

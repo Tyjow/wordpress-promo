@@ -1,0 +1,48 @@
+
+contenant {
+width: 100%
+}
+
+cv{
+	width: 1000px;
+	height:%;
+	background-color: lightblue;
+	margin: auto;
+}
+
+*{
+	font-family: Cursive sans serif;
+	display: block;
+}
+
+intitule {
+	position:relative;
+	top:10px;
+	font-size:30px;
+	width: 500px ;  
+	text-align: center;
+	border:2px solid black;
+	margin: auto;
+	
+}
+
+infoPerso {
+	position:relative;
+	top:20px;
+	width: ;
+	height: ;
+	
+}
+
+contact{margin-top: 7px;}
+telf {margin-top: 7px;}
+
+complement{margin-top: 7px;}
+
+situation {
+margin-right: 5px;}
+
+competence{
+	position:;
+	top: px;
+}

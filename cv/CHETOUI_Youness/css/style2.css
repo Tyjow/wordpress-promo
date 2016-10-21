@@ -1,0 +1,234 @@
+@font-face { /*police*/
+    font-family: "Titre";
+    src: url('Font_family/ColabMed.otf');/*Font-family libre de droit, trouver sur : https://www.fontsquirrel.com/fonts/Colaborate */
+}
+
+@font-face { /*police*/
+    font-family: "Contenu";
+    src: url('Font_family/ColabLig.otf');/*Meme Font-family mais plus fine*/
+}
+
+@keyframes bounceIn{
+ 0% {
+     opacity: 0;
+     -webkit-transform: scale(.3);
+ }
+ 50% {
+     opacity: 1;
+     -webkit-transform: scale(1.05);
+ }
+ 70%{
+   -webkit-transform: scale(.9);
+ }
+ 100% {
+   -webkit-transform: scale(1);
+ }
+}
+
+@keyframes bounceIn{
+ 0% {
+     opacity: 0;
+    transform: scale(.3);
+ }
+ 50% {
+     opacity: 1;
+     transform: scale(1.05);
+ }
+ 70%{
+  transform: scale(.9);
+ }
+ 100% {
+  transform: scale(1);
+ }
+}
+
+.titre {
+	display: inline-block;
+	float: right;
+	margin-top: -150px;
+	padding-right: 190px;
+	padding-bottom: 400px;
+	padding-top: 80px;
+	font-size: 40px;
+	font-family: Titre;
+	-webkit-animation-name: bounceIn;
+  	animation-name: bounceIn;
+ 	-webkit-animation-duration:1s;
+  	animation-duration: 1s;
+  	-webkit-animation-fill-mode:both;
+  	animation-fill-mode:both;
+}
+
+body { /* couleur de fond et petite bande en plus pour la page complete*/
+	background-color: #ddd6bc;
+	font-family: Contenu, Helvetica, sans-serif;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+span:before {
+	content: " ";
+}
+
+h1, h2 {
+	color: #5d3327;
+	font-weight: bold;
+}
+
+.ID {
+	color: #5d3327;
+	font-size: 20px;
+	margin-left: 3%;
+	display: block;
+	line-height: 40px;
+	width: 40%;
+	font-family: Titre, sans-serif;
+}
+
+.ID h2 {
+	padding-left: 35px;
+}
+
+img {
+	width: 250px;
+	height: 200px;
+	float: left;
+	margin-left: 6%;
+	margin-top: 40px;
+}
+
+.Comp {
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: -365px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+.Comp h2 {
+	display: block;
+	margin-left: 40%;
+	font-size: 25px;
+	line-height: 60px;
+	width: 20%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.Comp p {
+	margin: 0px;
+	line-height: 1.5em;
+}
+
+.Form {
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: -170px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.Form h2 {
+	display: block;
+	margin-left: 40%;
+	font-size: 25px;
+	line-height: 60px;
+	width: 20%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.Form p {
+	line-height: 0.5em;
+}
+
+.Exp {
+	background-color: #f1f4df;
+	margin-right: 3%;
+	width: 60%;
+	float: right;
+	display: inline;
+	margin-top: 50px;
+	padding-left: 10px;
+}
+
+.Exp h2 {
+	display: block;
+	margin-left: 31%;
+	font-size: 25px;
+	line-height: 60px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.contact {
+	display: inline-block;
+	float: left;
+	background-color: #f1f4df;
+	color: black;
+	height: 180px;
+	width: 250px;
+	margin-top: 285px;
+	margin-left: -250px;
+}
+
+.contact h2{
+	margin-left: 80px;
+	margin-bottom: 10px;
+}
+
+.contact h2:hover {
+	color: #6A4927;
+}
+
+.contact p {
+	padding-left: 10px;
+	margin: 0px;
+	padding-top: 10px;
+}
+
+.Hob {
+	background-color: #f1f4df;
+	width: 250px;
+	margin-left: 6%;
+	float: left;
+	margin-top: 100px;
+	padding-bottom: 20px;
+}
+
+.Hob h2 {
+	margin-left: 80px;
+	margin-bottom: 10px;
+}
+
+.Hob h2:hover {
+	color: #6A4927;
+}
+
+.Hob p {
+	padding-left: 5px;
+}
+
+.intitule {
+	font-weight: bolder;
+}
+
+.social {
+	margin-top: 720px;
+	margin-left: 9%;
+}
+
+i {
+	padding-right: 20px;
+	color: #5d3327;
+}
+
+i:hover {
+	color: #6A4927;
+}

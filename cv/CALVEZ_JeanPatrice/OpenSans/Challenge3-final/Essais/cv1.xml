@@ -1,0 +1,126 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="transformations.xsl"?>
+<!DOCTYPE cv SYSTEM "langage.dtd">
+<contenant>
+<cv>
+
+<gtitre>
+	Futur Développeur Web 
+</gtitre>
+
+<infoPerso>	
+	<identite>
+		<nom>Jean-Patrice CALVEZ</nom>
+		<age>Né le 15 février 1975</age>
+	</identite>
+	
+	<contact>
+		<adresse>2 rue de l'Orgerie -  35590 SAINT-GILLES
+		</adresse>
+		<telp>+33 6 68 00 56 73</telp>
+		<mail>jipee37@yahoo.fr</mail>
+	</contact>
+	
+	<complement>
+		<situation>célibataire</situation>
+		<permis>Permis B</permis>
+	</complement>
+</infoPerso>
+
+<ptitre>formation</ptitre>
+<formation>
+<intitule>	
+	<annee>17/05/2016-Auj.  :</annee>
+	<nomf>Développeur web, face-simplon, Rennes</nomf>
+</intitule>	
+<intitule>		
+	<annee>2015  :</annee>
+	<nomf>CLPS, Compétences transverses, Rennes</nomf>
+</intitule>
+<intitule>
+	<annee>2009  :</annee>
+	<nomf>Conseiller efficacité énergétique et énergies renouvelables, Port-Brillet</nomf>
+</intitule>
+<intitule>
+	<annee>2000  :</annee>
+	<nomf>Maîtrise génie des systèmes industriels (option thermique), Belfort</nomf>
+</intitule>
+<intitule>
+	<annee>1998  :</annee>
+	<nomf>DUT génie thermique et énergie, Lorient</nomf>
+</intitule>
+</formation>
+	
+<ptitre>expériences professionnelles</ptitre>
+<exPro>
+<experience>
+	<date>2015-2015  :</date> 
+	<poste>Dépanneur micro-informatique,</poste>
+	<entreprise>Arobace,</entreprise>
+	<lieu> Rennes</lieu>
+</experience>		
+	
+<experience>
+	<date>2013/14-2013/14  :</date> 
+	<poste>Ouvrier saisonnier,</poste>
+	<entreprise>Grand Saloir Saint Nicolas,</entreprise>
+	<lieu>Monfort-sur-meu</lieu>
+</experience>
+
+<experience>
+	<date>2012-2013 :</date> 
+	<poste>Agent d'acceuil,</poste>
+	<entreprise>Tribord,</entreprise>
+	<lieu>Territoire Rennes métropole</lieu>
+</experience>
+
+<experience>
+	<date>2009-2009 :</date> 
+	<poste>technicien d'études énergies renouvelables,</poste>
+	<entreprise>eco soleil,</entreprise>
+	<lieu>Nouvoitou</lieu>
+	<tache>Etude de préfaisabilité d'une piscine 	municipale(solaire thermique).</tache>
+</experience>
+
+<experience>
+	<date>2006-2007 :</date> 
+	<poste>Inspecteur thermicien,</poste>
+	<entreprise>Apave,</entreprise>
+	<secteur>contrôle technique bâtiments,</secteur>
+	<lieu>Bourges</lieu>
+	<tache>Contrôles périodiques réglementaires (gaz, combustion, aération locaux de travail).</tache>
+	<tache>Audits énergétiques.</tache>
+</experience>
+
+<experience>
+	<date>2002-2006 :</date> 
+	<poste>Inspecteur thermicien,</poste>
+	<entreprise>Qualiconsult,</entreprise>
+	<secteur>contrôle technique bâtiments,</secteur>
+	<lieu>région Centre</lieu>
+	<tache>Contrôle périodique gaz combustibles et de conformité chaufferies.</tache>
+	<tache>Contrôle technique travaux neufs et réhabilitation.
+	Préleveur amiante.</tache>
+</experience>
+</exPro>
+
+<ptitre>Langues étrangères et compétences informatiques</ptitre>
+<competence>
+	<type>Anglais :</type>
+	<contenu>lu, écrit, parlé.</contenu>
+</competence>
+<competence>
+<type>Allemand :</type>
+	<contenu>notions.</contenu>
+</competence>
+<competence>
+	<type>Informatique :</type>
+	<contenu>suite Microsoft Office, langage HTML et CSS.</contenu>
+</competence>
+
+<ptitre>Centres d'intérêt</ptitre>
+<interet>Sports: pratique du basket-ball, cyclisme.</interet> 
+<interet>lecture: romans, philosophie.</interet>
+
+</cv>
+</contenant>

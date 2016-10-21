@@ -1,0 +1,131 @@
+contenant{
+	width: 0 auto;
+	background-color: #fff;
+}
+
+
+cv {
+	width: 65%;
+	height: auto;
+	/*background-color: #EDEDED;*/
+	background: linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 19%, rgba(219,219,219,1) 36%, rgba(254,254,254,1) 100%);
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 10px 10px 7px 0px #656565;
+}
+
+@font-face {
+font-family: 'OpenSans-Light';
+src: url(OpenSans/OpenSans-Light.ttf);
+}
+
+@font-face {
+font-family: 'OpenSans-Bold';
+src: url(OpenSans/OpenSans-Bold.ttf);
+}
+	
+
+*{
+	display: block;
+	font-family: 'OpenSans-Light';	
+}
+
+gtitre {
+	
+	height: 60px;
+	font-size: 31px;
+	line-height: 60px;
+	text-align: center;
+	/*background-color: ;*/
+	color: grey;
+	font-family: 'OpenSans-Bold';
+	border-radius: 10px;
+	text-shadow: 7px 7px 2px rgba(150, 150, 150, 0.75);
+	box-shadow: 7px 7px 5px 0px #656565;
+	background: linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 19%, rgba(219,219,219,1) 36%, rgba(254,254,254,1) 100%);	
+}
+
+infoPerso {
+	margin-top: 15px;
+	font-size: 15px;
+	height: 160px;
+	margin-left: 12px;
+	padding : 0 0 0 8px;
+
+}
+
+identite{
+	margin-bottom: 15px;
+}
+
+nom {
+	
+	font-size: 16px;
+}
+
+
+complement{margin-top: 7px;}
+
+formation, exPro, type, interet{ margin: 10px;}
+
+ptitre{
+	font-family: 'OpenSans-Bold';
+	color: grey;
+	font-size: 20px;
+	border-bottom: 2px solid #fff;
+	margin-top: 22px;
+	margin-left: 20px;
+	text-shadow: 1px 1px 0.5px rgba(150, 150, 150, 0.75);
+	height: 27px;
+	/*background-color: #C1C9C9;*/
+	border-radius: 3px;
+	border: 3px outset #C1C9C9;
+	/*background: linear-gradient(45deg, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 19%, rgba(219,219,219,1) 36%, rgba(254,254,254,1) 100%);*/	
+}
+
+intitule, experience{
+margin-top: 13px;
+}
+
+nomf, annee, date, poste, entreprise, lieu, secteur, tache, type, contenu{
+display: inline-block; 
+font-size: 12pt;
+margin-left:10px;
+}
+
+annee, date, type {font-size: 11pt ;}
+
+.date1 {
+	margin-right: 18px;
+}
+
+.date2 {
+	margin-right: 42px;
+}
+
+
+tache{
+margin-left: 110px;
+font-style: italic;
+font-size: 14px;
+}
+
+type, interet{
+	margin-top: 0px;
+	margin-bottom: 0;	
+}
+
+interet{
+	margin-left: 10px;
+	font-size: 11pt;
+}
+
+contenu {
+	font-size: 11pt;
+	margin-left: 0; 
+}
+ lien {
+	margin-left: 96px;
+	font-size: 11pt;
+
+}

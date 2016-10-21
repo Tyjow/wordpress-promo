@@ -1,0 +1,71 @@
+<!ELEMENT contenant (cv)>
+
+<!ELEMENT cv ( infoPerso* | competence+ | exPro | formation* | interet | folio? | gtitre* | ptitre* | footer* | pic* )>
+
+
+	<!ELEMENT gtitre (#PCDATA)>
+	<!ELEMENT ptitre (#PCDATA)>
+	<!ELEMENT pic ANY>
+		
+	<!ELEMENT infoPerso (identite | contact | complement? | photo? | intitule?)>
+
+		<!ELEMENT intitule (#PCDATA)>
+
+		<!ELEMENT identite (nom | prenom? | age)>
+			<!ELEMENT nom (#PCDATA)>
+			<!ELEMENT prenom (#PCDATA)>
+			<!ELEMENT age (#PCDATA)>
+
+		<!ELEMENT contact (adresse+ | telf? | telp? |mail |)>
+			<!ELEMENT adresse (#PCDATA)>
+			<!ELEMENT telf (#PCDATA)>
+			<!ELEMENT telp (#PCDATA)>
+			<!ELEMENT mail (#PCDATA)>
+			
+
+		<!ELEMENT complement (situation? | nationalite? |permis?  )>
+			<!ELEMENT situation (#PCDATA)>
+			<!ELEMENT nationalite (#PCDATA)>
+			<!ELEMENT permis (#PCDATA)>
+
+
+		<!ELEMENT photo EMPTY>
+			<!ATTLIST photo source  CDATA #REQUIRED>
+
+
+
+
+	<!ELEMENT competence (type+,contenu+)>
+		<!ELEMENT type (#PCDATA)>
+		<!ELEMENT contenu ANY>
+
+
+
+	<!ELEMENT exPro (experience+)>
+		<!ELEMENT experience (poste|date|entreprise|lieu|lien*|secteur?|tache*)>
+			<!ELEMENT poste (#PCDATA)>
+			<!ELEMENT date (#PCDATA)>
+			<!ELEMENT entreprise (#PCDATA)>
+			<!ELEMENT lieu (#PCDATA)>
+			<!ELEMENT lien (#PCDATA)>
+			<!ELEMENT secteur (#PCDATA)>
+			<!ELEMENT tache (#PCDATA)>
+
+
+
+	<!ELEMENT formation (année|nomf)>
+		<!ELEMENT année (#PCDATA)>
+		<!ELEMENT nomf (#PCDATA)>
+
+
+	<!ELEMENT interet (#PCDATA)>
+
+
+	<!ELEMENT folio (projet*)>
+		<!ELEMENT projet ANY>
+
+	<!ELEMENT footer (social? | infoPerso? | message?)>
+		<!ELEMENT infoPerso (#PCDATA)>
+		<!ELEMENT message ANY>
+		<!ELEMENT social (icone*)>
+			<!ELEMENT icone ANY>

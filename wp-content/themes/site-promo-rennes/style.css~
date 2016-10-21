@@ -1,0 +1,649 @@
+/* Theme Name: Code Académie de Rennes
+/* Theme Name: Code Académie de Rennes
+Theme URI: http://www.codeacademierennes.com/ 
+Description: Thème pour le site de la Code Académie de Rennes
+Version: 0.1
+Author: Tyjow, Nabil, Julien, Anna
+}*/
+
+/*
+ * colors :
+ * bleu/vert = #009b9d
+ * gris foncé = #231f20
+*/
+
+
+
+/* === JULIEN === */
+
+#header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+/*#header h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}*/
+
+#content {
+    padding-right: 25px;
+    padding-top: 50px;
+}
+
+.content-button {
+    /*margin: 80vh 0;*/
+}
+
+.block-opaque {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.block-opaque > h1 {
+    text-align: center;
+}
+.block-opaque > h1 img {
+    opacity: 0.7;
+}
+.content-button {
+    background-color: rgba(255, 255, 255, .7);
+    width: 50%;
+    padding: 15px 45px;
+    border: 1px solid white;
+    transition: .3s;
+}
+
+button:hover.content-button {
+    background-color: #009b9d;
+    border: 1px solid #009b9d;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.content-button a {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #009b9d;
+    text-decoration: none;
+    transition: .3s;
+}
+
+button:hover.content-button  a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+
+.menu-top-container {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-weight: 700;
+    border-bottom: 3px solid #009b9d;
+    z-index: 999;
+}
+
+.menu-top-container ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.menu-top-container ul li a {
+    display: block;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.current-menu-item a, current_page_item a {
+    color: #009b9d;
+}
+
+.menu-top-container ul li a {
+    color: #231f20;
+    transition: .3s;
+}
+
+.menu-top-container ul li:hover, .current_page_item {
+    
+}
+
+.menu-top-container ul li:hover a,
+.current_page_item a {
+    background-color: #009b9d;
+    color: #fff!important;
+}
+
+
+/*---pagination-style---*/
+.pagination {
+    width: 100%;
+    padding: 50px 0 0 0;
+    border-top: 1px solid #ccc;
+}
+[class*='btn-pagination-']  {
+    background-color: #eee;
+    width: 25%;
+    padding: 15px 45px;
+    border: 1px solid #009b9d;
+    transition: .3s;
+}
+.btn-pagination-R {
+    float: right;
+    margin-right: 20px;
+}
+.btn-pagination-L {
+    float: left;
+    margin-left: 20px;
+}
+
+/* [class*='btn-pagination-'] 
+
+/* === NABIL === */
+
+@font-face {
+font-family: 'OpenSans-Light';
+src: url('fonts/OpenSans/OpenSans-Light.ttf');
+}
+@font-face {
+font-family: 'OpenSans-Regular';
+src: url('fonts/OpenSans/OpenSans-Regular.ttf');
+}
+@font-face {
+font-family: 'OpenSans-Semibold';
+src: url('fonts/OpenSans/OpenSans-Semibold.ttf');
+}
+@font-face {
+font-family: 'OpenSans-Bold';
+src: url('fonts/OpenSans/OpenSans-Bold.ttf');
+}
+
+/* Couleurs simplon
+noir : rgb(31,31,30) / #1F1F1E
+rouge : rgb(223,0,76) / #DC003C
+*/
+
+.listApprenant{
+background-image: url('img/bg.png');
+padding-top: 6em;
+}
+
+.textApprenant p{
+text-align: center;
+font-family: 'OpenSans-Light';
+}
+
+.listApprenant img{
+width:160px;
+height: 160px;
+border-radius:50%;
+background-image: url('img/user.jpg');
+background-repeat: no-repeat;
+background-position: center center;
+margin-bottom: 20px;
+}
+
+.listApprenant h2{
+font-family: ;
+font-size:2.5em;
+height: 60px;
+line-height: 60px;
+width: 90%;
+margin: auto;
+border-radius: 2px;
+padding-left: 2.4em;
+color: #fff;
+font-family: 'OpenSans-Light';
+background-size: 8%;
+background-position: 0.5em center;
+background-repeat: no-repeat;
+}
+
+.imgApprenant {
+width: 80% !important;
+height: 200px !important;
+}
+
+.front{
+border-right: 4px dashed rgba(147,126,144,0.5);
+}
+
+.front,.back{
+padding-bottom :9em;
+}
+.frontTitre{
+background-image: url('img/ungroup.png');
+background-color: rgba(56,152,157,0.8); 
+}
+
+.backTitre{
+background-image: url('img/settings.png');
+background-color: rgba(31,31,30,0.8); 
+}
+
+.apprenant{
+padding: 20px;
+margin-top: 3em;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+}
+
+.nomApprenant{
+font-size: 1.5em;
+margin-bottom: 0.8em;
+font-family: 'OpenSans-Semibold';
+cursor: pointer;
+}
+
+.infoBox{
+display: none;
+width:auto;
+height: auto;
+padding:1em;
+background-color: rgba(250,250,250,0.8);
+position: relative;
+-moz-box-shadow: 2px 1px 2px 0px #9b9b9b;
+-webkit-box-shadow: 2px 1px 2px 0px #9b9b9b;
+-o-box-shadow: 2px 1px 2px 0px #9b9b9b;
+box-shadow: 2px 1px 2px 0px #9b9b9b;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=116, Strength=2);  
+}
+
+.front .progress-bar{
+background-color: #009b9d!important;
+}
+
+.back .progress-bar{
+background-color: #1F1F1E!important;
+}
+
+.btnCv,.btnFolio{
+height: auto;
+width: auto;
+padding:0.5em;
+border-radius: 2px;
+}
+
+.btnFolio{
+background-color: rgba(56,152,157,0.9);
+color: #fff;
+}
+
+.btnCv{
+border: 1px solid rgba(56,152,157,0.9);
+background-color: #fff;
+}
+
+.back .btnFolio{
+background-color: rgba(31,31,30,0.9);
+}
+.back .btnCv{
+border: 1px solid rgba(31,31,30,0.6);
+color: rgba(31,31,30,0.9);
+}
+
+.apprenant a:hover{
+text-decoration: none;
+}
+.back a:hover{
+color:grey;
+}
+
+
+/* === ANNA === */
+
+.col-md-8 {
+    padding: 0 50px 50px 50px!important;
+}
+
+.a_propos {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #009b9d;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.a_propos h2 {
+    display: block;
+    border-bottom: 2px solid #009b9d;
+    width: 250px;
+    color: #009b9d;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.a_propos_img > img {
+    width: 30vw;
+}
+
+.center h3 {
+    font-size: 1.5em;
+    color: #009b9d;
+    padding-top: 30px;
+}
+
+#footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #009b9d;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #E9C70C;
+    font-weight: 600;
+}
+
+.wpcf7 .wpcf7-text, .wpcf7 .wpcf7-textarea {
+	text-indent: 30px;
+}
+
+.wpcf7 p { 
+    position: relative; 
+}
+
+.wpcf7 p .icon {
+	position: absolute;
+	color: #cdcac3;
+	z-index: 100;
+	font-size: 18px;
+	top: 22%;
+	left: 3%;
+}
+
+div.wpcf7 {
+    padding-top: 50px;
+}
+
+.wpcf7 p .icon-pencil { 
+    top: 4%; 
+}
+
+.formulaire_de_contact input, .formulaire_de_contact textarea {     
+    width: 70vh;    
+    margin-top: 10px;     
+    padding: 10px;     
+    border: 1px solid #ccc;     
+    color: #222; 
+}  
+
+.wpcf7-submit {     
+    width: 200px;     
+    float: none;
+}
+
+.formulaire_de_contact {
+    background-image: url(img/bg.png);
+}
+
+#formulaire {
+    width: 100vh;
+    box-shadow: 0px 0px 5px #333;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+legend {
+    text-align: center;
+}
+
+legend p {
+    color: #009b9d;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+#icone_identite, #icone_email, #icone_objet, #icone_message {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#icone_message {
+    position: relative;
+    bottom: 200px;
+}
+
+#bouton_valider {
+    padding-left: 70px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+
+input[type=submit] {
+    background-color: #009B9D;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input[type=submit]:focus {
+    background-image: linear-gradient(#009B9D,#61DEE0);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* === TYJOW. LE BOSS. TYJOW BOSS, LE NOUVEAU PARFUM DE OUF === */
+.flex-sidebar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#content > a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.sidebar {
+    margin: 50px 0;
+    border: 1px solid #bbb;
+	background-image: url('img/bg.png');
+}
+.sidebar h2 {
+	color: #333;
+}
+.sidebar p {
+	padding: 15px 25px;
+}
+.newsletter {
+	width: 80%;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px #333;
+	justify-content: space-around;
+}
+.input-box {
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+.post_content p {
+	color: #333;
+	padding: 15px 30px;
+}
+.post {
+    padding: 20px 5px 50px 5px;
+}
+.title-news {
+    margin: 10px auto;
+    border: 1px solid #aaa;
+	background-color: #fff;
+    flex-wrap: nowrap;
+}
+.title-news h2 {
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+	color: #009b9d;
+	margin-top: 10px;
+    border-bottom: 2px solid #009b9d;
+}
+.title-news > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    
+	color: #009b9d;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 50%;
+	box-shadow: 0px 2px 3px #666;
+	transition: all 0.50s;
+}
+.title-news > a:hover {
+	color: #fff;
+    text-decoration: none;
+	background-color: #009b9d;
+	box-shadow: 0px 2px 3px #555;
+}
+
+.title-news img {
+    width: 100%;
+    height: auto;
+}
+.archives {
+    margin: 10px auto;
+    border: 1px solid #aaa;
+	background-color: #fff;
+    flex-wrap: nowrap;
+    width:96%;
+}
+.archives h2 {
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+	color: #009b9d;
+	margin-top: 10px;
+    border-bottom: 2px solid #009b9d;
+}
+.archives a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+
+	color: #009b9d;
+	background-color: #fff;
+	padding: 5px 10px;
+	border-radius: 50%;
+	box-shadow: 0px 2px 3px #666;
+	transition: all 0.50s;
+}
+.archives a:hover {
+	color: #fff;
+    text-decoration: none;
+	background-color: #009b9d;
+	box-shadow: 0px 2px 3px #555;
+}
+
+/*=== Single Page Content ===*/
+
+
+.bandeau {
+	padding-top: 50px;
+}
+
+.bandeau > h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 60px;
+	background-color: #009b9d;
+}
+
+.fond-single {
+	display: flex;
+	justify-content: center;
+	background-image: url('img/bg.png');
+}
+
+.single-article {
+	width: 50%;
+	background-color: #fff;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 15px #999;
+}
+
+.single-article > div {
+	border-radius: 5px;
+}
+
+.article-title {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #009b9d;
+    border-bottom: 2px solid #009b9d;
+}
+
+.single-article > div img {
+	width: 100%;
+    height: auto;
+}
+
+.content-single p {
+	margin: 50px 0;
+	padding: 0 50px;
+}
+.content-single a {
+	padding: 13px;
+}
+
+.button-news {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #009b9d;
+	box-shadow: 0px 1px 2px #333;
+	transition: all 0.50s;
+	width: 10vw;
+	margin: 20px;
+	height: 8vh;
+	color: #fff;
+	text-decoration: none;
+}
+
+.button-news:hover {
+	color: #009b9d;
+	text-decoration: none;
+	background-color: #fff;
+	box-shadow: 0px 1px 2px #000;
+}

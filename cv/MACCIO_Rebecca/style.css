@@ -1,0 +1,178 @@
+/* latin */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lora'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v9/4vqKRIwnQQGUQQh-PnvdMA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*format général*/
+
+* {
+   font-family: Lora, serif;
+}
+
+
+body {
+	background-color: #CAD4DB;
+}
+
+h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 40px;
+
+}
+
+p {
+	font-size: 15px;
+}
+
+/*1er colone*/
+.colone1 {
+	background-color: #46687E;
+	color: white;
+}
+
+/*format des info perso*/
+
+.nom {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.detailsInfoPerso {
+	font-size: 17px;
+}
+
+.mail {
+	cursor: pointer;
+}
+
+
+#photo {
+	background-image: url("photocv.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 150px;
+	margin: 0 auto;
+	border-radius: 250px;
+	background-color: #1D124F;
+	float:right;
+
+}
+
+.annee {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+/*format des competences*/
+
+h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.gtitre {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+.alignerCompetence{
+	display: flex;
+}
+
+.racourcirTexte {
+	width: 40%;
+}
+
+.listeCompetence{
+	font-size: 17px;
+	text-align: left;
+	width: 160px;
+	
+}
+.reductionDiv {
+	width: 50%;
+	margin: 0px;
+}
+.barreprogression {
+	height: 20px;
+	background-color: #A6CCEA;
+	color:#46687E;
+	font-size: 13px;
+	font-weight: bold;
+	float: right;
+
+}
+
+
+
+/*format des competences*/
+.formation {
+}
+
+.annee {
+	line-height: 10px;
+}
+
+
+/*2ème colone*/
+.colone2 {
+	background-color: #CAD4DB;
+	color: #2B4F67;
+}
+
+
+
+/*format des competences*/
+
+
+.poste {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.tache{
+	margin-left: 25px;
+}
+
+.date {
+	float: left;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: italic;
+	margin-top: 60px;
+}
+
+.lieu {
+	float: right;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 17px;
+	margin-top: 60px;
+}
+
+.entreprise {
+	float: right;
+	font-size: 17px;
+	margin-top: 60px;
+}
+
+p {
+	font-size: 15px;
+}
+
+
+a[href]:after {
+  content: " (" attr(href) ")"; /* affichage des URL des liens */
+}

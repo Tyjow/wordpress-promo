@@ -30,3 +30,18 @@ register_nav_menus( array(
 add_theme_support( 'custom-header', $args );
 
 ?>
+
+
+<?php
+add_action('generate_rewrite_rules', 'themes_dir_add_rewrites');
+ 
+function themes_dir_add_rewrites() {
+  $theme_name = next(explode('/themes/', get_stylesheet_directory()));
+ 
+  global $wp_rewrite;
+  $new_non_wp_rules = array(
+    'cv/(.*)'    => 'wp-content/uploads/cv/$1',
+  );
+  $wp_rewrite->non_wp_rules += $new_non_wp_rules;
+}
+?>

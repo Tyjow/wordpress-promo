@@ -1,0 +1,72 @@
+.photo {
+	background-image: url(tyfa.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-blend-mode: hard-light;
+	color: black;
+	border-radius: 250px 50px;
+	background-color: burlywood;
+}
+
+.presentation {
+	font-size: 25px;
+}
+
+body {
+	opacity: 0.7;
+	background-image: url(imagecv.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: floralwhite;
+}
+
+.identite {
+	font-size: 12px;
+	flex-wrap: wrap;
+}
+
+h6 {
+	font-size: 17px;
+	color: aliceblue;
+}
+
+h4,
+h3 {
+	text-align: center;
+	color: firebrick;
+}
+
+img {
+	width: 40px;
+	float: right;
+}
+
+.fa-star,
+.fa-star-half-o,
+.fa-star-o {
+	color: burlywood;
+	float: right;
+	width: 30px;
+	font-size: 17px;
+}
+
+li {
+	text-decoration: none;
+	margin: 12px;
+}
+
+.identite {
+	border-radius: 250px 50px;
+	background-color: burlywood;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+}
+
+p {
+	color: black;
+	display: inline;
+	font-size: 20px;
+	height: 35px;
+	margin: 25px;
+}

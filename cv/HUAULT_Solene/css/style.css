@@ -1,0 +1,157 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+
+body {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Source Sans Pro', free;
+}
+
+
+/* CONTENT */
+#content {
+	width: 60%;
+}
+
+#content h1 {
+	text-align: center;
+	color: #5bc0de;
+	margin: 50px;
+}
+
+#content h2 {
+	color: whitesmoke;
+	background-color: #5bc0de;
+	margin: 10px;
+	padding: 5px;
+}
+
+#content h3 {
+	padding-left: 10px;
+}
+
+#content p {
+	padding-left: 10px;
+}
+
+#content ul {
+	list-style: none;
+	padding-left: 10px;
+}
+
+#content li {
+	padding: 2px;
+}
+
+#content a {
+	text-decoration: none;
+	color: #000;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+#content .competence {
+	display: flex;
+	justify-content: space-between;
+}
+
+#content img {
+	width: 15px;
+	height: auto;
+	padding-right: 5px;
+}
+
+
+/* ASIDE */
+#aside {
+	width: 30%;
+	background-color: #5bc0de;
+	color: whitesmoke;
+}
+
+#aside img {
+	width: 50%;
+	height: auto;
+	display: block;
+	margin: 10px auto 10px auto;
+}
+
+#aside .name {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+#aside h4 {
+	background-color: whitesmoke;
+	color: #5bc0de;
+	margin: 10px;
+	padding: 5px;
+}
+
+#aside p {
+	padding: 2px;
+	margin-left: 15px;
+}
+
+#aside a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+#aside a:hover {
+	text-decoration: underline;
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width: 1024px) {
+	.competence {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		flex-direction: column;
+	}
+
+	#content, #aside {
+		width: 100%;
+	}
+
+	#aside img {
+		width: 30%;
+	}
+}
+
+/* Remove top and bottom ligne from the impression page (url and page number) */
+@page {
+	size: auto;
+	margin: 0 5mm 0 5mm;
+}
+
+
+/* IMPRESSION SETTINGS */
+@media print {
+
+	/* impression en noir et blanc */
+	body {
+		width: auto!important;
+		background-color: #fff!important;
+		color: #000!important;
+	}
+
+	p, h1, h2, h3, h4, h5, h6, blockquote, ul, ol {
+		color: #000!important;
+	}
+
+	/* display url after the link */
+	.link[href]:after {
+		content: " (" attr(href) ")";
+	}
+
+	.competence {
+		flex-direction: column;
+	}
+}

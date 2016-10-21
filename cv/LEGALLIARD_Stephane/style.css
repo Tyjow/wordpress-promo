@@ -1,0 +1,143 @@
+body {	
+	background-color: #808080;
+	font-family: Helvetica;
+	width: 1290px;
+	height: 880px;
+	margin: 0;
+	padding: 0;
+}
+
+#perso {
+	width: 50%;
+	height: 100%;
+	background-color: #A52A2A;
+	float: left;
+}
+
+.animated {
+            /*background-image: url(/css/images/logo.png);*/
+            background-repeat: no-repeat;
+            background-position: left top; 
+            /*padding-top:95px;*/
+            /*margin-bottom:60px;*/
+            -webkit-animation-duration: 5s; 
+            animation-duration: 3s; 
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both; 
+         }
+         
+         @-webkit-keyframes bounceInLeft {
+            0% {
+               opacity: 0;
+               -webkit-transform: translateX(-2000px);
+            }
+            60% {
+               opacity: 1;
+               -webkit-transform: translateX(30px);
+            }
+            80% {
+               -webkit-transform: translateX(-10px);
+            }
+            100% {
+               -webkit-transform: translateX(0);
+            }
+         }
+         
+         @keyframes bounceInLeft {
+            0% {
+               opacity: 0;
+               transform: translateX(-2000px);
+            }
+            60% {
+               opacity: 1;
+               transform: translateX(30px);
+            }
+            80% {
+               transform: translateX(-10px);
+            }
+            100% {
+               transform: translateX(0);
+            }
+         }
+         
+         .bounceInLeft {
+            -webkit-animation-name: bounceInLeft;
+            animation-name: bounceInLeft;
+         }
+
+.competences {
+	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: black;
+ 	padding: 10px;
+ 	margin-left: 5px;
+ 	margin-right: 5px;
+}
+
+.reseauxsociaux {
+	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: black;
+ 	padding: 10px;
+ 	margin-left: 5px;
+ 	margin-right: 5px;
+}
+
+
+#pro {
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 5px;
+}
+
+h5 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 13px;
+}
+
+#competences {
+	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: black;
+ 	padding: 10px;
+ 	margin-left: 5px;
+ 	margin-right: 5px;
+}
+
+h4 {
+	text-decoration: underline;
+}
+
+#experiences {
+	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: black;
+ 	padding: 10px;
+ 	margin-left: 5px;
+ 	margin-right: 5px;
+ }
+
+#formations {
+	border-width: 1px;
+ 	border-style: solid;
+ 	border-color: black;
+ 	padding: 10px;
+ 	margin-left: 5px;
+ 	margin-right: 5px;
+ }
+
+ .souligne {
+ 	text-decoration: underline;
+ }

@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="cv.css" type="text/css" ?>
+<!DOCTYPE cv SYSTEM "langage.dtd">
+<cv>
+
+<intitule>
+	Apprenti Developpeur Web 
+</intitule>
+
+<infoPerso>	
+	<identite>
+		<nom>CALVEZ Jean-Patrice</nom>
+		<age>40 ans</age>
+	</identite>
+	
+	<contact>
+		<adresse>2 rue de l'Orgerie 
+		</adresse>
+		<adresse> 35590 SAINT-GILLES
+		</adresse>
+		<telf>tél: 0299648294</telf>
+		<telp></telp>
+		<mail>jipee37@yahoo.fr</mail>
+	</contact>
+	
+	<complement>
+		<situation>célibataire,</situation>
+		<permis>Permis B</permis>
+	</complement>
+</infoPerso>
+
+<competence>
+	<type>fdhdjfgjg</type>
+</competence>
+
+
+
+
+
+
+
+
+
+
+
+</cv>

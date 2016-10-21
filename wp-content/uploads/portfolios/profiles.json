@@ -2,7 +2,7 @@
 	"FrontEnd": [
 		{
 			"NAME": "Nabil MASKALI",
-			"IMG": "img/img-apprenant/Nabil_small.JPG",
+			"IMG": "img/img-apprenant/bouqal_small.jpg",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
@@ -19,8 +19,8 @@
 		{
 			"NAME": "Floryan LOLLIVIER",
 			"IMG": "img/img-apprenant/Floryan_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["JS", "JS2"],
+			"INFO": "Développeur Web/Front-End Framework Bootstrap",
+			"SKILLS": ["HTML5 / CSS3", "AngularJS"],
 			"CV": "#",
 			"PORTFOLIO": "#"
 		},
@@ -35,41 +35,41 @@
 		{
 			"NAME": "Gaël VENTURIN",
 			"IMG": "img/img-apprenant/Gael_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["JS", "JS2"],
+			"INFO": "Dévelopeur Web/Front-end & Sérigraphiste",
+			"SKILLS": ["HTML5/CSS3", "Babylonjs"],
 			"CV": "#",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Lise POIRIER",
 			"IMG": "img/img-apprenant/Lise_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["JS", "JS2"],
+			"INFO": "Développeuse et graphiste spécialisée dans le Front, créative et passionnée.",
+			"SKILLS": ["HTML5 CSS3", "JS AngularJS"],
 			"CV": "#",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Ronald MARCEL",
 			"IMG": "img/img-apprenant/Ronald_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["JS", "JS2"],
+			"INFO": "Developpeur Web Front-end et Designer produit, Autodidacte, Créatif, passionné d'art et d'informatique.",
+			"SKILLS": ["HTML5-CSS3", "VanillaJS-AngularJS"],
 			"CV": "#",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Annie-Line LE CLAIR",
 			"IMG": "img/img-apprenant/Annie-line_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["JS", "JS2"],
+			"INFO": "Développeuse Web Front-end . Autodidacte, motivée et passionnée.",
+			"SKILLS": ["Bootstrap", "AngularJS"],
 			"CV": "#",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Latifa BOUMIZY",
 			"IMG": "img/img-apprenant/Latifa_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["JS", "JS2"],
-			"CV": "#",
+			"INFO": "Developpeuse Web Front End",
+			"SKILLS": ["HTML/CSS", "Angular"],
+			"CV": "../../cv/BOUMIZY_Latifa/index.html",
 			"PORTFOLIO": "#"
 		},
 		{
@@ -83,9 +83,9 @@
 		{
 			"NAME": "Jean-Patrice CALVEZ",
 			"IMG": "img/img-apprenant/Jean-Patrice_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["JS", "JS2"],
-			"CV": "#",
+			"INFO": "Développeur Front-end",
+			"SKILLS": ["Bootstrap", "JavaScript"],
+			"CV": "../../cv/CALVEZ_JeanPatrice/cv.xml",
 			"PORTFOLIO": "#"
 		}
 	],
@@ -93,41 +93,41 @@
 		{
 			"NAME": "Solène HUAULT",
 			"IMG": "img/img-apprenant/Solene_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["Symphony","Ruby"],
-			"CV": "#",
+			"INFO": "Développeuse Back-end, enthousiasmée depuis toujours par l’algorithmie",
+			"SKILLS": ["Symfony","Ruby"],
+			"CV": "../../cv/HUAULT_Solene/index.html",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Stéphane LE GALLIARD",
 			"IMG": "img/img-apprenant/Stephane_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["PHP","PHP2"],
+			"INFO": "Developper Web/Back-end Framework Symfony2",
+			"SKILLS": ["PHP","Symfony 2"],
 			"CV": "#",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Antoine LE GONIDEC",
 			"IMG": "img/img-apprenant/Antoine_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["PHP","PHP2"],
+			"INFO": "Gourou Linux & Développeur Web Back-End, autodidacte et passionné",
+			"SKILLS": ["PHP 7","Symfony 3"],
 			"CV": "#",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Rebecca MACCIO",
 			"IMG": "img/img-apprenant/Rebecca_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"INFO": "Développeuse Web/Back-End, débutante adorant l'esprit logique du back-end",
 			"SKILLS": ["PHP","PHP2"],
-			"CV": "#",
+			"CV": "../../cv/MACCIO_Rebecca/CV.xml",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Julien MALLE",
 			"IMG": "img/img-apprenant/JulienMalle_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["PHP","PHP2"],
-			"CV": "#",
+			"INFO": "Développeur Web/Front-End, autodidacte et passionné",
+			"SKILLS": ["HTML5 & CSS3","Javascript"],
+			"CV": "../../cv/MALLE_Julien/index.php",
 			"PORTFOLIO": "#"
 		},
 		{
@@ -135,47 +135,47 @@
 			"IMG": "img/img-apprenant/Abdul_small.JPG",
 			"INFO": "Développeur Web/Back-End  spécialisé dans le framework Symphony2",
 			"SKILLS": ["PHP 7","Symphony 2"],
-			"CV": "#",
+			"CV": "../../cv/RASHO_Abdulrahman/cv.xml",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Juliette SAINT JALME",
 			"IMG": "img/img-apprenant/Juliette_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["PHP","PHP2"],
+			"INFO": "Developpeuse Web, specialisée Back-End, ayant une reel appétence pour la  programmation",
+			"SKILLS": ["PHP","Symfony"],
 			"CV": "#",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Thomas SANCEO",
 			"IMG": "img/img-apprenant/Thomas_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["PHP","PHP2"],
+			"INFO": "Développeur Web, Blogueur, Autodidacte, Ancien Jujitsuka international",
+			"SKILLS": ["PHP7 / Symfony 3","Webmarketing"],
 			"CV": "#",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Valentin SUSSET",
 			"IMG": "img/img-apprenant/Valentin_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["PHP","PHP2"],
+			"INFO": "Développeur Web/Back-End  spécialisé dans le framework Symophny2",
+			"SKILLS": ["PHP","Symfony"],
 			"CV": "#",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Julien VAUPRE",
 			"IMG": "img/img-apprenant/JulienVaupre_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["PHP","PHP2"],
-			"CV": "#",
+			"INFO": "Developper Web back-end ,autodidacte et passionné",
+			"SKILLS": ["PHP POO","Symfony 2"],
+			"CV": "../../cv/VAUPRE_Julien/index.html",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Youness CHETOUI",
 			"IMG": "img/img-apprenant/Youness_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["PHP","PHP2"],
-			"CV": "#",
+			"INFO": "Développeur Web/Back-End, autodidacte et motivé",
+			"SKILLS": ["PHP","Symfony"],
+			"CV": "../../cv/CHETOUI_Youness/index.xml",
 			"PORTFOLIO": "#"
 		}
 	]

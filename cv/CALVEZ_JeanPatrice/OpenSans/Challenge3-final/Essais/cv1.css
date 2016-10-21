@@ -1,0 +1,84 @@
+contenant{
+background-color: lightblue;
+}
+
+
+cv{
+	width: 780px;
+	background-color: lightgreen;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 2px 4px 3px black;
+}
+
+*{
+	font-family: Calibri,Tahoma, sans-serif; 
+	display: block;	
+	margin :0;
+	padding: 0;
+}
+
+gtitre {
+	margin-top:10px;
+	font-size:25px;
+	text-align: center;
+	border:2px solid #3388BB;
+	width: 300px; /*s'applique au block*/
+	margin: auto;
+	border-radius: 10px;
+	color: #3388BB;
+}
+
+.infoPerso {
+	margin-top: 30px;
+	width:100%;
+	height: 160px;
+	margin-left: 10px;
+
+}
+
+identite{
+	margin-bottom: 15px;
+}
+
+nom {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+complement{margin-top: 7px;}
+
+formation, exPro, type, interet{ margin-top: 20px;}
+
+ptitre{
+	font-weight: bold;
+	color: #3388BB;
+	font-size: 20px;
+	border-bottom: 3px solid #3388BB;
+	margin-top: 30px;
+	text-transform: uppercase;
+}
+
+intitule, experience{
+margin-top: 15px;
+}
+
+nomf, annee, date, poste, entreprise, lieu, secteur, tache, type, contenu{
+display: inline-block; 
+font-size: 13pt;
+margin-left:10px;
+}
+
+annee, date, type {font-weight: bold;}
+
+tache{
+margin-left: 110px;
+font-style: italic;
+font-size: 14px;
+}
+
+type, interet{margin-top: 8px;}
+
+interet{margin-left: 10px;
+font-size: 13pt;
+}

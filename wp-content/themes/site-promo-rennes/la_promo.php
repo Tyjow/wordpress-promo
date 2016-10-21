@@ -33,6 +33,11 @@ shuffle($back);
 
 					<img class='img-responsive imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
 
+					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3>
+					<div class='box-link'>
+						<a href='". $elements['CV'] . "' class='btnCv'>CV</a>
+						<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>
+					</div>
 					<div class='infoBox'>
 						<h4>" . $elements['NAME'] . "</h4>
 						<p>" . $elements['INFO'] . "</p>
@@ -44,11 +49,6 @@ shuffle($back);
 						</div>
 					</div>
 
-					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3>
-					<div class='box-link'>
-						<a href='". $elements['CV'] . "' class='btnCv'>CV</a>
-						<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>
-					</div>
 				</div>";
 			}
 		?>
@@ -66,6 +66,11 @@ shuffle($back);
 
 					<img class='img-responsive imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
 
+					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3>
+					<div class='box-link'>
+						<a href='". $elements['CV'] . "' class='btnCv'>CV</a>
+						<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>
+					</div>
 					<div class='infoBox'>
 						<h4>" . $elements['NAME'] . "</h4>
 						<p>" . $elements['INFO'] . "</p>
@@ -77,11 +82,6 @@ shuffle($back);
 						</div>
 					</div>
 
-					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3>
-					<div class='box-link'>
-						<a href='". $elements['CV'] . "' class='btnCv'>CV</a>
-						<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>
-					</div>
 				</div>";
 			}
 		?>	
@@ -95,13 +95,24 @@ shuffle($back);
 
 <script>
 $(document).ready(function(){
+
     $('.imgApprenant').mouseover(function(){
-    	$(this).next().slideDown();
+    	$('.infoBox').each(function(){
+			$(this).slideUp();
+		});
+		if($(this).next().next().next().css("display") != 'none'){
+			$(this).next().next().next().slideUp();
+		}
+		else{
+    		$(this).next().next().next().slideDown();
+		}
+
     });  
 });
+/*
 $(document).ready(function(){
     $('.imgApprenant').mouseout(function(){
     	$(this).next().slideUp();
     });  
-});
+});*/
 </script>

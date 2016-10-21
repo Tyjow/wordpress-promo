@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+	font-family: 'Open Sans', sans-serif;
+	
+	background-color: #D8E1E8;
+}
+
+body{
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.container-fluid{
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+
+}
+h1{
+	text-align: center;
+}
+h3{
+	font-style: italic;
+	text-align: center;
+	border: 1px white solid;
+	height: 55px;
+	padding-top: 10px;
+	text-decoration:underline;
+}
+
+hr{
+	height: 2px;
+	
+}
+/* état civil */
+.col-md-5{
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+
+.nom {
+	display: block;
+	padding-left: 20px;
+}
+.nom i{
+	display: inline;
+}
+
+.photo{
+	background-image: url("moi.jpg");
+	height:200px;
+	width:200px;
+	background-repeat: no-repeat;
+	border-radius: 150px;
+	padding-top: 30px;
+	padding-left: 30px;
+	margin-left: 50px;
+}
+.photo:hover{
+	opacity:0.6;
+ 	color:#bf40bf;
+}
+
+/*  Phrase clé  */
+.phrasecle {
+	/*width: 320px;*/
+	text-align: justify;
+}
+
+/*  langages techniques*/
+.back{
+    float: right;
+}
+
+/*  Formations*/
+
+.col-md-7{
+	
+	
+	padding-top: 100px;
+}
+.formations {
+	display: inline-block;
+	
+}
+
+/*  */
+.xp {
+	display: inline-block;
+	
+	
+
+
+}
+
+/*  */
+.competences {
+	display: block;
+	
+}
+/*langues  */
+
+
+/*  loisirs */
+
+.loisirs {
+	display: block;
+	
+}
