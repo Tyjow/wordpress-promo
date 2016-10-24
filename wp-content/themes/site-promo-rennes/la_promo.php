@@ -34,10 +34,15 @@ shuffle($back);
 					<img class='imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
 
 					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3>
-					<div class='box-link'>
-						<a href='". $elements['CV'] . "' class='btnCv'>CV</a>
-						<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>
-					</div>
+					<div class='box-link'>";
+
+				if(!is_null($elements['CV']) && $elements['CV'] !== '#'){ 
+					echo "<a href='". $elements['CV'] . "' class='btnCv'>CV</a>";
+				} 
+				if(!is_null($elements['PORTFOLIO']) && $elements['PORTFOLIO'] !=='#'){ 
+				echo "<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>";
+				}
+				echo "</div>
 					<div class='infoBox'>
 						<h4>" . $elements['NAME'] . "</h4>
 						<p>" . $elements['INFO'] . "</p>
@@ -66,12 +71,14 @@ shuffle($back);
 
 					<img class='imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
 
-					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3>
-					<div class='box-link'>
-						<a href='". $elements['CV'] . "' class='btnCv'>CV</a>
-						<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>
-					</div>
-					<div class='infoBox'>
+					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3> <div class='box-link'>";
+					if(!is_null($elements['CV']) && $elements['CV'] !== '#'){ 
+						echo "<a href='". $elements['CV'] . "' class='btnCv'>CV</a>";
+					} 
+					if(!is_null($elements['PORTFOLIO']) && $elements['PORTFOLIO'] !=='#'){ 
+					echo "<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>";
+					}
+					echo "</div><div class='infoBox'>
 						<h4>" . $elements['NAME'] . "</h4>
 						<p>" . $elements['INFO'] . "</p>
 						<div class='progress'>

@@ -235,7 +235,10 @@ background-position: 0.5em center;
 background-repeat: no-repeat;
 }
 
-
+.row{
+    margin-left:0 !important;
+    margin-right:0 !important;
+}
 
 .front{
 border-right: 4px dashed rgba(147,126,144,0.5);
