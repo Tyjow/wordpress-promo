@@ -1,0 +1,126 @@
+doctype html
+html
+    head
+        meta(charset='utf8')
+        meta(language='FR')
+        meta(author='Ronald MARCEL')
+        link(href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet')
+        link(href='build/css/style.css' rel='stylesheet')
+        body
+            //MIXIN
+            mixin formation(what, where, details)
+                    .formation.col-lg-10.col-lg-offset-2
+                        .what.col-lg-12
+                            h3= what 
+                        .where.col-lg-12
+                            p= where
+                        .details.col-lg-12
+                            p= details
+                            
+            mixin experience( what, where, month, year, details)
+                    .experience.col-lg-10.col-lg-offset-1
+                        .intitule_experience.col-lg-9
+                            .what
+                                h3= what
+                            .where
+                                p.place= where
+                            .details
+                                p.desc= details
+                        .periode.col-lg-3.text-center
+                            .when
+                                span.month.col-lg-12= month
+                                span.year.col-lg-12= year
+            .wrapper.container-fluid
+                .page.row
+                    section.aboutme.col-lg-12
+                        .identity.col-lg-8
+                            //.graphic_identity.col-lg-4
+                                .container-photo
+                                    img
+                            .text_identity.col-lg-8
+                                .name.col-lg-12
+                                    h1 RONALD MARCEL
+                                .statut.col-lg-12
+                                    span Developpeur Front-End | Designer Produit
+                                .website.col-lg-12
+                                    span.www ronaldmarcel.com
+                        .info.col-lg-4.text-right
+                            .birth
+                                p 30 ans - 28/06/1986
+                            .phone
+                                p 06 84 18 69 59
+                            .email
+                                p ronald.marcel.mr@gmail.com
+                            .mobility
+                                p
+                            address.contact_details
+                                p 42 rue Louis Petri <br> 35200 RENNES
+                    section.formations.col-lg-6
+                        h2.col-lg-10.col-lg-offset-2 FORMATIONS
+                        +formation('Formation Developpeur Web Front-End :: Mai 2016','Code Academie[Simplon.co] - Rennes 35000', 'Developpement Web, Integration Web, Infographie')
+
+                        +formation('DSAA option Design Produit :: 2012 >> 2014','LAAB - Rennes 35000', 'Developpement Web , Integration Web, Infographie')
+
+                        +formation('BTS Design Produit :: 2009 >> 2010','Lycée Jean Monnet - Vendée 85500', 'Developpement Web, Integration Web, Infographie')
+
+                        //+formation('BTS Design Produit','Lycée Jean Duhamel - Dole 39000','2007-2019', 'Developpement Web, Integration Web, Infographie')
+
+                        +formation('Baccalauréat STI Arts Appliqués :: 2005 >> 2007','Lycée Rivière des Pères',' Developpement Web, Integration Web, Infographie')
+
+                        //+formation('Baccalauréat STI Génie Mécanique','Lycée Paul LACAVE','2002-2005', 'Developpement Web, Integration Web, Infographie')
+
+                    section.skills.col-lg-6
+                        h2 COMPÉTENCES
+                        ul.list_skills
+                            li HTML:5 - CSS:3
+                                .progress_bar
+                                    .progress.competent
+                            li BOOTSTRAP
+                            .progress_bar
+                                .progress.competent
+                            li PHP - MYSQL
+                                .progress_bar
+                                    .progress.advanced_beginner
+                            li JS - JQUERY
+                                .progress_bar
+                                    .progress.advanced_beginner
+                            li REACT.JS
+                                .progress_bar
+                                    .progress.novice
+                            li NODEJS
+                                .progress_bar
+                                    .progress.novice
+                            li JADE.JS/PUG.JS
+                                .progress_bar
+                                    .progress.advanced_beginner
+                            li WORDPRESS
+                                .progress_bar
+                                    .progress.advanced_beginner
+                            li BEHAT
+                                .progress_bar
+                                    .progress.novice
+                            li GIT
+                                .progress_bar
+                                    .progress.competent
+                            li BASH
+                                .progress_bar
+                                    .progress.advanced_beginner
+                            //li WORDPRESS
+                                .progress_bar
+                                    .progress.advanced_beginner
+                            //li BEHAT
+                                .progress_bar
+                                    .progress.novice
+                    section.experiences.col-lg-12
+                        h2.exp EXPÉRIENCES
+                        .block.col-lg-6
+                            +experience('Assistant Designer','Andy Martin Architects','Juin-Septembre' ,'2012', 'Conception mobilier et aménagement dinterieur')
+
+                            +experience('Collaboration Artisan | Designer','Chez Fluïd Création','Mars-Avril','2012', 'Conception mobilier et aménagement dinterieur')
+                        .block.col-lg-6
+                            +experience('Assistant stagiaire','Céramiste François QUESNEL','Juin','2011', 'Découverte du métier de céramiste')
+
+                            +experience('Stagiaire Graphiste','Créapub','Juin','2008', 'Conception flyer et carte de visites.')
+
+//                    section.loisirs.col-lg-12
+//                        h2.loisir LOISIRS

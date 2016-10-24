@@ -1,0 +1,318 @@
+/*commentaire*/
+@font-face {
+    font-family: "Forte";
+    font-family: "Agency FB";
+    font-family: "Ravie";
+    font-family: "Cooper Black";
+    font-family: "Courier New";
+    src: url(Forte.woff|Agency FB.woff|Ravie.woff|Cooper Black.woff|Courier New.woff);
+}
+
+/*  Effet 3D : 
+    text-shadow: 0px 2.5px 3px white;*/
+
+.cv {
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+}
+.presentation {
+    background-color: #e3e3e3;
+    -moz-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -webkit-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -o-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    color: #d3d3d3;
+    text-shadow: 1px 1px #fff,-1px -1px #444;
+    font-weight: bold;
+    font-size: 27px;
+    font-family: "Cooper Black","Courier New"; 
+    white-space: pre-line;
+    order: 1;
+    height: 30%;
+    width: 25%;
+    line-height: 1.6;
+    text-align: center;
+    margin: 10px 15px;
+}
+.a {
+    text-decoration: none;
+    color: #d3d3d3;
+    text-shadow: 1px 1px #fff,-1px -1px #444;
+}
+.a:hover {
+    text-decoration: none;
+    color: #b3b3b3;
+    text-shadow: 1px 1px #fff,-1px -1px #444;
+}
+.a:active {
+    text-decoration: none;
+    color: #959595;
+    text-shadow: 1px 1px #fff,-1px -1px #444;;    
+}
+
+ /*début d'animation du titre avec une image*/
+
+.titre {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    position: relative;
+    background: white;
+    color: #046380;
+    text-shadow: 5px 5px black, 8px 8px black;
+    font-family: "Ravie";
+    font-size: 70px;
+    text-align: center;
+    font-family: "Ravie";
+    order: 2;
+    width: 65%;
+    height: 20%;
+    padding-top: 5%;
+    margin: 2% 0%;
+}
+.titre:before {         
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(images/Developpeur-web2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.titre:hover, titre:focus, titre:active {
+    color: transparent;
+    text-shadow: none;
+}
+.titre:hover:before, titre:focus:before, titre:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/*fin d'animation du titre avec une image*/
+    
+.experience {
+    background-color: #333333;
+    -moz-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -webkit-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -o-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: 8px groove darkorange;
+    color: #02CEB3;
+    font-size: 30px;
+    font-family: "Agency FB";
+    font-weight: bold;
+    order: 3;
+    width: 50%;
+    padding: 0 2% 2% 2%;
+    margin: 0 1% 1% 2%;
+}
+.annee {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-family: "Agency FB";
+    font-weight: bold;
+}
+.fonction {
+    display: flex;
+    flex-direction: column;
+    font-family: "Cooper Black","Forte";
+    color: gray;
+    font-size: 25px;
+}
+.lieu {
+    float: right;
+    font-family: "Courier New";
+    color: dimgray;
+    font-size: 25px;
+    margin-top: 1%;
+}
+.formation {
+    background-color: #333333;
+    -moz-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -webkit-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -o-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: 8px groove darkorange;
+    color: #02CEB3;
+    font-size: 25px;
+    order: 5;
+    padding: 0 2% 1.5% 2%;
+    width: 35%;
+    margin-top: -24.5%;
+    margin-left: 56%;
+}
+.formation .annee {
+    display: flex;
+    flex-direction: column;
+    font-family: "Agency FB";
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding-bottom: 1vh;
+}
+.formation .intitule {
+    display: flex;
+    flex-direction: column;
+    font-family: "Cooper Black","Forte";
+    color: gray;
+    font-size: 25px;
+}
+.formation .lieu {
+    float: right;
+    font-family: "Courier New";
+    color: dimgray;
+    font-size: 25px;
+    margin-top: 2%;
+}
+.competence {
+    background-color: #333333;
+    -moz-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -webkit-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -o-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: 8px groove darkorange;
+    color: #02CEB3;
+    font-family: "Forte";
+    font-size: 25px;
+    white-space: pre-line;
+    order: 4;
+    padding: 2%;
+    width: 35%;
+    margin-right: 2%;
+}
+.hobbies {
+    background-color: #333333;
+    -moz-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -webkit-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -o-box-shadow: 5px 5px 25px 5px #9b9b9b;
+    box-shadow: 5px 5px 25px 5px #9b9b9b;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    border: 8px groove darkorange;
+    color: #02CEB3;
+    font-family: "Forte";
+    font-size: 25px;
+    order: 6;
+    padding: 2%;
+    width: 35%;
+    margin-top: -7.7%;
+    margin-left: 56%;
+}
+
+/* Résolution (1280px/600px) */
+
+@media screen and (min-width: 1280px) {
+    
+    .cv {
+        background: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 2vh;    
+    }
+    .presentation {
+        height: 30%;
+        width: 25%;
+        line-height: 1.7;
+        text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+        margin: 4vh 0 5vh;
+        text-shadow: 1px 1px #fff,-1px -1px #444;
+    }
+    
+    .titre {
+       font-size: 55px;
+       padding-top: 7vh;
+       margin: 4vh 0%;
+       width: 65%;
+       height: 18vh;
+       text-shadow: 5px 5px 5px rgba(0, 82, 255, 0.8);
+       
+    }
+    .experience {
+        font-size: 16px;
+        width: 45%;
+        padding-top: 2%;
+        padding-bottom: 3vh;
+        margin-bottom: 3%;
+        margin-left: 2vh;
+    }
+    .fonction {
+        display: flex;
+        flex-direction: column;
+        font-family: "Cooper Black","Forte";
+        color: gray;
+        font-size: 17px;
+    }
+    .lieu {
+        float: right;
+        font-family: "Courier New";
+        color: dimgray;
+        font-size: 15px;
+        margin-top: 2%;
+    }
+    .formation {
+        margin-top: -375px;
+        margin-left: 53%;
+        padding-top: 2%;
+        padding-bottom: 3vh;
+        font-size: 16px;
+    }
+    .formation .intitule {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .formation .lieu {
+        font-size: 15px;
+    }
+    .competence {
+        font-size: 16px;
+        font-family: "Courier New";
+        padding-top: 3vh;
+    }
+    .hobbies {
+        margin-top: -65px;
+        margin-left: 54%;
+        font-size: 16px;
+        padding: 2vh 4vh;
+    }
+}

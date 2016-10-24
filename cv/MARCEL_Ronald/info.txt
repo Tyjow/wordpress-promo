@@ -1,0 +1,103 @@
+                    2012-2014
+Préparation en DSAA Diplôme Supérieur des Arts Appliqués
+Master I
+LAAB
+Rennes (35)
+
+2009-2010
+BTS Design produit
+BAC +2
+Lycée Jean Monnet
+Herbiers (85)
+
+2007-2009
+BTS Design produit
+Niveau
+Lycée Jean Monnet
+Herbiers (85)
+
+2005-2007
+Baccalauréat STI Arts Appliqués
+BAC
+Lycée Rivière des Pères
+Basse-Terre, 971
+
+2002-2005
+Baccalauréat STI Génie Mécanique
+Niveau
+Lycée Paul LACAVE
+Basse-Terre, 971
+                section.experience
+
++formation('Formation Developpeur Front-End','Code Academie[Simplon.co]','2016', 'Developpement Web', 'Integration Web', 'Infographie')
+
++formation('DSAA option Design Produit','LAAB','2012-2014', 'Developpement Web', 'Integration Web', 'Infographie')
+
++formation('BTS Design Produit','Lycée Jean Monnet','2009-2010', 'Developpement Web', 'Integration Web', 'Infographie')
+
++formation('BTS Design Produit','Lycée Jean Duhamel','2007-2019', 'Developpement Web', 'Integration Web', 'Infographie')
+
++formation('Baccalauréat STI Arts Appliqués','Lycée Rivière des Pères','2005-2007', 'Developpement Web', 'Integration Web', 'Infographie')
+
++formation('Baccalauréat STI Génie Mécanique','Lycée Paul LACAVE','2002-2005', 'Developpement Web', 'Integration Web', 'Infographie')
+
+
+
+#
+#Expériences professionnels
+#
+
+#Vrai
+
+3 mois 
+Assistant designer
+Chez Andy Martin Architects 
+De juin 2012 à septembre 2012 
+
+Collaboration Artisan Designer
+Chez Fluïd Création
+De mars 2012 à avril 2012
+
+1 mois
+Assistant stagiaire du sculpteur modeleur céramiste François QUESNEL.
+Juin 2011
+
+2 mois                 
+Stagiaire Graphiste chez Créapub.
+Juin 2008  
+
+
+
++formation('Assistant Designer','Andy Martin Architects','De juin 2012 à septembre 2012', 'Conception mobilier et aménagement d'interieur', 'Integration Web', 'Infographie')
+
++formation('Collaboration Artisan | Designer','Chez Fluïd Création',' mars 2012 à avril 2012', 'Conception mobilier et aménagement d'interieur', 'Integration Web', 'Infographie')
+
++formation('Assistant stagiaire','sculpteur modeleur céramiste François QUESNEL','Juin 2011', 'Conception mobilier et aménagement d'interieur', 'Integration Web', 'Infographie')
+
++formation('Stagiaire Graphiste','Créapub','Juin 2008', 'Conception flyer et carte de visites', 'Integration Web', 'Infographie')
+
+#Taff de survie
+    Janvier 2015
+        Papa Pique et Maman Coud
+        Rennes (35)
+        Employé polyvalent - Déstockage (CDD)
+    
+    Aout 2014
+        Papa Pique et Maman Coud
+        Saint Philibert, 56
+        Employé polyvalent - Déstockage (CDD)
+    
+    Juin 2014
+        EspaceJOB
+        Rennes (35)
+        Opérateur de saisie (CDD)
+    
+    Décembre 2009
+        Picard
+        Ivry-sur-Seine, 94
+        Employé de mise en rayon produit alimentaire surgelé (CDD)
+    
+    Été 2004 à 2007
+        EspaceJOB
+        Petit Bourg (971)
+        Ouvrier pour un menuisier (Emploi saisonnier)

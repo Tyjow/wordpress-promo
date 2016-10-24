@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!--<!DOCTYPE CV SYSTEM "cv.dtd">-->
+	<?xml-stylesheet type="text/xsl" href="cv_lise.xsl"?>
+
+<page>
+	<section>
+		<article>
+			<identite>
+				<prenom>Lise</prenom>
+				<nom>Poirier</nom>
+				<naissance>12/06/1991</naissance>
+				<site>lise-poirier.fr</site>
+			</identite>
+		</article>
+
+		<article>
+			<formation>
+				<intitule>Formation Développeur Web</intitule>
+				<date>2017</date>
+				<ecole>FACE RENNES</ecole>
+			</formation>
+
+			<formation>
+				<intitule>LP Conception Graphique</intitule>
+				<date>2015</date>
+				<ecole>Université Rennes 2</ecole>
+			</formation>
+
+			<formation>
+				<intitule>Licence d'Arts Plastiques</intitule>
+				<date>2014</date>
+				<ecole>Université Rennes 2</ecole>
+			</formation>
+
+			<formation>
+				<intitule>Bac Pro AMA Com' Graphique</intitule>
+				<date>2010</date>
+				<ecole>St-Pierre-la-Joliverie</ecole>
+			</formation>
+		</article>
+
+		<article>
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Avril 2016</datedebut>
+				<datefin>Avril 2016</datefin>
+				<lieux>POINT-CARDINAL / RENNES</lieux>
+				<descriptif>> Réalisation des modifications
+de projets prints.
+> Création de communication
+pour l'entreprise Gourmet Catolard.
+> Réalisation de fiches recette,
+d'un flyer et d'un stop-rayon.
+Modification du Kakémono.</descriptif>
+			</experience>
+
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Septembre 2015</datedebut>
+				<datefin>à Décembre 2015</datefin>
+				<lieux>HÉMISPHÈRE 4 / RENNES</lieux>
+				<descriptif>> Création de logotypes
+pour des pharmacies du Grand Ouest.
+Pour chaque pharmacie,
+neuf propositions différentes
+étaient présentées aux clients.
+> Création de signalétique pour
+des pharmacies du Grand Ouest.
+Réalisation des maquettes
+de présentations à destinations
+du client. Mise en place de
+la communication externe
+des devantures
+et de la communication
+interne des pharmacies.</descriptif>
+			</experience>
+
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Juillet 2015</datedebut>
+				<datefin>à Aout 2015</datefin>
+				<lieux>POINT CARDINAL / RENNES</lieux>
+				<descriptif>> Création d'un visuel
+pour le stand 
+de l'entreprise Vétagri
+spécialisée en agroalimentaire.
+Mise en place de la communication
+de ses divers pôles d'actions.
+> Création de packaging
+à destinations de la grande
+consommation pour la Marque
+"La Grande Hermine".
+Réalisation d'un visuel sobre
+et efficace d'un pack de
+"filets de cabillaud".
+> Lifting du logtype de
+la compagnie des pêches.
+> Création d'un livret
+A4 / 16 pages pour la société Koppert.</descriptif>
+			</experience>
+
+			<experience>
+				<intitule>Graphiste Print</intitule>
+				<datedebut>Février 2015</datedebut>
+				<datefin>à Mars 2015</datefin>
+				<lieux>IMAGIC / RENNES</lieux>
+				<descriptif>> Création d'un logotype
+pour "Les Ruchers du Pays de Rennes".
+> Création d'une affiche pour
+la coupe de France
+de natation en eau libre.
+> Création d'une chemise d'accueil
+pour la société ACE.
+> Création d'une affiche publicitaire
+basé sur le Tour de France.
+L'objectif était de retransmettre
+cette vision du Tour de France
+pour la communication de grande
+surface à destinations
+des consommateurs
+de produits laitiers.</descriptif>
+			</experience>
+		</article>
+
+		<article>
+			<competence>
+				<random><titre>Gestion de projet</titre></random>
+				<random><titre>Organisation</titre></random>
+				<random><titre>Adaptabilité</titre></random>
+				<random><titre>Sens de l’analyse</titre></random>
+				<random><titre>Esprit d'équipe</titre></random>
+				<random><titre>Sens de la communication</titre></random>
+				<random><titre>Relation clientèle</titre></random>
+				<random><titre>Ouverture d'esprit</titre></random>
+				<random><titre>Esprit Créatif</titre></random>
+				<random><titre>Sens esthétique</titre></random>
+				<random><titre>Sens de la veille</titre></random>
+				<random><titre>Persévérance</titre></random>
+				<random><titre>Curiosité</titre></random>
+				<random><titre>Patience</titre></random>
+				<random><titre>Ponctualité</titre></random>
+				<random><titre>Disponibilité</titre></random>
+			</competence>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<custom> 
+				<autre><titre>Illustrator - 90%</titre></autre>
+				<autre><titre>Photoshop - 85%</titre></autre>
+				<autre><titre>Indesign - 75%</titre></autre>
+				<autre><titre>Wordpress - 40%</titre></autre>
+				<autre><titre>Gimp - 10%</titre></autre>
+				<autre><titre>HTML + CSS - 80%</titre></autre>
+				<autre><titre>Bootstrap - 75%</titre></autre>
+				<autre><titre>Responsive Design - 75%</titre></autre>
+			</custom>
+		</article>
+
+		<article>
+			<contact>
+				<adresse>
+					<rue> 5 allée du Tage
+35200 Rennes</rue>
+				</adresse>
+				<tel>06 52 84 43 53</tel>
+				<mail>lise.p.poirier@gmail.com</mail>
+			</contact>
+		</article>
+	</section>		
+</page>

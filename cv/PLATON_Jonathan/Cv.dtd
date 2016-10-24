@@ -1,0 +1,41 @@
+<!ELEMENT Cv (Personne, experience*, formation*, competence*, divers)>
+<!ELEMENT Personne (identite*, image?, section*)>
+<!ATTLIST Personne sexe (masculin|feminin) "masculin">
+<!ELEMENT identite (nom, prenom, age, date_de_naissance, adresse, telephone, mail, permis?, section*)>
+
+<!-- BALISE PERSONNALISEEE -->
+	<!ELEMENT section ANY>
+	<!ELEMENT p (#PCDATA)>
+
+<!-- IDENTITE -->
+		<!ELEMENT image EMPTY>
+		<!ELEMENT nom (#PCDATA)>
+		<!ELEMENT prenom (#PCDATA)>
+		<!ELEMENT age (#PCDATA)>
+		<!ELEMENT date_de_naissance (#PCDATA)>
+		<!ELEMENT adresse (#PCDATA)>
+		<!ELEMENT telephone (#PCDATA)>
+		<!ELEMENT mail (#PCDATA)>
+		<!ELEMENT permis (#PCDATA)>
+<!-- EXPERIENCE -->
+<!ELEMENT experience (poste*)>
+	<!ELEMENT date (#PCDATA)>
+	<!ELEMENT poste (date,entreprise, lieu, descriptif)>
+		<!ELEMENT entreprise (#PCDATA)>
+		<!ELEMENT lieu (#PCDATA)>
+		<!ELEMENT descriptif (#PCDATA)>
+
+<!-- FORMATION -->
+<!ELEMENT formation (date, intitule, organisme, lieu, niveau)>
+	<!ELEMENT intitule (#PCDATA)>
+	<!ELEMENT organisme (#PCDATA)>
+	<!ELEMENT niveau (#PCDATA)>
+
+<!-- COMPETENCE -->
+<!ELEMENT competence (langage*, niveau)>
+	<!ELEMENT langage (#PCDATA)>
+
+<!-- DIVERS -->
+<!ELEMENT divers (langue*, loisirs*)>
+	<!ELEMENT langue (#PCDATA)>
+	<!ELEMENT loisirs (#PCDATA)>

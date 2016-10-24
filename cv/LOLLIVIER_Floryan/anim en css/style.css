@@ -1,0 +1,173 @@
+/*index.css*/
+
+#container{width: 1024px; height : 1080px; background-color: yellow; }
+
+h1{text-align: center;color : lime;font-size : 80px;font-family: Times;}
+
+h2{color : red;font-size : 40px;  font-family: ;}
+
+
+body{
+    width:1000px;
+    height:1000px;
+	background-color: fuchsia;
+    font-family: ;
+    z-index:0
+}
+
+#globe{
+	font:5px Tahoma, Geneva, sans-serif;    /* Taille et police de caractère utilisées */
+    margin-bottom:1em;  /* Marge inférieure */
+	width : 1400px;
+	height: 1400px;
+	color: blue;
+	background-repeat:no-repeat;
+
+	background-image:url(images/MappedeLise.svg);
+	z-index: 1;
+}
+
+#presentation{
+	
+	width: 100%;
+	height: 200px;
+	background-color: blue;
+    z-index: 2;
+}
+/*--------------------------------------------------------------------*/
+
+.picture1 {
+    width: 100px;
+    height: 100px;
+    background-image: url("pic01.jpg");
+    position: absolute;
+    -webkit-animation-name: example1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3; /*nombre de fois,1,2,3 ... ou inifnite*/
+   /* animation-direction: reverse; /*ou alternate*/
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example1 {
+    0%   {background-image:url("pic01.jpg"); left:0px; top:0px;}
+    33%  {background-image:url("pic01.jpg"); left:400px; top:0px;}
+    66%  {background-image:url("pic01.jpg"); left:0px; top:600px;}
+    100%  {background-image:url("pic01.jpg"); left:350px; top:550px;}
+    /*100% {background-image:url("pic01.jpg"); left:0px; top:0px;}*/
+}
+
+/* Standard syntax */
+@keyframes example1 {
+    0%   {background-image:url("pic01.jpg"); left:0px; top:0px;}
+    33%  {background-image:url("pic01.jpg"); left:400px; top:0px;}
+    66%  {background-image:url("pic01.jpg"); left:0px; top:600px;}
+    100%  {background-image:url("pic01.jpg"); left:350px; top:550px;}
+    /*100% {background-image:url("pic01.jpg"); left:0px; top:0px;}*/
+}
+
+
+.picture2{
+	width: 100px;
+    height: 100px;
+    background-image: url("pic02.jpg");
+    position: absolute;
+    -webkit-animation-name: example2; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3; /*nombre de fois,1,2,3 ... ou inifnite*/
+    /*animation-direction: alternate; /*ou alternate*/
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example2 {
+    0%   {background-image:url("pic02.jpg"); left:0px; top:800px;}
+    33%  {background-image:url("pic02.jpg"); left:400px; top:0px;}
+    66%  {background-image:url("pic02.jpg"); left:800px; top:600px;}
+    100%  {background-image:url("pic02.jpg"); left:400px; top:550px;}
+    /*100% {background-image:url("pic02.jpg"); left:0px; top:200px;}*/
+}
+
+
+/* Standard syntax */
+@keyframes example2 {
+    0%   {background-image:url("pic02.jpg"); left:0px; top:800px;}
+    33%  {background-image:url("pic02.jpg"); left:400px; top:0px;}
+    66%  {background-image:url("pic02.jpg"); left:800px; top:600px;}
+    100%  {background-image:url("pic02.jpg"); left:400px; top:550px;}
+    /*100% {background-image:url("pic02.jpg"); left:0px; top:200px;}*/
+}
+
+.picture3{
+	width: 100px;
+    height: 100px;
+    background-image: url("pic03.jpg");
+    position: absolute;
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3; /*nombre de fois,1,2,3 ... ou inifnite*/
+    /*animation-direction: alternate; ou alternate*/
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example3 {
+    0%   {background-image:url("pic03.jpg"); left:0px; top:1200px;}
+    33%  {background-image:url("pic03.jpg"); left:400px; top:1200px;}
+    66%  {background-image:url("pic03.jpg"); left:0px; top:600px;}
+    100%  {background-image:url("pic03.jpg"); left:350px; top:500px;}
+    /*100% {background-image:url("pic03.jpg"); left:200px; top:0px;}*/
+}
+
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {background-image:url("pic03.jpg"); left:0px; top:1200px;}
+    33%  {background-image:url("pic03.jpg"); left:400px; top:1200px;}
+    66%  {background-image:url("pic03.jpg"); left:0px; top:600px;}
+    100%  {background-image:url("pic03.jpg"); left:350px; top:500px;}
+    /*100% {background-image:url("pic03.jpg"); left:200px; top:0px;}*/
+}
+
+.picture4{
+	width: 100px;
+    height: 100px;
+    background-image: url("pic03.jpg");
+    position: absolute;
+    -webkit-animation-name: example3; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example3;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 3; /*nombre de fois,1,2,3 ... ou inifnite*/
+    /*animation-direction: alternate; ou alternate*/
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example3 {
+    0%   {background-image:url("pic03.jpg"); left:800px; top:1200px;}
+    33%  {background-image:url("pic03.jpg"); left:400px; top:1200px;}
+    66%  {background-image:url("pic03.jpg"); left:800px; top:600px;}
+    100%  {background-image:url("pic03.jpg"); left:400px; top:600px;}
+    /*100% {background-image:url("pic03.jpg"); left:200px; top:0px;}*/
+}
+
+
+/* Standard syntax */
+@keyframes example3 {
+    0%   {background-image:url("pic03.jpg"); left:800px; top:1200px;}
+    33%  {background-image:url("pic03.jpg"); left:400px; top:1200px;}
+    66%  {background-image:url("pic03.jpg"); left:800px; top:600px;}
+    100%  {background-image:url("pic03.jpg"); left:400px; top:600px;}
+    /*100% {background-image:url("pic03.jpg"); left:200px; top:0px;}*/
+}

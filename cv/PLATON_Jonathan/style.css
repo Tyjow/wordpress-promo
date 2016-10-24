@@ -1,0 +1,356 @@
+Cv {
+width: 100%;
+height: 100%;
+margin: auto;
+background: linear-gradient(to bottom right, #b7b795, #e0e0d1);
+background-attachment: fixed;
+}
+
+* {
+font-family: "Raleway", sans-serif;
+}
+
+Personne {
+display: block;
+width: 75%;
+height: 70%;
+margin: auto;
+background-color: linear-gradient(to bottom right, #b7b795, #e0e0d1);
+animation-name: back;
+animation-duration: 4s;
+animation-delay: 5s;
+animation: back 8s infinite;
+border-radius: 50%;
+}
+
+@keyframes back {
+0 {background-color: linear-gradient(to bottom right, #b7b795, #e0e0d1);}
+50% {background-color: rgba(76, 76, 52, 0.4);}
+100% {background-color: linear-gradient(to bottom right, #b7b795, #e0e0d1);}
+}
+
+
+
+/*Personne:after {
+content: " (" attr(sexe) ")";
+}*/
+
+section:nth-child(2) identite {
+display: block;
+margin: 3% 0 2% 5%;
+padding: 5% 0 0 0;
+}
+
+section:nth-child(3) identite {
+display: block;
+margin: 0 0 2% 8%;
+padding: 2% 0 0 0;
+}
+
+section {
+display: block;
+width: 30%;
+height: 30%;
+}
+
+section:nth-child(1) {
+width: 75%;
+margin: auto;
+}
+
+Personne section:nth-child(1) {
+background: linear-gradient(to bottom right, #4c4c34, #80ffaa);
+border-radius: 15px 50px 30px;
+height: 20%;
+width: 100%;
+}
+
+experience section:nth-child(1) {
+background: linear-gradient(to bottom right, #4c4c34, #80ffaa);
+border-radius: 15px 50px 30px;
+height: 20%;
+width: 100%;
+}
+
+experience section:nth-child(2) {
+background-color: rgba(128, 255, 170, 0);
+width: 90%;
+height: 60%;
+margin: 5% 0 0 5%;
+border-radius: 0px 15px;
+}
+
+formation section:nth-child(1) {
+background: linear-gradient(to bottom right, #4c4c34, #80ffaa);
+border-radius: 15px 50px 30px;
+height: 20%;
+width: 100%;
+margin-top: 3%;
+}
+
+competence section:nth-child(1) {
+background: linear-gradient(to bottom right, #4c4c34, #80ffaa);
+border-radius: 15px 50px 30px;
+height: 20%;
+width: 100%;
+}
+
+divers section:nth-child(1) {
+background: linear-gradient(to bottom right, #4c4c34, #80ffaa);
+border-radius: 15px 50px 30px;
+height: 30%;
+width: 100%;
+}
+
+experience poste:nth-child(2) {
+display: block;
+margin: 5% 0 3% 0;
+}
+
+experience poste:nth-child(3) {
+display: block;
+margin: 5% 0 3% 0;
+}
+
+experience poste:nth-child(4) {
+display: block;
+margin: 5% 0 3% 0;
+}
+
+experience poste:nth-child(5) {
+display: block;
+margin: 5% 0 3% 0;
+}
+
+experience poste:nth-child(6) {
+display: block;
+margin: 5% 0 0 0;
+}
+
+section:nth-child(2) {
+float: left;
+margin: 5% 0 0 0;
+background: linear-gradient(to bottom right, #80ffaa, #4c4c34);
+width: 25%;
+height: 60%;
+border-radius: 0px 15px;
+}
+
+section:nth-child(3) {
+float: left;
+margin: 10% 0 0 2%;
+background: linear-gradient(to bottom right, #80ffaa, #4c4c34);
+width: 50%;
+border-radius: 0px 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+section:nth-child(4) {
+background-image: url(img/moi.jpg);
+background-size: cover;
+float: left;
+width: 20%;
+height: 50%;
+margin: 5% 0 0 2%;
+border-radius: 0px 15px;
+}
+
+
+Personne section p:nth-child(1) {
+display: block;
+font-size: 40px;
+font-weight: 600;
+margin: 0 0 0 32%;
+padding: 2% 0 0 0;
+width: 50%;
+}
+
+experience section p:nth-child(1) {
+display: block;
+font-size: 40px;
+font-weight: 600;
+margin: 0 0 0 25%;
+padding: 2% 0 0 0;
+width: 55%;
+}
+
+experience {
+display: block;
+width: 75%;
+height: 70%;
+margin: auto;
+margin-top: 5%;
+}
+
+experience date {
+font-weight: bold;
+}
+
+entreprise {
+margin: 0 0 0 10%;
+}
+
+experience lieu {
+margin: 0 0 0 5%;
+}
+
+descriptif {
+margin: 0 0 0 5%;
+}
+
+formation {
+display: block;
+width: 75%;
+height: 70%;
+margin: auto;
+background-color: linear-gradient(to bottom right, #b7b795, #e0e0d1);
+animation-name: back;
+animation-duration: 4s;
+animation-delay: 5s;
+animation: back 8s infinite;
+border-radius: 50%;
+}
+
+formation section p:nth-child(1) {
+display: block;
+font-size: 40px;
+font-weight: 600;
+margin: 0 0 0 40%;
+padding: 2% 0 0 0;
+width: 50%;
+}
+
+formation date {
+display: block;
+margin: 6% 0 0 0;
+font-weight: bold;
+}
+
+intitule {
+margin: 0 0 5% 10%;
+}
+
+organisme {
+margin: 0 0 0 5%;
+}
+
+formation lieu {
+margin: 0 0 0 5%;
+}
+
+formation niveau {
+margin: 0 0 0 5%;
+}
+
+competence {
+display: block;
+width: 75%;
+height: 70%;
+margin: auto;
+background-color: linear-gradient(to bottom right, #b7b795, #e0e0d1);
+animation-name: back;
+animation-duration: 4s;
+animation-delay: 5s;
+animation: back 8s infinite;
+border-radius: 50%;
+}
+
+competence section p:nth-child(1) {
+display: block;
+font-size: 40px;
+font-weight: 600;
+margin: 0 0 0 35%;
+padding: 2% 0 0 0;
+width: 50%;
+}
+
+competence section:nth-child(2) {
+margin: 10% 0 0 0;
+background: linear-gradient(to bottom right, #80ffaa, #4c4c34);
+width: 40%;
+height: 30%;
+border-radius: 0px 15px;
+}
+
+competence section:nth-child(3) {
+float: right;
+margin: 10% 0 0 0;
+background: linear-gradient(to bottom right, #80ffaa, #4c4c34);
+width: 40%;
+height: 30%;
+border-radius: 0px 15px;
+}
+
+langage {
+display: block;
+font-weight: 600;
+}
+
+langage:nth-child(1) {
+padding: 5% 0 0 20%;
+}
+
+langage:nth-child(3) {
+padding: 0 0 0 20%;
+}
+
+langage:nth-child(5) {
+padding: 0 0 0 20%;
+}
+
+competence niveau:nth-child(2) {
+padding: 0 0 0 50%;
+}
+
+competence niveau:nth-child(4) {
+padding: 0 0 0 50%;
+}
+
+competence niveau:nth-child(6) {
+padding: 0 0 0 50%;
+}
+
+divers {
+display: block;
+width: 75%;
+height: 50%;
+margin: auto;
+background-color: linear-gradient(to bottom right, #b7b795, #e0e0d1);
+animation-name: back;
+animation-duration: 4s;
+animation-delay: 5s;
+animation: back 8s infinite;
+border-radius: 50%;
+}
+
+divers section p:nth-child(1) {
+display: block;
+font-size: 40px;
+font-weight: 600;
+margin: 0 0 0 32%;
+padding: 2% 0 0 0;
+width: 50%;
+}
+
+divers section:nth-child(2) {
+float: right;
+background: linear-gradient(to bottom right, #80ffaa, #4c4c34);
+width: 40%;
+border-radius: 0px 15px;
+height: 40%;
+}
+
+langue {
+display: block;
+font-weight: 600;
+}
+
+langue:nth-child(1) {
+padding: 5% 0 5% 10%;
+}
+
+loisirs {
+padding: 0 0 0 10%;
+}

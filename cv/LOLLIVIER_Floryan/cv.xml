@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <?xml-stylesheet href="style.css" type="text/css" ?> -->
+<?xml-stylesheet type="text/xsl" href="cv.xsl"?> 
+<!DOCTYPE cv SYSTEM "cv.dtd"> 
+
+<cv xmlns:html="http://www.w3.org/1999/xhtml">
+   
+    <presentation>
+        <nom>LOLLIVIER</nom> <prenom>Florian</prenom>
+        <adresse>41 Square Charles Dullin</adresse>
+        <telephone>06.78.48.17.77</telephone>
+        <mail><html:a href="mailto:floryan.lollivier@gmail.com?">floryan.lollivier@gmail.com</html:a></mail>
+        <age>27 ans</age>
+    </presentation>
+    
+    <titre>Développeur Web Junior</titre>
+    
+    <experience> Expériences   
+        <boucle>  
+        <annee>2007 - 2009</annee>
+        <fonction>Agent de fabrication (1 an en intérim) – Effectuer un montage de produits agricoles sur ligne
+        </fonction>
+        <lieu>Entreprise Mailleux Acigné</lieu>
+        </boucle>
+        <boucle>
+        <annee>03/2010 - 04/2010</annee>
+        <fonction>Employé libre service (Stage 2 semaines) – Approvisionner les rayons et renseigner les clients.
+        </fonction>
+        <lieu>Supermarché G20 – Rennes</lieu>
+        </boucle>
+        <boucle>
+        <annee>04/2010</annee>
+        <fonction>Technicien de maintenance en Informatique (Stage 2 semaines) – Interventions sur les ordinateurs (hardwares/softwares)
+        </fonction>
+        <lieu>Entreprise SOLLEIL Rennes</lieu>
+        </boucle>
+        <boucle>
+        <annee>05/2010</annee>
+        <fonction>Infographiste (Stage 2 semaines) – Créer un site internet. Freelance Wootzee Rennes)
+        </fonction>
+        <lieu>Rennes</lieu>
+        </boucle>
+        <boucle>
+        <annee>05/2010 – 06/2010</annee>
+        <fonction>Infographiste (Stage 2 semaines) – Créer un site internet
+        </fonction>
+        <lieu>Entreprise IFSI – CHU Pontchaillou Rennes</lieu>
+        </boucle>
+        <boucle>
+        <annee>06/2011 - 11/2012</annee>
+        <fonction>Agent de fabrication et préparateur de commandes (18 mois en intérim) – Effectuer un montage de produits agricoles sur ligne et effectuer des préparations de colis
+        </fonction>
+        <lieu>Entreprise Mailleux Acigné</lieu>
+        </boucle>
+        <boucle>
+        <annee>08/2014 – 09/2014</annee>
+        <fonction>Technicien de maintenance en Informatique (Stage 2 semaines) Interventions sur les ordinateurs (hardwares/softwares)
+        </fonction>
+        <lieu>Entreprise AROBACE Rennes</lieu>
+        </boucle>
+    </experience>
+    
+    <formation> Formations
+        <boucle>
+        <annee>2005</annee>
+        <intitule>BEP Mécanique Automobile et Matériel</intitule>
+        <lieu>Redon – Lycée Marcel Callo</lieu>
+        </boucle>
+        <boucle>
+        <annee>2003</annee>
+        <intitule>Brevet des collèges</intitule>
+        <lieu>Pipriac – Collège St Joseph</lieu>
+        </boucle>
+    </formation>
+    
+    <langages>HTML / CSS / JS / PhP</langages>
+    
+    <competence> Compétences
+    
+        ∗ Capacité d'apprentissage
+        
+        ∗ Intelligence émotionnelle
+        
+        ∗ Intégrité à toute épreuve
+        
+        ∗ Capacité d'adaptation
+        
+        ∗ Esprit d'équipe
+        
+        ∗ Polyvalent
+        
+        ∗ Maturité
+
+    </competence>
+    
+    <hobbies>Astronomie / Gamer / Cinéma et Lecture (BD)</hobbies>
+    
+</cv>

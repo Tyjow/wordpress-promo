@@ -1,0 +1,62 @@
+@page {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+@media screen {
+	.printonly {
+		display: none !important;
+	}
+}
+@media print {
+	.screenonly {
+		display: none !important;
+	}
+	* {
+		color: #000 !important;
+	}
+	.container {
+		margin: 0;
+		padding: 0;
+	}
+	article {
+		padding: 0;
+	}
+	h2 {
+		font-size: 0.8rem !important;
+		font-weight: 400 !important;
+		text-decoration: underline;
+	}
+	h3 {
+		font-size: 0.8rem !important;
+	}
+	.whoami {
+		width: 100%;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-justify-content: space-between;
+		justify-content: space-between;
+		margin-bottom: 1rem;
+		padding-bottom: 0.5rem;
+		border-bottom: 0.5px solid;
+	}
+	.whoami article {
+		max-width: 50%;
+	}
+	.address {
+		padding: 0;
+		margin: 0 0 0.3rem 0;
+		border: none;
+	}
+	.presentation {
+		text-align: justify;
+	}
+	.work {
+		width: 60%;
+	}
+	.skills {
+		width: 40%;
+	}
+	.work a {
+		padding: 0;
+	}
+}

@@ -1,0 +1,376 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/*======================================*/
+/*=================BASE=================*/
+/*======================================*/
+
+body {
+    background-color: whitesmoke !important;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 0px !important;
+}
+
+.categories {
+    margin: 25px 0px 25px 0px;
+    height: 500px
+}
+
+a:hover {
+    color: whitesmoke !important;
+}
+
+
+/*======================================*
+/*================HEADER================*/
+/*======================================*/
+
+.fond_titre_cv {
+    background-color: #008080;
+    margin-bottom: 50px;
+    height: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/*==Titre CV - Web Dévellopeur==*/
+
+.titre_cv {
+    font-size: 1.8em;
+    color: #008080;
+    background-color: whitesmoke;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    padding: 3px;
+    width: 50% !important;
+    transform: rotate(0.1deg);
+}
+
+
+/*==Accroche====*/
+
+.accroche {
+    color: whitesmoke;
+    padding: 3px;
+    font-size: 1.5em;
+    background-color: #F4661B;
+    width: 60%;
+    margin: 0px;
+}
+
+
+/*==Description====*/
+
+.description {
+    color: #008080;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 80%;
+    background-color: whitesmoke;
+    font-size: 1em;
+}
+
+
+/*======================================*/
+/*==============CATÉGORIES==============*/
+/*======================================*/
+
+
+/*==Titre des catégories==*/
+
+.titre_h1 {
+    padding: 7px;
+    background-color: #008080;
+    font-size: 1.4em !important;
+    color: whitesmoke;
+    margin: 0px auto 0px auto;
+}
+
+
+/*==Sous-titres des catégories==*/
+
+.titre_h4 {
+    background-color: #F4661B;
+    font-size: 1.2em;
+    color: whitesmoke;
+    margin: 0px;
+    margin-bottom: 8px;
+    padding: 5px;
+    margin: 0px auto 0px auto;
+}
+
+
+/*======================================*
+/*==============ARTICLES================*/
+/*======================================*/
+
+
+/*==CSS des articles==*/
+
+.container_article {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #97DFC6;
+    height: 450px;
+}
+
+.container_article:hover {
+    background-color: #C29FC3;
+    transition-duration: 2s;
+}
+
+.container_scroll {
+    font-family: "Roboto";
+    background-color: #97DFC6;
+    height: 450px;
+}
+
+.container_scroll:hover {
+    background-color: #C29FC3;
+    transition-duration: 2s;
+}
+
+.scroolbar {
+    overflow-y: scroll;
+}
+
+
+/*======================================*/
+/*==============IDENTITÉ================*/
+/*======================================*/
+
+
+/*==CSS de identité==*/
+
+.prenom {
+    width: 50%;
+    font-size: 4em;
+    padding: 2px;
+    color: whitesmoke;
+    background-color: #008080;
+    transform: rotate(0.3deg);
+}
+
+.nom {
+    font-size: 4em;
+    padding: 2px;
+    width: 60%;
+    color: whitesmoke;
+    background-color: #F4661B;
+    transform: rotate(-0.3deg);
+}
+
+.naissance {
+    font-size: 1.5em;
+    padding: 2px;
+    width: 40%;
+    background-color: #008080;
+    color: whitesmoke;
+}
+
+.site {
+    font-size: 2em;
+    padding: 2px;
+    width: 63%;
+    color: whitesmoke;
+    background-color: #F4661B;
+    transform: rotate(-0.3deg);
+}
+
+.site a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+/*======================================*/
+/*==============COMPÉTENCE==============*/
+/*======================================*/
+
+.competences {
+    width: 230px;
+    padding: 2px;
+    font-size: 1.2em;
+    color: whitesmoke;
+    background-color: #008080;
+    margin: 20px auto -10px auto;
+}
+
+
+/*======================================*/
+/*============EXPÉRIENCE================*/
+/*======================================*/
+
+.intitule {
+    width: 75%;
+    padding: 2px;
+    font-size: 1.4em;
+    color: whitesmoke;
+    background-color: #F4661B;
+    margin: 20px auto 0px auto;
+}
+
+.datedebut {
+    font-size: 1em;
+    width: 50%;
+    padding: 2px;
+    margin: 0px auto 2px auto;
+    background-color: #008080;
+    color: whitesmoke;
+    transform: rotate(0.5deg);
+}
+
+.datefin {
+    font-size: 1em;
+    width: 55%;
+    padding: 2px;
+    margin: 2px auto 0px auto;
+    background-color: #008080;
+    color: whitesmoke;
+}
+
+.lieux {
+    width: 75%;
+    padding: 2px;
+    color: whitesmoke;
+    font-size: 1.2em;
+    background-color: #F4661B;
+    margin: auto !important;
+}
+
+.descriptif {
+    padding: 8px;
+    width: 90%;
+    font-size: 1.2em;
+    background-color: whitesmoke;
+    white-space: pre;
+    color: #008080;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+/*======================================*/
+/*==============FORMATION===============*
+/*======================================*/
+
+.formation {
+    color: whitesmoke;
+    font-size: 1.3em;
+    background-color: whitesmoke;
+    color: #008080;
+    width: 75%;
+    padding: 2px;
+    margin: 20px auto 0px auto;
+}
+
+.date {
+    font-size: 1em;
+    width: 50%;
+    padding: 2px;
+    background-color: #F4661B;
+    color: whitesmoke;
+    transform: rotate(0.5deg);
+    margin: auto;
+}
+
+.ecole {
+    font-size: 1.2em;
+    width: 60%;
+    padding: 2px;
+    background-color: #008080;
+    color: whitesmoke;
+    margin: auto;
+}
+
+
+/*======================================*/
+/*===============TECHNOS================*/
+/*======================================*/
+
+.autre {
+    width: 75%;
+    padding: 2px;
+    text-align: center;
+    font-size: 18px;
+    color: whitesmoke;
+    background-color: #008080;
+}
+
+
+/*======================================*/
+/*==============CONTACTS================*/
+/*======================================*/
+
+.adresse {
+    width: 65%;
+    padding: 2px;
+    font-size: 1.5em;
+    color: whitesmoke;
+    background-color: #F4661B;
+    white-space: pre;
+    margin: 0px;
+}
+
+.tel {
+    width: 60%;
+    padding: 2px;
+    font-size: 1.4em;
+    background-color: #008080;
+    transform: rotate(0.5deg);
+    color: whitesmoke;
+    margin: 0px;
+}
+
+.mail {
+    width: 85%;
+    padding: 2px;
+    font-size: 1.5em;
+    color: whitesmoke;
+    background-color: #F4661B;
+    transform: rotate(0.5deg);
+    margin: 0px;
+}
+
+
+/*======================================*/
+/*================FOOTER================*
+/*======================================*/
+
+.footer {
+    margin-top: 50px;
+}
+
+
+/*======================================*/
+/*==============SCROOLBAR================*/
+/*======================================*/
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #c6c6c6;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #6bbeaa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #54a292;
+}

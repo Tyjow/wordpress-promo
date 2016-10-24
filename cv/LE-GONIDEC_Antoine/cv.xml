@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CV SYSTEM "dtd/cv.dtd">
+<?xml-stylesheet href="xsl/cv.xsl" type="text/xsl"?>
+
+<page>
+
+	<intitule>
+		<nom>
+			Antoine Le Gonidec
+		</nom>
+		<poste>
+			Développeur Web/mobile
+		</poste>
+	</intitule>
+
+	<contact>
+		<adresse>
+			<rue>
+				4, rue François-Désiré Roulin
+			</rue>
+			<codepostal>
+				35 700
+			</codepostal>
+			<ville>
+				Rennes
+			</ville>
+			<pays>
+				France
+			</pays>
+		</adresse>
+		<email>
+			vv221@dotslashplay.it
+		</email>
+		<telephone>
+			02 56 51 55 70
+		</telephone>
+	</contact>
+
+	<presentation>
+		<paragraphe>
+			Développeur autodidacte et passionné, actuellement impliqué dans un
+			projet de développement logiciel (non lucratif), je cherche un emploi
+			durable dans le domaine du Web.
+		</paragraphe>
+	</presentation>
+
+	<reseau>
+		<description>
+			GitHub
+		</description>
+		<lien>
+			https://github.com/vv221/
+		</lien>
+		<image>
+			img/github.png
+		</image>
+	</reseau>
+	<reseau>
+		<description>
+			LinkedIn
+		</description>
+		<lien>
+			https://www.linkedin.com/in/antoine-le-gonidec-b49296122
+		</lien>
+		<image>
+			img/linkedin.png
+		</image>
+	</reseau>
+	<reseau>
+		<description>
+			./play.it
+		</description>
+		<lien>
+			http://wiki.dotslashplay.it/
+		</lien>
+		<image>
+			img/playit.png
+		</image>
+	</reseau>
+
+	<experience>
+		<titre>
+			Facteur
+		</titre>
+		<structure>
+			La Poste
+		</structure>
+		<lien>
+			https://www.laposte.fr/
+		</lien>
+		<image>
+			img/laposte.png
+		</image>
+		<date>
+			d’avril 2012 à décembre 2013
+		</date>
+		<lieu>
+			Chatelaudren (22, France)
+		</lieu>
+	</experience>
+
+	<experience>
+		<titre>
+			Employé agricole
+		</titre>
+		<structure>
+			WWOOF India
+		</structure>
+		<lien>
+			http://www.wwoofindia.org/
+		</lien>
+		<image>
+			img/wwoof.png
+		</image>
+		<date>
+			de février 2012 à mars 2012
+		</date>
+		<lieu>
+			Karnataka (Inde)
+		</lieu>
+	</experience>
+
+	<experience>
+		<titre>
+			Employé agricole / Paysagiste
+		</titre>
+		<structure>
+			WWOOF Australia
+		</structure>
+		<lien>
+			http://www.wwoof.com.au/
+		</lien>
+		<image>
+			img/wwoof.png
+		</image>
+		<date>
+			de décembre 2011 à février 2012
+		</date>
+		<lieu>
+			New South Wales et Queensland (Australie)
+		</lieu>
+	</experience>
+
+	<experience>
+		<titre>
+			Bûcheron / Employé agricole
+		</titre>
+		<structure>
+			WWOOF Canada
+		</structure>
+		<lien>
+			http://www.wwoof.ca/
+		</lien>
+		<image>
+			img/wwoof.png
+		</image>
+		<date>
+			d’octobre 2011 à décembre 2011
+		</date>
+		<lieu>
+			Ontario, Saskatchewan et British Columbia (Canada)
+		</lieu>
+	</experience>
+
+	<formation>
+		<titre>
+			Code Académie
+		</titre>
+		<structure>
+			Fondation Agir Contre l’Exclusion
+		</structure>
+		<lien>
+			http://face.bzh/
+		</lien>
+		<image>
+			img/face.png
+		</image>
+		<date>
+			depuis mai 2016, en cours
+		</date>
+		<paragraphe>
+			Formation de développeur Web/mobile
+		</paragraphe>
+		<lieu>
+			Rennes (35)
+		</lieu>
+	</formation>
+
+	<formation>
+		<titre>
+			Baccalauréat Scientifique
+		</titre>
+		<structure>
+			lycée Jean XXIII
+		</structure>
+		<lien>
+			https://www.jean23-quintin.net/
+		</lien>
+		<image>
+			img/jean23.png
+		</image>
+		<date>
+			juin 2008
+		</date>
+		<paragraphe>
+			Spécialité Mathématiques
+		</paragraphe>
+		<lieu>
+			Quintin (22)
+		</lieu>
+	</formation>
+
+	<competence>
+		<titre>
+			Développement Web
+		</titre>
+		<item>
+			<paragraphe>
+				XML, HTML5, XHTML
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				CSS3
+			</paragraphe>
+			<detail>
+				Bootstrap
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				JavaScript
+			</paragraphe>
+			<detail>
+				VanillaJS, jQuery
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				PHP
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				SQL
+			</paragraphe>
+			<detail>
+				MySQL, MariaDB
+			</detail>
+		</item>
+	</competence>
+
+	<competence>
+		<titre>
+			Développement
+		</titre>
+		<item>
+			<paragraphe>
+				Git
+			</paragraphe>
+			<detail>
+				Github
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Shell POSIX
+			</paragraphe>
+		</item>
+	</competence>
+
+	<competence>
+		<titre>
+			Administration
+		</titre>
+		<item>
+			<paragraphe>
+				Systèmes GNU/Linux
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				Systèmes Microsoft Windows
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				Serveur Web
+			</paragraphe>
+			<detail>
+				nginx
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Serveur mail
+			</paragraphe>
+			<detail>
+				sendmail, postfix, dovecot
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Serveur FTP
+			</paragraphe>
+			<detail>
+				vsftp
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Serveur SSH
+			</paragraphe>
+			<detail>
+				OpenSSH
+			</detail>
+		</item>
+	</competence>
+
+	<competence>
+		<titre>
+			Langues
+		</titre>
+		<item>
+			<paragraphe>
+				Français maternel
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				Anglais lu, écrit, parlé
+			</paragraphe>
+		</item>
+	</competence>
+
+	<loisir>
+		<titre>
+			Lecture
+		</titre>
+		<item>
+			<paragraphe>
+				Science-Fiction
+			</paragraphe>
+			<detail>
+				I. Asimov, F. Herbert, D. Simmons
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Uchronie
+			</paragraphe>
+			<detail>
+				P. K. Dick, J. Fforde
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Fantasy
+			</paragraphe>
+			<detail>
+				T. Pratchett
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Policier
+			</paragraphe>
+			<detail>
+				A. C. Doyle, A. Christie
+			</detail>
+		</item>
+	</loisir>
+
+	<loisir>
+		<titre>
+			Musique
+		</titre>
+		<item>
+			<paragraphe>
+				Guitariste
+			</paragraphe>
+			<detail>
+				blues, jazz manouche, traditionnel celtique
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Bassiste
+			</paragraphe>
+			<detail>
+				blues, rock, funk
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				Chant choral
+			</paragraphe>
+			<detail>
+				baryton et basse
+			</detail>
+		</item>
+	</loisir>
+
+	<loisir>
+		<titre>
+			Jeux Vidéo
+		</titre>
+		<item>
+			<paragraphe>
+				RTS
+			</paragraphe>
+			<detail>
+				Age of Empires, Warzone 2100, Dawn of War
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				RPG
+			</paragraphe>
+			<detail>
+				Planescape: Torment, Shadowrun Returns, Morrowind
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				4X
+			</paragraphe>
+			<detail>
+				Alpha Centauri
+			</detail>
+		</item>
+	</loisir>
+
+	<loisir>
+		<titre>
+			Voyages
+		</titre>
+		<item>
+			<paragraphe>
+				Bénévolat
+			</paragraphe>
+			<detail>
+				de préférence chez des particuliers
+			</detail>
+		</item>
+	</loisir>
+
+	<loisir>
+		<titre>
+			Sport
+		</titre>
+		<item>
+			<paragraphe>
+				Kayak
+			</paragraphe>
+		</item>
+		<item>
+			<paragraphe>
+				Voile sportive
+			</paragraphe>
+			<detail>
+				catamaran, Laser, planche à voile
+			</detail>
+		</item>
+		<item>
+			<paragraphe>
+				V.T.T.
+			</paragraphe>
+		</item>
+	</loisir>
+
+</page>

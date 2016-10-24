@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<?xml-stylesheet type="text/css" href="https://fonts.googleapis.com/css?family=Raleway"?>
+<?xml-stylesheet type="text/xsl" href= "Cv.xsl"?>
+
+<Cv>
+<Personne sexe="masculin">
+	<section>
+		<p>Développeur Web</p>
+	</section>
+	<section>
+		<identite>
+			<nom>Platon</nom>
+		</identite>
+		<identite>
+			<prenom>jonathan</prenom>
+		</identite>
+		<identite>
+			<age>28 ans</age>
+		</identite>
+		<identite>
+			<adresse>10 Square Docteur Fernand Jacques, 35200 Rennes</adresse>
+		</identite>
+		<identite>
+			<telephone>07.68.84.40.24</telephone>
+		</identite>
+		<identite>
+			<mail>platon.jonathan@gmail.com</mail>
+		</identite>
+	</section>
+	<section>Mon objectif est d’évoluer dans le domaine du numérique.
+Mon point fort étant mon très grand professionnalisme.</section>
+	<section></section>
+</Personne>
+
+<experience>
+	<section>
+		<p>Expériences</p>
+	</section>
+	<section>
+		<poste>
+			<date>2014-2016</date>
+			<entreprise>SMS Capcom Holding</entreprise>
+			<lieu>Rennes </lieu>
+			<descriptif>Vendeur à domicile indépendant</descriptif>
+		</poste>
+		<poste>
+			<date>2012-2014</date>
+			<entreprise>Mc Donald's</entreprise>
+			<lieu>Pacé </lieu>
+			<descriptif>Equipier formateur polyvalent</descriptif>
+		</poste>
+		<poste>
+			<date>2009-2012</date>
+			<entreprise>Missions intérims</entreprise>
+			<lieu>Rennes </lieu>
+			<descriptif>Manutentionnaire, travaux d’isolation, secondes oeuvres</descriptif>
+		</poste>
+		<poste>
+			<date>2008-2009</date>
+			<entreprise>Carrard Services</entreprise>
+			<lieu>Rennes </lieu>
+			<descriptif>Agent d'entretien</descriptif>
+		</poste>
+		<poste>
+			<date>2006-2008</date>
+			<entreprise>Actual Computer</entreprise>
+			<lieu>Rennes </lieu>
+			<descriptif>Stagiaire d'apprentissage, montage de PC</descriptif>
+		</poste>
+	</section>
+</experience>
+
+<formation>
+	<section>
+		<p>Formations</p>
+	</section>
+		<date> 2016</date>
+		<intitule>Developpeur Web / mobile</intitule>
+		<organisme>FACE</organisme>
+		<lieu> Rennes</lieu>
+		<niveau>Niveau - Bac+2</niveau>
+		<date>2004</date>
+		<intitule>Métier de l'électrotechnique</intitule>
+		<organisme>Lycée Jean Jaurès</organisme>
+		<lieu>Rennes</lieu>
+		<niveau>Niveau - BEP</niveau>
+		<date> 2003</date>
+		<intitule>Brevet des collèges</intitule>
+		<organisme>Collège des Hautes-Ourmes</organisme>
+		<lieu>Rennes</lieu>
+		<niveau>Niveau - Brevet</niveau>
+</formation>
+
+<competence>
+	<section>
+		<p>Compétences</p>
+	</section>
+	<section>
+		<langage>HTML HTML5/ CSS CSS3</langage>
+		<niveau>Intermédiaire</niveau>
+		<langage>JS</langage>
+		<niveau>Débutant</niveau>
+		<langage>PHP</langage>
+		<niveau>Débutant</niveau>
+	</section>
+	<section></section>
+</competence>
+
+<divers>
+	<section>
+		<p>Loisirs</p>
+	</section>
+	<section>
+		<langue>Anglais : Notion</langue>
+		<loisirs>Jeux vidéos, Composition de musique assisté par ordinateur (MAO)</loisirs>
+	</section>
+</divers>
+
+</Cv>

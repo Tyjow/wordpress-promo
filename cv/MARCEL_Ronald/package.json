@@ -1,0 +1,25 @@
+{
+  "name": "curriculum_vitae",
+  "version": "1.0.0",
+  "description": "mon cv en Html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonaldM-/Curriculum-vitae.git"
+  },
+  "author": "Mcdot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RonaldM-/Curriculum-vitae/issues"
+  },
+  "homepage": "https://github.com/RonaldM-/Curriculum-vitae#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

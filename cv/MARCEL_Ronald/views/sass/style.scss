@@ -1,0 +1,183 @@
+//Font Google
+@import 'https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Oswald:300,400,700|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
+
+//VARIABLES
+$title: Oswald, sans-serif;
+$default: Raleway, sans-serif;
+$subtitle: Dosis, sans-serif;
+$saumon: #FA4444;
+$gray: #666666;
+$heart: #EAE6E3;
+$small_font: 12px;
+//ProgressBar
+$novice: 15%;
+$advanced_beginner: 25%;
+$competent: 50%;
+$expert: 90%;
+$color:red;
+
+//#e95325;
+//Mixins
+@mixin progress-per-cent($status){
+    width: $status;
+}
+//Styles
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: $default;
+    font-weight: normal;
+    //background-color: aqua;
+}
+.wrapper{
+    height: auto;
+}
+.page{
+    min-height: 100%;
+    height: auto !important;
+    width: 960px;
+    background-color: $heart;
+    margin:{
+        left: auto;
+        right: auto;
+        }
+}
+ul, li,{
+    text-decoration: none;
+    list-style: none;
+}
+h1{
+    font-family: $title;
+    font-weight: 300;
+}
+h2,h3,h4{
+    font-family: $subtitle;
+    font-weight: normal;
+    color: black;
+}
+h2{
+    font-size: 25px;
+    font-weight: 300;
+}
+h3{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    color: $saumon;
+}
+.exp, .loisir{
+    margin-left: 89px;
+}
+p, li{
+    font-size: $small_font;
+}
+p{
+    color: dimgray;
+}
+.place{
+    color: lightgray!important;
+}
+.desc{
+    margin: 0;
+}
+div.date{
+    margin-top: 18px;
+    font-size: 13px;
+}
+.graphic_identity {
+    background-color: black;
+    height-min: 100%;
+    height: 100%!important;
+}
+.container-photo{
+    border-radius: 50%;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+.intitule_experience {
+    border-right: 1px solid black;
+}
+.experience{
+        background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.first_box{
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+/* FORMATIONS */
+.formation{
+    padding-left: 0%;
+}
+.infos{
+    padding-left: 0px;
+    list-style: disc;
+  li{
+      display: block;
+      list-style: disc; 
+      margin-right: 5px;
+    }
+}
+/* PROGRESS BAR */
+.progress_bar {
+    display: block;
+    height: 8px;
+    width: 300px;
+    position: relative;
+    background: white;
+ .progress{
+    display:block;
+    height: 100%;
+    position: absolute;
+    border-radius: 0px;
+    background-color: #f28518;
+ }
+}
+
+.novice{
+    @include progress-per-cent($novice)
+}
+.advanced_beginner{
+    @include progress-per-cent($advanced_beginner)
+}
+.competent{
+    @include progress-per-cent($competent)
+}
+.expert{
+    @include progress-per-cent($expert)
+}
+.periode{
+    padding:{
+        top:25px;
+        right: 0;
+        left: 0;
+    }
+}
+.month{
+    padding: 0;
+    font-size: 10px;
+} 
+
+.year{
+    padding: 0;
+    font-size: 20px;
+}
+.info{
+    padding:{
+        top: 26px;
+        right: 110px;
+    }
+}
+.identity{
+    padding-left: 60px;
+}

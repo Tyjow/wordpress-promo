@@ -1,0 +1,30 @@
+<!DOCTYPE CV [
+<!ELEMENT page (intitule?, contact?, presentation?, liens?, experience*, formation*, competence*, loisir*)>
+	<!ELEMENT intitule (nom, poste)>
+		<!ELEMENT nom (#PCDATA)>
+		<!ELEMENT poste (#PCDATA)>
+	<!ELEMENT contact (adresse, email, telephone)>
+		<!ELEMENT adresse (rue, codepostal, ville, pays)>
+			<!ELEMENT rue (#PCDATA)>
+			<!ELEMENT codepostal (#PCDATA)>
+			<!ELEMENT ville (#PCDATA)>
+			<!ELEMENT pays (#PCDATA)>
+		<!ELEMENT email (#PCDATA)>
+		<!ELEMENT telephone (#PCDATA)>
+	<!ELEMENT presentation (paragraphe*)>
+		<!ELEMENT paragraphe (#PCDATA)>
+	<!ELEMENT reseau (description, lien, image)>
+		<!ELEMENT description (#PCDATA)>
+		<!ELEMENT lien (#PCDATA)>
+		<!ELEMENT image (#PCDATA)>
+	<!ELEMENT experience (titre, structure, lien, image, date, paragraphe*, lieu)>
+		<!ELEMENT titre (#PCDATA)>
+		<!ELEMENT structure (#PCDATA)>
+		<!ELEMENT date (#PCDATA)>
+		<!ELEMENT lieu (#PCDATA)>
+	<!ELEMENT formation (titre, structure, lien, image, date, paragraphe*, lieu)>
+	<!ELEMENT competence (titre, item*)>
+		<!ELEMENT item (paragraphe, detail)>
+			<!ELEMENT detail (#PCDATA)>
+	<!ELEMENT loisir (titre, item*)>
+]>

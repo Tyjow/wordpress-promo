@@ -1,0 +1,143 @@
+/* import des polices */
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Open Sans"), local("OpenSans"), url("../fonts/OpenSans.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url(../fonts/OpenSans-Semibold.ttf) format("truetype");
+}
+
+/* structure du document */
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+header {
+	width: 100%;
+	padding: 1.5rem 5%;
+}
+h1 small {
+	display: block;
+}
+.container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+	justify-content: space-around;
+	padding: 4rem 5% 0;
+}
+.work {
+	padding-right: 1rem;
+}
+.skills {
+	padding-left: 1rem;
+}
+article {
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+p {
+	max-width: 600px;
+	margin: 0;
+}
+h2 {
+	margin: 0 0 0.5rem 0;
+}
+h3 {
+	margin: 0 0 0.25rem 0;
+}
+.address {
+	margin-bottom: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid;
+}
+.network a *,
+.work a * {
+	display: inline;
+	vertical-align: middle;
+}
+.network a {
+	display: block;
+	margin: 0.5rem 0;
+}
+.work a {
+	display: inline-block;
+	padding: 0.3rem;
+	transition: background-color 0.2s;
+}
+.skills ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* style des polices */
+html {
+	font-family: 'Open Sans', sans;
+}
+h1 {
+	font-size: 2rem;
+	font-weight: 400;
+}
+.container {
+	font-size: 0.8rem;
+}
+a {
+	text-decoration: none;
+}
+.whoami h3 {
+	font-size: 0.8rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.work h2,
+.skills h2 {
+	font-size: 1.2rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.work h3,
+.skills h3 {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.skills ul {
+	list-style: none;
+}
+
+/* couleurs */
+header, .whoami article {
+	background-color: #00b2b2;
+}
+.container {
+	background-color: #f2f2f2;
+}
+.work article,
+.skills article {
+	background-color: #fff;
+}
+.work a:hover {
+	background-color: #ddd;
+}
+.container, .container a {
+	color: #333;
+}
+header, .whoami, .whoami a {
+	color: #fff;
+}
+.work h2,
+.skills h2 {
+	color: #00b2b2;
+}
+.work h3,
+.skills h3 {
+	color: #ff5e00;
+}

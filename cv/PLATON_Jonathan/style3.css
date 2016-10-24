@@ -1,0 +1,309 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:400,300,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #fff;
+}
+
+* {
+	font-family: "Open Sans";
+}
+
+.container {
+	width: 994px;	
+	box-shadow: 1px 1px 7px #aaa;
+	background-color: #f2f2f2;
+	margin: auto;
+}
+
+@media print {
+	.nav-link {
+		display: none;
+	}
+
+	#mail-link {
+		display: none;
+	}
+
+	/*#bloc-mail {
+		position: absolute;
+		top: 520px;
+		left: 181px;
+		color: #515253;
+		font-size: 14px;
+		background-color: #dededf;
+		font-weight: 300;
+		padding: 12px 10px 12px 10px;
+		visibility: visible;
+	}*/
+}
+
+header {
+	padding: 20px 0;
+	background-color: #302e2c;
+	color: #fff;
+	margin: auto;
+}
+
+.nom {
+    display: inline;
+    padding: 0 0 0 100px;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.prenom {
+    display: inline;
+    padding: 0 0 0 10px;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.titre {
+	padding: 0 0 0 100px;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.nav-link {
+	background-color: #47d147;
+	padding: 5px 0;
+	color: #fff;
+	margin-bottom: 35px;
+}
+
+.vertical-list {
+	display: block;
+	padding: 0 0 0 90px;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.list {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.list a {
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 12px;
+}
+
+.list a:hover {
+	border-bottom: 5px solid #29a329;
+}
+
+.content {
+	width: 994px;
+	display: flex;
+}
+
+/**** Left content ****/
+
+.left-content {
+	width: 250px;
+}
+
+.photo {
+	padding: 15px 5px;
+	width: 220px;
+	background-color: #e8e8e9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.photo img {
+	width: 200px;
+}
+
+.bloc {
+	margin-top: 10px;
+	width: 230px;
+	background-color: #e8e8e9;
+}
+
+h3 {
+	color: #47d147;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 0;
+}
+
+.size-vingt {
+	font-size: 20px !important;
+	padding-right: 5px;
+}
+
+.widget-element {
+	padding: 10px 10px 10px 10px;
+	background-color: #dededf;
+	color: #515253;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#mail-link:hover {
+	background-color: #47d147;
+	color: #fff;
+	cursor: pointer;
+}
+
+#bloc-mail {
+	position: absolute;
+	top: 525px;
+	left: -300px;
+	color: #515253;
+	font-size: 14px;
+	background-color: #dededf;
+	font-weight: 300;
+	padding: 12px 6px 12px 7px;
+	transition: all 0.50s;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.50s;
+}
+
+.i-close {
+	background-color: #800080;
+	color: #fff;
+	padding: 3px 3px 3px 3px;
+	border-radius: 2px;
+	margin: 0 0 0 23px; 
+	cursor: pointer;
+}
+
+.soc-link:hover {
+	background-color: #47d147;
+	color: #fff;
+	cursor: pointer;
+}
+
+.infos-text {
+	color: #515253;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+}
+
+/**** Mid content ****/
+
+.main-content {
+	width: 450px;
+	margin: 0 20px 0 0;
+}
+
+.widget-content {
+	margin: 0 0 30px 0;
+}
+
+.widget-title {
+	font-size: 20px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+.mid-content {
+	background: white;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-size: 20px;
+	margin: 0 0 3px 0;
+	padding: 0;
+	font-weight: 300;
+	color: #302e2c;
+}
+
+h5 {
+	display: block;
+	color: #9d9fa0;
+	padding-bottom: 0px;
+	font-weight: 300;
+	font-size: 12px;
+	margin: 0 0 10px 0;
+}
+
+.text-content {
+	font-weight: 300;
+	font-size: 14px;
+	padding: 0;
+	margin: 12px 0 0 0;
+	color: #515253;
+}
+
+.li-marg {
+	margin-left: 15px;
+}
+
+.town {
+	border-top: 1px solid #e6e6e6;
+	margin: 10px 0 0 0;
+	padding: 10px 0 0 0;
+}
+
+.town-target {
+	background: #e6e6e6;
+	font-size: 12px;
+	color: #7a7a7a;
+	padding: 2px 4px;
+	font-weight: 300;
+}
+
+.town-marg {
+	margin: 0 5px 0 0;
+}
+
+/**** Right content ****/
+
+
+.right-content {
+	width: 250px;
+}
+
+.remove {
+	padding: 0;
+	margin: 0;
+}
+
+.marg-bot {
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-top: 0;
+	position: relative;
+}
+
+.more-bot {
+	padding-bottom: 10px;
+}
+
+.list-skill {
+	padding: 0 70px 0 0;
+}
+
+.level {
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 14px !important;
+	color: #800080;
+}
+
+.star-pad {
+	padding: 0 1px;
+}
+
+.grey-o {
+	color: #aaa;
+}

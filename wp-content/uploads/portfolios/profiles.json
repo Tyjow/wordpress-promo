@@ -13,7 +13,7 @@
 			"IMG": "img/img-apprenant/Jonathan_small.JPG",
 			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
 			"SKILLS": ["Vanilla JS", "Jquery"],
-			"CV": "https://tyjow.github.io/",
+			"CV": "../../cv/PLATON_Jonathan/Cv.xml",
 			"PORTFOLIO": "https://tyjow.github.io/"
 		},
 		{
@@ -21,8 +21,8 @@
 			"IMG": "img/img-apprenant/Floryan_small.JPG",
 			"INFO": "Développeur Web/Front-End Framework Bootstrap",
 			"SKILLS": ["HTML5 / CSS3", "AngularJS"],
-			"CV": "#",
-			"PORTFOLIO": "#"
+			"CV": "../../cv/LOLLIVIER_Floryan/cv.xml",
+			"PORTFOLIO": "https://floryanl.github.io/"
 		},
 		{
 			"NAME": "Abdelghaffar ARRAB",
@@ -45,7 +45,7 @@
 			"IMG": "img/img-apprenant/Lise_small.JPG",
 			"INFO": "Développeuse et graphiste spécialisée dans le Front, créative et passionnée.",
 			"SKILLS": ["HTML5 CSS3", "JS AngularJS"],
-			"CV": "#",
+			"CV": "../../cv/POIRIER_Lise/index.xml",
 			"PORTFOLIO": "#"
 		},
 		{
@@ -53,7 +53,7 @@
 			"IMG": "img/img-apprenant/Ronald_small.JPG",
 			"INFO": "Developpeur Web Front-end et Designer produit, Autodidacte, Créatif, passionné d'art et d'informatique.",
 			"SKILLS": ["HTML5-CSS3", "VanillaJS-AngularJS"],
-			"CV": "#",
+			"CV": "../../cv/MARCEL_Ronald/index.html",
 			"PORTFOLIO": "#"
 		},
 		{
@@ -111,7 +111,7 @@
 			"IMG": "img/img-apprenant/Antoine_small.JPG",
 			"INFO": "Gourou Linux & Développeur Web Back-End, autodidacte et passionné",
 			"SKILLS": ["PHP 7","Symfony 3"],
-			"CV": "#",
+			"CV": "../../cv/LE-GONIDEC_Antoine/cv.xml",
 			"PORTFOLIO": "#"
 		},
 		{
@@ -143,7 +143,7 @@
 			"IMG": "img/img-apprenant/Juliette_small.JPG",
 			"INFO": "Developpeuse Web, specialisée Back-End, ayant une reel appétence pour la  programmation",
 			"SKILLS": ["PHP","Symfony"],
-			"CV": "#",
+			"CV": "../../cv/SAINT-JALME_Juliette/cv.html",
 			"PORTFOLIO": "#"
 		},
 		{
