@@ -699,3 +699,36 @@ input[type=submit]:focus {
 	background-color: #fff;
 	box-shadow: 0px 1px 2px #000;
 }
+.mentions_legales{
+    position: fixed;
+    width: 50vw;
+    height: 80vh;
+    z-index: 10;
+    margin: 0 25vw;
+    background-color: whitesmoke;
+    color:black;
+    top: 4em;
+    display:none;
+    border: 3px solid #009b9d;
+    z-index: 10;
+    overflow: scroll;
+}
+.mentions_legales_menu{
+    
+    
+    height:10%;
+    width:100%;
+    background-color:#009b9d;
+    background-image: url("img/close.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 1em 1em;
+    text-align: center;
+    font-size: 2em;
+}
+.mentions{
+    cursor: pointer;
+}
+.mentions_legales > p{
+    pagging:1em;
+}

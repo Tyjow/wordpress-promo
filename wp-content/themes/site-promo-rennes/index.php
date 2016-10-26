@@ -41,7 +41,7 @@ Il s'agit d'une formation qui permet l'apprentissage du développement web/mobil
 Spécialement orientée vers les travaux pratiques, cette formation permet la réalisation de nombreux projets professionnels, en relation directe avec des entreprises. 
 
 Ainsi l'apprentissage des bases du développement web,et des langages tels que HTML5/CSS3, Javascript et PHP se déroule avec de réelles contraintes techniques en lien avec les demandes des clients.
-La réalisation de ces projets professionnels, favorise le travail en équipe et permet  donc, d’une part,  de familiariser les apprenant.e.s à  différentes méthodes de travail, dont le <em>pair programming</p>em> ou la méthode <em>Agile</em>, notamment en mode <em>SCRUM</em>.
+La réalisation de ces projets professionnels, favorise le travail en équipe et permet  donc, d’une part,  de familiariser les apprenant.e.s à  différentes méthodes de travail, dont le <em>pair programming</ em> ou la méthode <em>Agile</em>, notamment en mode <em>SCRUM</em>.
 Mais Cela leur permet donne d’autre part aussi  l’opportunité d'expérimenter le développement collaboratif avec des outils tels que Git/GitHub. 
 
 La seconde partie de formation est axée sur une spécialisation, ainsi chaque apprenant.e a la possibilité d'approfondir ses connaissances dans son secteur, que ce soit :

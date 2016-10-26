@@ -116,7 +116,7 @@
 		},
 		{
 			"NAME": "Rebecca MACCIO",
-			"IMG": "img/img-apprenant/Rebecca_small.JPG",
+			"IMG": "img/img-apprenant/RebeccaMaccio_small.png",
 			"INFO": "Développeuse Web/Back-End, débutante adorant l'esprit logique du back-end",
 			"SKILLS": ["PHP","PHP2"],
 			"CV": "../../cv/MACCIO_Rebecca/CV.xml",
@@ -156,7 +156,7 @@
 		},
 		{
 			"NAME": "Valentin SUSSET",
-			"IMG": "img/img-apprenant/Valentin_small.JPG",
+			"IMG": "img/img-apprenant/Valentin_small.jpg",
 			"INFO": "Développeur Web/Back-End  spécialisé dans le framework Symophny2",
 			"SKILLS": ["PHP","Symfony"],
 			"CV": "#",
