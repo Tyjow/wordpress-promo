@@ -87,6 +87,14 @@
 			"SKILLS": ["Bootstrap", "JavaScript"],
 			"CV": "../../cv/CALVEZ_JeanPatrice/cv.xml",
 			"PORTFOLIO": "#"
+		},
+		{
+			"NAME": "Julien MALLE",
+			"IMG": "img/img-apprenant/JulienMalle_small.JPG",
+			"INFO": "Développeur Web/Front-End, autodidacte et passionné",
+			"SKILLS": ["HTML5 & CSS3","Javascript"],
+			"CV": "../../cv/MALLE_Julien/index.php",
+			"PORTFOLIO": "#"
 		}
 	],
 	"BackEnd": [
@@ -119,15 +127,7 @@
 			"IMG": "img/img-apprenant/RebeccaMaccio_small.png",
 			"INFO": "Développeuse Web/Back-End, débutante adorant l'esprit logique du back-end",
 			"SKILLS": ["PHP","PHP2"],
-			"CV": "../../cv/MACCIO_Rebecca/CV.xml",
-			"PORTFOLIO": "#"
-		},
-		{
-			"NAME": "Julien MALLE",
-			"IMG": "img/img-apprenant/JulienMalle_small.JPG",
-			"INFO": "Développeur Web/Front-End, autodidacte et passionné",
-			"SKILLS": ["HTML5 & CSS3","Javascript"],
-			"CV": "../../cv/MALLE_Julien/index.php",
+			"CV": "../../cv/MACCIO_Rebecca/CV.html",
 			"PORTFOLIO": "#"
 		},
 		{

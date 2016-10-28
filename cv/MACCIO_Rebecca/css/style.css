@@ -1,0 +1,516 @@
+/* --------- TOUT LE DOCS --------- */
+
+/*couleur
+gris : #2C272A;
+rose : #E9E2E7;
+
+*/
+
+
+
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lora'), local('Lora-Regular'), url(https://fonts.gstatic.com/s/lora/v9/4vqKRIwnQQGUQQh-PnvdMA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+	background-color: #2C272A;
+	font-family: Lora, serif;
+	padding-right: 0px;
+}
+
+
+.separation {
+	height: 20px;
+}
+
+/* --------- NAV --------- */
+.navbar-right{
+	margin-right: 15px;
+}
+
+nav ul li{
+	margin-right: 10px;
+}
+
+nav ul li a {
+	font-size: 20px;
+}
+
+nav ul li a:hover {
+	font-size: 20px;
+	color: #2C272A !important;
+}
+
+nav ul li:hover{
+	background-color: #E9E2E7;
+	margin-right: 10px;
+	color: #2C272A;
+}
+
+.corps {
+	padding: 10px;
+}
+
+
+
+/* --------- CSS ZONE IMAGE --------- */
+
+.fondrose{
+	background-color: #E9E2E7;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+
+/* --------- CV --------- */
+/* latin */
+
+
+.curiculum {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.rowCV{
+	background-color: #E9E2E7;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+p {
+	font-size: 15px;
+}
+
+
+
+/*1er colone*/
+.colone1 {
+	background-color: #2C272A;
+	color: white;
+}
+/*format des info perso*/
+
+.nom {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.detailsInfoPerso {
+	font-size: 18px;
+}
+
+.detailsInfoPerso a {
+	text-decoration: none;
+	cursor: pointer;
+	color: white;
+}
+
+.annee {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*format des competences*/
+
+.titreCv{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: white;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+
+/*format des div pourcentage*/
+
+.quatreVingt {
+	width: 80%;
+    height: 20px;
+    background-color: #E7C1D6;
+    text-align: center;
+    color: #2C272A;
+    margin-bottom: 7px;
+}
+
+.soixanteDix {
+	width: 70%;
+    height: 20px;
+    background-color: #E7C1D6;
+    text-align: center;
+    color: #2C272A;
+    margin-bottom: 7px;
+}
+
+.soixante {
+	width: 60%;
+    height: 20px;
+    background-color: #E7C1D6;
+    text-align: center;
+    color: #2C272A;
+    margin-bottom: 7px;
+}
+
+.cinquante {
+	width: 50%;
+    height: 20px;
+    background-color: #E7C1D6;
+    text-align: center;
+    color: #2C272A;
+    margin-bottom: 7px;
+}
+
+.trente {
+	width: 35%;
+    height: 20px;
+    background-color: #E7C1D6;
+    text-align: center;
+    color: #2C272A;
+    margin-bottom: 7px;
+	}
+
+
+/*Colone 2*/
+
+.colone2 {
+	background-color: #E9E2E7;
+	color: #2C272A;
+}
+
+/*format des experiences*/
+
+.titreExpPro{
+	text-align: center;
+}
+
+.PresExpPro {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+.poste {
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.date {
+	float: left;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: italic;
+	margin-top: 0px;
+}
+
+.lieu {
+	float: right;
+	margin-left: 30px;
+	margin-right: 30px;
+	font-size: 18px;
+	margin-top: 0px;
+}
+
+.entreprise {
+	float: right;
+	font-size: 17px;
+	margin-top: 0px;
+}
+
+@media (max-width: 750px){
+	.date, .lieu, .entreprise, .poste {
+		float: initial;
+		display: block;
+		margin: 0px;
+	}
+}
+
+.tache {
+	margin-left: 25px;
+}
+
+.immo {
+	padding-right: 0px;
+}
+
+
+/* --------- FOOTER --------- */
+footer {
+	height: 50px;
+	background-color: #2C272A;
+	color: #FFFFFF;
+}
+
+.icons {
+	height: 30px;
+	width: 30px;
+	margin: 15px 30px 10px 0px;
+}
+.contact {
+	text-align: center;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.impression{
+	border-top: 1px solid #E9E2E7;
+	border-right: 1px solid #E9E2E7;
+	cursor: pointer;
+}
+
+.pContact{
+display: inline;
+}
+
+.contact a {
+ text-decoration:none; 
+ color: #FFFFFF;
+}
+
+.contact a:hover {
+ text-decoration:none; 
+ color: #FFFFFF;
+}
+
+.lienContact{
+	margin-top: 20px;
+}
+
+p{
+	margin-top: 10px;
+}
+
+
+
+
+
+
+/*VERSION PRINT*/
+
+@media print {
+
+	body {
+		-webkit-print-color-adjust: exact;
+		-webkit-print-color-adjust: economy | exact
+	}
+
+	.separation {
+		height: 0px !important;
+	}
+
+	p {
+		margin: 2px 2px !important;
+		font-size: 14px !important;
+	}
+
+	h2 {
+		font-size: 13px !important;
+		text-align: center;
+		margin-top: 27px;
+	}
+
+	
+	.rowCV{
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	.colone1, .colone2 {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+
+	/*1er colone*/
+	.colone1 {
+		text-align: left;
+		width: 40%;
+		color: white;
+	}
+	/*format des info perso*/
+
+	.nom {
+		font-size: 12px;
+		font-weight: initial;
+		margin-top: 22px !important;
+		margin-bottom: 2px !important;
+		text-decoration: none;
+	}
+
+	
+
+	.detailsInfoPerso a {
+		text-decoration: none;
+		cursor: pointer;
+		color: white;
+	}
+	.situation{
+		display :none;
+	}
+
+	.annee {
+		font-weight: initial;
+		margin: 2px 2px;
+	}
+
+	/*format des div pourcentage*/
+
+	.quatreVingt {
+		width: 80%;
+		font-size: 12px;
+		border: 1px solid grey !important;
+	    height: 20px;
+	    background-color: #BF9FBF !important;
+	    text-align: center;
+	    color: #2C272A !important;
+	    margin-bottom: 5px;
+	    padding-top: 2px;
+	}
+
+	.soixanteDix {
+		width: 70%;
+		font-size: 12px;
+		border: 1px solid grey !important;		
+	    height: 20px;
+	    background-color: #BF9FBF !important;
+	    text-align: center;
+	    color: #2C272A !important;
+	    margin-bottom: 5px;
+	    padding-top: 2px;
+	}
+
+	.soixante {
+		width: 60%;
+		font-size: 12px;
+		border: 1px solid grey !important;		
+	    height: 20px;
+	    background-color: #BF9FBF !important;
+	    text-align: center;
+	    color: #2C272A !important;
+	    margin-bottom: 5px;
+	    padding-top: 2px;
+	}
+
+	.cinquante {
+		width: 50%;
+		font-size: 12px;
+		border: 1px solid grey !important;		
+	    height: 20px;
+	    background-color: #BF9FBF !important;
+	    text-align: center;
+	    color: #2C272A !important;
+	    margin-bottom: 5px;
+	    padding-top: 2px;
+	}
+
+	.trente {
+		width: 35%;
+		font-size: 12px;
+		border: 1px solid grey !important;		
+	    height: 20px;
+	    background-color: #BF9FBF !important;
+	    text-align: center;
+	    color: #2C272A !important;
+	    margin-bottom: 5px;
+	    padding-top: 2px;
+	}
+
+
+
+	/*format des competences*/
+
+	.titreCv{
+		font-size: 16px !important;
+		margin-bottom: 5px;
+		font-weight: initial;
+	}
+
+	h3 {
+		font-size: 16px;
+		font-weight: initial;
+		margin-top: 12px;
+	}
+
+	/*Colonne 2*/
+
+	.colone2 {
+		width: 57%;
+		color: #2C272A;
+	}
+
+	/*format des experiences*/
+
+	.titreExpPro{
+		font-size: 22px !important;
+		font-weight: 800px !important;
+	}
+
+	.expPro {
+		margin-top: 15px;
+		margin-bottom: 0px;
+	}
+
+	.poste {
+		float: initial;
+		font-size: 16px;
+		font-weight: initial;
+		margin: 5px 0px !important;
+		display:block;
+		border-bottom: 1px solid !important;
+	}
+
+	
+	.date {
+		float: left;
+		font-size: 11px !important;
+		margin : 5px 0px !important;
+	}
+
+	.lieu {
+		float: left;
+		font-size: 11px !important;
+		margin : 5px 0px 5px 15px !important;
+
+
+	}
+
+	.entreprise {
+		font-size: 11px !important;
+		margin: 5px 0px !important;
+
+
+	}
+
+	.tache {
+		margin-left: 5px;
+	}
+
+	.immo {
+		padding-right: 0px;
+	}
+
+
+
+
+	/*footer*/
+	footer{
+		display: none;
+	}
+}
+
+
+
+
