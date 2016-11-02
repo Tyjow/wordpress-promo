@@ -71,7 +71,7 @@ body {
 }
 
 #aside img {
-	width: 50%;
+	width: 80%;
 	height: auto;
 	display: block;
 	margin: 10px auto 10px auto;
@@ -92,6 +92,12 @@ body {
 #aside p {
 	padding: 2px;
 	margin-left: 15px;
+}
+
+
+#aside ul  {
+	list-style: none;
+	padding-left: 15px;
 }
 
 #aside a {
@@ -121,7 +127,7 @@ body {
 	}
 
 	#aside img {
-		width: 30%;
+		width: 70%;
 	}
 }
 
@@ -146,12 +152,28 @@ body {
 		color: #000!important;
 	}
 
-	/* display url after the link */
-	.link[href]:after {
-		content: " (" attr(href) ")";
+	h2 {
+		margin-bottom: 0px;
 	}
 
-	.competence {
-		flex-direction: column;
+	h3 {
+		margin-top: 5px;
 	}
+	
+	.name {
+		margin-top: 30px;
+	}
+
+	#aside img {
+		margin-top: 20px;
+	}
+
+	#content img {
+		display: none;
+	}
+
+	/* display url after the link */
+	/*.link[href]:after {
+		content: " (" attr(href) ")";
+	}*/
 }
