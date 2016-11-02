@@ -19,9 +19,9 @@
         <div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html57f4c1ac08aac-1" class="wysija-msg ajax"></div><form id="form-wysija-html57f4c1ac08aac-1" method="post" action="#wysija" class="widget_wysija html_wysija">
         <p class="wysija-paragraph">
             <label><span class="wysija-required"></span></label>
-                <input type="text" placeholder="Votre émail" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" title="E-mail"  value="" /> </br>
+                <input type="text" placeholder="Votre email" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" title="E-mail"  value="" /> </br>
             <label><span class="abs-req"</span></label>
-                <input type="text" placeholder="Valider votre émail" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
+                <input type="text" placeholder="Valider votre email" name="wysija[user][abs][email]" class="wysija-input validated[abs][email]" value="" />
 
         </p>
         <input class="wysija-submit wysija-submit-field" type="submit" value="Je m'abonne !" />
