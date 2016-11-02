@@ -143,8 +143,8 @@
 			"IMG": "img/img-apprenant/Juliette_small.JPG",
 			"INFO": "Developpeuse Web, specialisée Back-End, ayant une reel appétence pour la  programmation",
 			"SKILLS": ["PHP","Symfony"],
-			"CV": "../../cv/SAINT-JALME_Juliette/cv.html",
-			"PORTFOLIO": "#"
+			"CV": "https://juliette3529.github.io/projets/StJalme_Juliette_CV/cv.html",
+			"PORTFOLIO": "https://juliette3529.github.io/"
 		},
 		{
 			"NAME": "Thomas SANCEO",
