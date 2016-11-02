@@ -6,7 +6,7 @@
 <?php get_header(); ?>
 
 <?php
-$string = file_get_contents("../wordpress-promo/wp-content/uploads/portfolios/profiles.json", FILE_USE_INCLUDE_PATH);
+$string = file_get_contents("./wp-content/uploads/portfolios/profiles.json", FILE_USE_INCLUDE_PATH);
 $brut = json_decode($string, true);
 $front = $brut["FrontEnd"];
 $back = $brut["BackEnd"];
@@ -36,12 +36,18 @@ shuffle($back);
 					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3>
 					<div class='box-link'>";
 
-				/*if(!is_null($elements['CV']) && $elements['CV'] !== '#'){ */
+				if(!is_null($elements['CV']) && $elements['CV'] !== '#'){ 
 					echo "<a href='". $elements['CV'] . "' class='btnCv'>CV</a>";
-				/*} 
-				if(!is_null($elements['PORTFOLIO']) && $elements['PORTFOLIO'] !=='#'){ */
-				echo "<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>";
-				/*}*/
+				} 
+				else{
+					echo "<a href='../../cv/DEFAULT/index.html' class='btnCv'>CV</a>";
+				}
+				if(!is_null($elements['PORTFOLIO']) && $elements['PORTFOLIO'] !=='#'){ 
+					echo "<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>";
+				}
+				else{
+					echo "<a href='../../cv/DEFAULT/index.html' class='btnFolio'>PORTFOLIO</a>";	
+				}
 				echo "</div>
 					<div class='infoBox'>
 						<h4>" . $elements['NAME'] . "</h4>
@@ -72,12 +78,18 @@ shuffle($back);
 					<img class='imgApprenant' src='" . get_template_directory_uri()."/".$elements['IMG'] . "' alt=''>
 
 					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3> <div class='box-link'>";
-					/*if(!is_null($elements['CV']) && $elements['CV'] !== '#'){ */
+					if(!is_null($elements['CV']) && $elements['CV'] !== '#'){ 
 						echo "<a href='". $elements['CV'] . "' class='btnCv'>CV</a>";
-					/*} 
-					if(!is_null($elements['PORTFOLIO']) && $elements['PORTFOLIO'] !=='#'){ */
+					} 
+					else{
+						echo "<a href='../../cv/DEFAULT/index.html' class='btnCv'>CV</a>";	
+					}
+					if(!is_null($elements['PORTFOLIO']) && $elements['PORTFOLIO'] !=='#'){ 
 					echo "<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>";
-					/*}*/
+					}
+					else{
+						echo "<a href='../../cv/DEFAULT/index.html' class='btnFolio'>PORTFOLIO</a>";	
+					}
 					echo "</div><div class='infoBox'>
 						<h4>" . $elements['NAME'] . "</h4>
 						<p>" . $elements['INFO'] . "</p>
