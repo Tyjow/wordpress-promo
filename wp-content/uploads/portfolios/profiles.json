@@ -11,8 +11,8 @@
 		{
 			"NAME": "Jonathan PLATON",
 			"IMG": "img/img-apprenant/Jonathan_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
-			"SKILLS": ["Vanilla JS", "Jquery"],
+			"INFO": "Développeur Web/Front-End, passioné et autodidacte",
+			"SKILLS": ["Vanilla JS", "AngularJS"],
 			"CV": "../../cv/PLATON_Jonathan/Cv.xml",
 			"PORTFOLIO": "https://tyjow.github.io/"
 		},
