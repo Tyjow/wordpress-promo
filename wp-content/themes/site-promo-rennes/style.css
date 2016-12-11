@@ -3,7 +3,7 @@
 Theme URI: http://www.codeacademierennes.com/ 
 Description: Thème pour le site de la Code Académie de Rennes
 Version: 0.1
-Author: Tyjow, Nabil, Julien, Anna
+Author: Tyjow, Nabil, Julien, Anna, Erwann
 }*/
 
 /*
@@ -14,7 +14,6 @@ Author: Tyjow, Nabil, Julien, Anna
 
 
 
-/* === JULIEN === */
 
 #header {
     height: 100vh;
@@ -22,20 +21,10 @@ Author: Tyjow, Nabil, Julien, Anna
     background-position: center center;
 }
 
-/*#header h1 {
-    font-size: 5em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-}*/
 
 #content {
     padding-right: 25px;
     padding-top: 50px;
-}
-
-.content-button {
-    /*margin: 80vh 0;*/
 }
 
 .block-opaque {    
@@ -157,9 +146,8 @@ button:hover.content-button  a {
     margin-left: 20px;
 }
 
-/* [class*='btn-pagination-'] 
+/* [class*='btn-pagination-'] */
 
-/* === NABIL === */
 
 @font-face {
 font-family: 'OpenSans-Light';
