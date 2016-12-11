@@ -4,7 +4,7 @@
        
         <div id="header" class="row" style='background-image:url(<?php header_image(); ?>)'>
             <div class="block-opaque">
-                <h1><img src="<?php echo get_template_directory_uri(); ?>/img/logo-codeacademie.png"/></h1>
+                <h1><img class="promo-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-codeacademie.png"/></h1>
                 <button id="skr" class="content-button center-block"><a href="#content">Partez à la découverte de notre formation</a></button>
             </div>
         </div> 

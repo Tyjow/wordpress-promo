@@ -146,9 +146,6 @@ button:hover.content-button  a {
     margin-left: 20px;
 }
 
-/* [class*='btn-pagination-'] */
-
-
 @font-face {
 font-family: 'OpenSans-Light';
 src: url('fonts/OpenSans/OpenSans-Light.ttf');
@@ -166,6 +163,13 @@ font-family: 'OpenSans-Bold';
 src: url('fonts/OpenSans/OpenSans-Bold.ttf');
 }
 
+.page{
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+.promo-logo{
+	max-width: 60vw;
+}
 /* Couleurs simplon
 noir : rgb(31,31,30) / #1F1F1E
 rouge : rgb(223,0,76) / #DC003C
@@ -199,6 +203,9 @@ object-fit: cover;
     .listApprenant img{
         width:140px;
         height: 140px;
+    }
+    .a_propos_img{
+	display:none
     }
 }
 @media screen and (min-width: 1400px) {
@@ -360,8 +367,6 @@ color:grey;
     background-color: #009b9d;
     text-align: center;
     color: #ffffff;
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
