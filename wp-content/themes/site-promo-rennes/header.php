@@ -5,9 +5,9 @@
     <head profile="http://gmpg.org/xfn/11">
         <title>
             <?php bloginfo('name') ?>
-                <?php if ( is_404() ) : ?> &raquo;
+                <?php if ( is_404() ) : ?> 
                     <?php _e('Not Found') ?>
-                        <?php elseif ( is_home() ) : ?> &raquo;
+                        <?php elseif ( is_home() ) : ?>
                             <?php bloginfo('description') ?>
                                 <?php else : ?>
                                     <?php wp_title() ?>
@@ -27,10 +27,7 @@
         <?php wp_get_archives('type=monthly&format=link'); ?>        
 
         <!-- typos -->
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css' />
-        <link rel="stylesheet" href="css/font-awesome.css" />
-        <link rel="stylesheet" href="youropotionalfolder/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">                 
+        <link rel="stylesheet" href="wp-content/themes/site-promo-rennes/css/font-awesome.css" />   
         <?php wp_head(); ?>
     </head>
 

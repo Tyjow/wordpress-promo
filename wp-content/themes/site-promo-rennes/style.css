@@ -12,68 +12,26 @@ Author: Tyjow, Nabil, Julien, Anna, Erwann
  * gris foncé = #231f20
 */
 
-
-
-
-#header {
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
+/* font declaration*/
+@font-face {
+font-family: 'OpenSans-Light';
+src: url('fonts/OpenSans/OpenSans-Light.ttf');
+}
+@font-face {
+font-family: 'OpenSans-Regular';
+src: url('fonts/OpenSans/OpenSans-Regular.ttf');
+}
+@font-face {
+font-family: 'OpenSans-Semibold';
+src: url('fonts/OpenSans/OpenSans-Semibold.ttf');
+}
+@font-face {
+font-family: 'OpenSans-Bold';
+src: url('fonts/OpenSans/OpenSans-Bold.ttf');
 }
 
 
-#content {
-    padding-right: 25px;
-    padding-top: 50px;
-}
-
-.block-opaque {    
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.block-opaque > h1 {
-    text-align: center;
-}
-.block-opaque > h1 img {
-    opacity: 0.7;
-}
-.content-button {
-    background-color: rgba(255, 255, 255, .7);
-    width: 50%;
-    padding: 15px 45px;
-    border: 1px solid white;
-    transition: .3s;
-}
-
-button:hover.content-button {
-    background-color: #009b9d;
-    border: 1px solid #009b9d;
-    color: white;
-    text-decoration: none;
-    transition: .3s;
-}
-
-.content-button a {
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #009b9d;
-    text-decoration: none;
-    transition: .3s;
-}
-
-button:hover.content-button  a {
-    color: white;
-    text-decoration: none;
-    transition: .3s;
-}
+/* Navigation top bar*/
 
 #menu-deroulant .menu-item{
     width:140px; 
@@ -88,13 +46,11 @@ button:hover.content-button  a {
     border-bottom: 3px solid #009b9d;
     z-index: 999;
 }
-
 .menu-top-container ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
 }
-
 .menu-top-container ul li a {
     display: block;
     padding: 0 10px;
@@ -103,25 +59,80 @@ button:hover.content-button  a {
     text-transform: uppercase;
     transition: .3s;
 }
-
 .current-menu-item a, current_page_item a {
     color: #009b9d;
 }
-
 .menu-top-container ul li a {
     color: #231f20;
     transition: .3s;
 }
-
-.menu-top-container ul li:hover, .current_page_item {
-    
-}
-
 .menu-top-container ul li:hover a,
 .current_page_item a {
     background-color: #009b9d;
-    color: #fff!important;
+    color: #fff !important;
 }
+
+
+
+/* header part */
+
+header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+#content {
+    padding-top: 50px;
+}
+
+.filtre-sombre {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.filtre-sombre > h1 {
+    text-align: center;
+}
+.filtre-sombre > h1 img {
+    opacity: 0.7;
+}
+
+.content-button,
+.content-button a,
+.content-button:hover,
+.content-button:hover a {
+    transition: .3s;
+}
+.content-button {
+    background-color: rgba(255, 255, 255, .7);
+    width: 50%;
+    padding: 15px 45px;
+    border: 1px solid white;
+}
+.content-button:hover {
+    background-color: #009b9d;
+    border: 1px solid #009b9d;
+    text-decoration: none;
+}
+.content-button a {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #009b9d;
+    text-decoration: none;
+}
+.content-button:hover   a{
+    color: white;
+    text-decoration: none;
+}
+
 
 
 /*---pagination-style---*/
@@ -144,23 +155,6 @@ button:hover.content-button  a {
 .btn-pagination-L {
     float: left;
     margin-left: 20px;
-}
-
-@font-face {
-font-family: 'OpenSans-Light';
-src: url('fonts/OpenSans/OpenSans-Light.ttf');
-}
-@font-face {
-font-family: 'OpenSans-Regular';
-src: url('fonts/OpenSans/OpenSans-Regular.ttf');
-}
-@font-face {
-font-family: 'OpenSans-Semibold';
-src: url('fonts/OpenSans/OpenSans-Semibold.ttf');
-}
-@font-face {
-font-family: 'OpenSans-Bold';
-src: url('fonts/OpenSans/OpenSans-Bold.ttf');
 }
 
 .page{

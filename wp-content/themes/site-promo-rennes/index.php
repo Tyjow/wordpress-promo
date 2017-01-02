@@ -2,24 +2,14 @@
    
     <div class="page container-fluid">
        
-        <div id="header" class="row" style='background-image:url(<?php header_image(); ?>)'>
-            <div class="block-opaque">
+        <header style='background-image:url(<?php header_image(); ?>)'>
+            <div class="filtre-sombre">
                 <h1><img class="promo-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo-codeacademie.png"/></h1>
                 <button id="skr" class="content-button center-block"><a href="#content">Partez à la découverte de notre formation</a></button>
             </div>
-        </div> 
+        </header> 
         
-        <script>
-            // SCROLL FLUIDE
-            $('#skr').click(function(){
-    	       $('html, body').animate({
-    		      scrollTop:$('#content').offset().top
-    	       }, 'slow');
-    	       return false;
-            });
-        </script>  
-        
-        <div id="content" class="row">
+        <div id="content">
 
             <div class="col-md-8">
                 <!-- contenue du site ici -->
@@ -28,11 +18,11 @@
                         <h2>A PROPOS</h2>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/logo-codeacademie.png"/>
                     </div>
-                    <p>La Code Académie est un dispositif mis en place dans le cadre de la  <a href="https://www.grandeecolenumerique.fr/"> Grande école du numérique</a>.
-Il s'agit d'une formation qui permet l'apprentissage du développement web/mobile pour tous les profils qui démontrent une forte motivation à apprendre des langages de programmation.
- Cette formation, proposée par la fondation <a href="http://face.bzh/">FACE</a>, suit la pédagogie <a href="http://simplon.co/">Simplon</a>; soit la méthode du "Learning by doing".
- La Code Académie est conventionnée et subventionnée par la Région Bretagne et l’Etat.
- La première promotion de la formation, qui se déroule à la <a href="http://face.bzh/">Fondation pour Agir Contre l'Exclusion</a>, a débuté le 17 mai et se termine fin janvier.</p>
+                    <p>La Code Académie est un dispositif mis en place dans le cadre du projet gouvernemental de la <a href="https://www.grandeecolenumerique.fr/">Grande école du numérique</a>.
+                    Il s'agit d'une formation qui permet l'apprentissage du développement web/mobile pour tous les profils qui démontrent une forte motivation à apprendre des langages de programmation.
+                    Cette formation, proposée par la <a href="http://face.bzh/">Fondation Agir Contre l'Exclusion</a>, suit la pédagogie <a href="http://simplon.co/">Simplon</a>; soit la méthode du "Learning by doing".
+                    La Code Académie est conventionnée et subventionnée par la Région Bretagne, pôle emploi et l’Etat.
+                    La première promotion de la formation, qui se déroule à la <a href="http://face.bzh/">FACE Rennes</a>, a débuté le 17 mai et se termine fin janvier.</p>
                 </article>
                 
                 <article class="center">

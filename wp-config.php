@@ -25,7 +25,7 @@ define('DB_NAME', 'site-promo');
 define('DB_USER', 'root');
 
 /** Mot de passe de la base de données MySQL. */
-define('DB_PASSWORD', 'facesimplon');
+define('DB_PASSWORD', 'facesimplon2016');
 
 /** Adresse de l’hébergement MySQL. */
 define('DB_HOST', 'localhost');

@@ -2,10 +2,9 @@
 /*
 * Template Name: La promo
 */
-?>
-<?php get_header(); ?>
 
-<?php
+get_header();
+
 $string = file_get_contents("./wp-content/uploads/portfolios/profiles.json", FILE_USE_INCLUDE_PATH);
 $brut = json_decode($string, true);
 $front = $brut["FrontEnd"];

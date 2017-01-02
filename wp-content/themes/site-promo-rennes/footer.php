@@ -1,14 +1,6 @@
 <?php 
     //ça en ligne 1 sinon ça plante.
 ?>
-    <script>
-        function displayMentions(){
-            $('#popup1').show();
-        }
-        function hideMentions(){
-            $('#popup1').hide();
-        }
-    </script>
 
     <div class="mentions_legales" id="popup1">
         <div class="mentions_legales_menu" onclick="hideMentions()">
@@ -42,6 +34,22 @@
         </p>
     </div>
 
+     <script>
+        // SCROLL FLUIDE
+        $('#skr').click(function(){
+           $('html, body').animate({
+              scrollTop:$('#content').offset().top
+           }, 'slow');
+           return false;
+        });
+
+        function displayMentions(){
+            $('#popup1').show();
+        }
+        function hideMentions(){
+            $('#popup1').hide();
+        }
+        </script>  
     <?php wp_footer(); ?>
 
 
