@@ -1,21 +1,12 @@
 <?php 
     //ça en ligne 1 sinon ça plante.
 ?>
-<div class="sidebar flex-sidebar col-md-4">
+<div class="sidebar flex-sidebar">
     <h2 class="news">Newsletter</h2>
     <div class="newsletter flex-sidebar">
         <p>Pour être avertis de toutes nos nouveautées !</p>
         <!--START Scripts : this is the script part you can add to the header of your theme-->
-        <script type="text/javascript" src="http://localhost/wordpress-promo/wp-includes/js/jquery/jquery.js?ver=2.7.5"></script>
-        <script type="text/javascript" src="http://localhost/wordpress-promo/wp-content/plugins/wysija-newsletters/js/validate/languages/jquery.validationEngine-fr.js?ver=2.7.5"></script>
-        <script type="text/javascript" src="http://localhost/wordpress-promo/wp-content/plugins/wysija-newsletters/js/validate/jquery.validationEngine.js?ver=2.7.5"></script>
-        <script type="text/javascript" src="http://localhost/wordpress-promo/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7.5"></script>
-        <script type="text/javascript">
-                        /* <![CDATA[ */
-                        var wysijaAJAX = {"action":"wysija_ajax","controller":"subscribers","ajaxurl":"http://localhost/wordpress-promo/wp-admin/admin-ajax.php","loadingTrans":"Chargement..."};
-                        /* ]]> */
-                        </script><script type="text/javascript" src="http://localhost/wordpress-promo/wp-content/plugins/wysija-newsletters/js/front-subscribers.js?ver=2.7.5"></script>
-        <!--END Scripts-->
+       
         <div class="widget_wysija_cont html_wysija"><div id="msg-form-wysija-html57f4c1ac08aac-1" class="wysija-msg ajax"></div><form id="form-wysija-html57f4c1ac08aac-1" method="post" action="#wysija" class="widget_wysija html_wysija">
         <p class="wysija-paragraph">
             <label><span class="wysija-required"></span></label>
@@ -43,7 +34,7 @@
         <div class= "post" id="post-<?php the_ID(); ?>"> 
             
             <div class="title-news">
-                <?php the_post_thumbnail(array(350,350));?>
+                <?php the_post_thumbnail(array(1000,1000));?>
                 <h2><?php the_title(); ?></h2>
                 
                 <?php the_excerpt(__('<i class="fa fa-2x fa-plus" aria-hidden="true"></i>')); ?>

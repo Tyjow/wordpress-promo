@@ -1,5 +1,5 @@
 <?php 
-    //ça en ligne 1 sinon ça plante.
+    //footer for the whole website
 ?>
 
     <div class="mentions_legales" id="popup1">
@@ -18,8 +18,7 @@
                     wp_reset_postdata();
                 } else {
                     // no posts found
-                }
-                
+                }   
             ?>
          </div>   
         
@@ -33,7 +32,7 @@
                     <a class="button mentions" onclick="displayMentions()"> - Mentions légales</a>
         </p>
     </div>
-
+        <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery_v3.1.0.js"></script>
      <script>
         // SCROLL FLUIDE
         $('#skr').click(function(){
@@ -51,5 +50,7 @@
         }
         </script>  
     <?php wp_footer(); ?>
+</body>
 
+</html>
 

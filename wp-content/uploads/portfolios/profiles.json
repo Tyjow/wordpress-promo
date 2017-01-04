@@ -3,7 +3,7 @@
 		{
 			"NAME": "Nabil MASKALI",
 			"IMG": "img/img-apprenant/bouqal_small.jpg",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"INFO": "",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
 			"PORTFOLIO": "#"
@@ -27,7 +27,7 @@
 		{
 			"NAME": "Abdelghaffar ARRAB",
 			"IMG": "img/img-apprenant/Abdelghaffar_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"INFO": "",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
 			"PORTFOLIO": "#"
@@ -45,8 +45,8 @@
 			"IMG": "img/img-apprenant/Lise_small.JPG",
 			"INFO": "Développeuse et graphiste spécialisée dans le Front, créative et passionnée.",
 			"SKILLS": ["HTML5 CSS3", "JS AngularJS"],
-			"CV": "../../cv/POIRIER_Lise/index.xml",
-			"PORTFOLIO": "#"
+			"CV": "https://melleprunelle.github.io/lise-poirier.github.io/",
+			"PORTFOLIO": "https://melleprunelle.github.io/lise-poirier.github.io/#projets"
 		},
 		{
 			"NAME": "Ronald MARCEL",
@@ -54,7 +54,7 @@
 			"INFO": "Developpeur Web Front-end et Designer produit, Autodidacte, Créatif, passionné d'art et d'informatique.",
 			"SKILLS": ["HTML5-CSS3", "VanillaJS-AngularJS"],
 			"CV": "../../cv/MARCEL_Ronald/index.html",
-			"PORTFOLIO": "#"
+			"PORTFOLIO": "https://dlanorlecram.github.io/"
 		},
 		{
 			"NAME": "Annie-Line LECLAIR",
@@ -75,7 +75,7 @@
 		{
 			"NAME": "Patrice GUERNON",
 			"IMG": "img/img-apprenant/Patrice_small.JPG",
-			"INFO": "Lorem ipsum ipsum Lorem ipsum ipsum",
+			"INFO": "",
 			"SKILLS": ["JS", "JS2"],
 			"CV": "#",
 			"PORTFOLIO": "#"
@@ -93,8 +93,8 @@
 			"IMG": "img/img-apprenant/JulienMalle_small.JPG",
 			"INFO": "Développeur Web/Front-End, autodidacte et passionné",
 			"SKILLS": ["HTML5 & CSS3","Javascript"],
-			"CV": "../../cv/MALLE_Julien/index.php",
-			"PORTFOLIO": "#"
+			"CV": "http://www.julienmalle.fr/",
+			"PORTFOLIO": "http://www.julienmalle.fr/#port"
 		}
 	],
 	"BackEnd": [
@@ -120,13 +120,13 @@
 			"INFO": "Gourou Linux & Développeur Web Back-End, autodidacte et passionné",
 			"SKILLS": ["PHP 7","Symfony 3"],
 			"CV": "../../cv/LE-GONIDEC_Antoine/cv.xml",
-			"PORTFOLIO": "#"
+			"PORTFOLIO": "https://vv221.github.io/"
 		},
 		{
 			"NAME": "Rebecca MACCIO",
 			"IMG": "img/img-apprenant/RebeccaMaccio_small.png",
 			"INFO": "Développeuse Web/Back-End, débutante adorant l'esprit logique du back-end",
-			"SKILLS": ["PHP","PHP2"],
+			"SKILLS": ["Silex","PHP 7"],
 			"CV": "../../cv/MACCIO_Rebecca/CV.html",
 			"PORTFOLIO": "#"
 		},
@@ -143,8 +143,8 @@
 			"IMG": "img/img-apprenant/Juliette_small.JPG",
 			"INFO": "Developpeuse Web, specialisée Back-End, ayant une reel appétence pour la  programmation",
 			"SKILLS": ["PHP","Symfony"],
-			"CV": "https://juliette3529.github.io/projets/StJalme_Juliette_CV/cv.html",
-			"PORTFOLIO": "https://juliette3529.github.io/"
+			"CV": "../../portfolio/JulietteSaintJalme/elements/StJalme_Juliette_CV/cv.html",
+			"PORTFOLIO": "../../portfolio/JulietteSaintJalme"
 		},
 		{
 			"NAME": "Thomas SANCEO",
@@ -157,9 +157,9 @@
 		{
 			"NAME": "Valentin SUSSET",
 			"IMG": "img/img-apprenant/Valentin_small.jpg",
-			"INFO": "Développeur Web/Back-End  spécialisé dans le framework Symophny2",
+			"INFO": "Développeur Web/Back-End  spécialisé dans le framework Symfony 3",
 			"SKILLS": ["PHP","Symfony"],
-			"CV": "#",
+			"CV": "http://www.doyoubuzz.com/valentin-susset",
 			"PORTFOLIO": "#"
 		},
 		{
@@ -167,16 +167,16 @@
 			"IMG": "img/img-apprenant/JulienVaupre_small.JPG",
 			"INFO": "Developper Web back-end ,autodidacte et passionné",
 			"SKILLS": ["PHP POO","Symfony 2"],
-			"CV": "../../cv/VAUPRE_Julien/index.html",
+			"CV": "https://vjulien.github.io/",
 			"PORTFOLIO": "#"
 		},
 		{
 			"NAME": "Youness CHETOUI",
 			"IMG": "img/img-apprenant/Youness_small.JPG",
 			"INFO": "Développeur Web/Back-End, autodidacte et motivé",
-			"SKILLS": ["PHP","Symfony"],
+			"SKILLS": ["PHP 7","Symfony 3"],
 			"CV": "../../cv/CHETOUI_Youness/index.xml",
-			"PORTFOLIO": "#"
+			"PORTFOLIO": "https://yose216.github.io/"
 		}
 	]
 }

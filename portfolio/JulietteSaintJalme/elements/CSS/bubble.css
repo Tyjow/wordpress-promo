@@ -1,0 +1,119 @@
+.flexbox {
+    display: flex;
+        background-image:url(../img/agario_bg.png);
+    background-size:30%;
+    background-repeat:repeat;
+}
+
+.rond {
+    position:absolute;
+    border-radius: 50%;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight:900;
+    color:#FFF;
+    left:0;
+    top:0;
+}
+
+.limite {
+    height:600px;
+    width:1100px;
+    display:block;
+    position:relative;
+}
+
+.JS {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    background-color:#1BBC9B;
+    z-index: 1;
+}
+.PHP {
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
+    background-color: #2274A5;
+    z-index: 2;
+}
+.Ruby {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color: #87E53E;
+    z-index: 3;
+}
+.HTML {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #F1DD23;
+}
+.CSS {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #FF7D45;
+
+}
+.CSS {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #FF7D45;
+}
+.Git {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color:#1BBC9B;
+}
+.JQuery {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color:#2274A5;
+}
+.Symfony {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background-color:#FF7D45;
+}
+.Bootstrap {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color:#F1DD23;
+}
+.Wordpress {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    background-color:#87E53E;
+}
+.MySQL {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color:#2274A5;
+}
+.Behat {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color:#1BBC9B;
+}
+.Github {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background-color:#F1DD23;
+}
+.Less {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background-color:#87E53E;
+}

@@ -2,9 +2,10 @@
 /*
 * Template Name: La promo
 */
+?>
+<?php get_header(); ?>
 
-get_header();
-
+<?php
 $string = file_get_contents("./wp-content/uploads/portfolios/profiles.json", FILE_USE_INCLUDE_PATH);
 $brut = json_decode($string, true);
 $front = $brut["FrontEnd"];
@@ -17,7 +18,7 @@ shuffle($back);
 <div class="listApprenant row">
 	
 	<div class="textApprenant col-lg-offset-2 col-lg-8  col-md-offset-2 col-md-8  col-sm-offset-3 col-sm-6  col-xs-offset-1 col-xs-10">
-	<p>Voici les élèves de notre promotion 2016, Classés par spécialisation.</p>
+	<p>Voici les apprenants de notre première promotion 2016, Classés par spécialisation.</p>
 	</div>
 
 <!-- = = = = Colone Front-end = = = = -->
@@ -36,16 +37,16 @@ shuffle($back);
 					<div class='box-link'>";
 
 				if(!is_null($elements['CV']) && $elements['CV'] !== '#'){ 
-					echo "<a href='". $elements['CV'] . "' class='btnCv'>CV</a>";
+					echo "<a href='". $elements['CV'] . "' target='_blank' class='btnCv'>CV</a>";
 				} 
 				else{
-					echo "<a href='../../cv/DEFAULT/index.html' class='btnCv'>CV</a>";
+					echo "<a href='../../cv/DEFAULT/index.html' target='_blank' class='btnCv'>CV</a>";
 				}
 				if(!is_null($elements['PORTFOLIO']) && $elements['PORTFOLIO'] !=='#'){ 
-					echo "<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>";
+					echo "<a href='" . $elements['PORTFOLIO'] . "' target='_blank' class='btnFolio'>PORTFOLIO</a>";
 				}
 				else{
-					echo "<a href='../../cv/DEFAULT/index.html' class='btnFolio'>PORTFOLIO</a>";	
+					echo "<a href='../../cv/DEFAULT/index.html' target='_blank' class='btnFolio'>PORTFOLIO</a>";	
 				}
 				echo "</div>
 					<div class='infoBox'>
@@ -64,7 +65,7 @@ shuffle($back);
 		?>
 	</div>
 
-<!-- = = = = Colone Back-end = = = = -->
+<!-- = = = = Colonne Back-end = = = = -->
 
 	<div class="back col-lg-6 col-md-6 col-sm-6 col-xs-6">
 
@@ -129,7 +130,7 @@ $(document).ready(function(){
 });
 /*
 $(document).ready(function(){
-    $('.imgApprenant').mouseout(function(){
+    $('.imgApprenant').mouseout(functon(){
     	$(this).next().slideUp();
     });  
 });*/
