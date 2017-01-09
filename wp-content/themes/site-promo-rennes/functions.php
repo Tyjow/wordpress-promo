@@ -14,13 +14,12 @@ add_action( 'wp_enqueue_scripts', 'add_font_awesome' );
 register_nav_menus( array(
         'Top' => 'Navigation principale',
     ) );
- ?>
+ 
 
-<?php add_theme_support( 'post-thumbnails' ); ?>
+add_theme_support( 'post-thumbnails' );
 
 
 
-<?php
     $args = array(
     'width'         => 700,
     'height'        => 540,
@@ -30,10 +29,8 @@ register_nav_menus( array(
 
 add_theme_support( 'custom-header', $args );
 
-?>
 
 
-<?php
 add_action('generate_rewrite_rules', 'themes_dir_add_rewrites');
  
 function themes_dir_add_rewrites() {
@@ -45,4 +42,3 @@ function themes_dir_add_rewrites() {
   );
   $wp_rewrite->non_wp_rules += $new_non_wp_rules;
 }
-?>

@@ -357,7 +357,7 @@ background-color: #009b9d!important;
 background-color: #1F1F1E!important;
 }
 
-.btnCv,.btnFolio{
+.btnCv, .btnFolio{
 height: 30px;
 width: auto;
 padding:0.5em;
@@ -366,17 +366,20 @@ margin: 20px 0 20px 0;
 }
 
 .btnFolio{
-background-color: rgba(56,152,157,0.9);
+background-color: #38989D;
+border: 1px solid #38989D;
 color: #fff;
 }
 
 .btnCv{
-border: 1px solid rgba(56,152,157,0.9);
+margin-right: 2px;
+border: 1px solid #38989D;
 background-color: #fff;
 }
 
 .back .btnFolio{
 background-color: rgba(31,31,30,0.9);
+border: 1px solid rgba(31,31,30,0.9);
 }
 .back .btnCv{
 border: 1px solid rgba(31,31,30,0.6);
@@ -698,3 +701,34 @@ input[type=submit]:focus {
     border: 0;
     margin-top: 2px;
 }
+
+/* =====
+    btn grisé si pas de lien CV et/ou Portfolio
+   ===== */
+a,
+a::after {
+      -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+transition: all 0.4s;
+}
+
+.btnFolio:hover, .back .btnFolio:hover {
+    color: #111;
+    background-color: #c76762;
+    border: 1px solid #c76762;
+}
+.btnCv:hover, .back .btnCv:hover {
+    background-color: #111;
+    color: #c76762;
+    border: 1px solid #111;
+}
+
+[class*="-empty"], [class*="-empty"]:hover, .back [class*="-empty"], .back [class*="-empty"]:hover {
+    opacity: .5;
+    filter: grayscale(100%);
+    cursor: default;
+    background-color: #c4c4c4;
+    color: #222;
+}
+

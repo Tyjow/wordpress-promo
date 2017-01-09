@@ -40,13 +40,15 @@ shuffle($back);
 					echo "<a href='". $elements['CV'] . "' target='_blank' class='btnCv'>CV</a>";
 				} 
 				else{
-					echo "<a href='../../cv/DEFAULT/index.html' target='_blank' class='btnCv'>CV</a>";
+					echo "<a class='btnCv btnCv-empty'>CV</a>";
+                    //ici c'est quand y'a pas cv alors tu me grise le bouton
 				}
 				if(!is_null($elements['PORTFOLIO']) && $elements['PORTFOLIO'] !=='#'){ 
 					echo "<a href='" . $elements['PORTFOLIO'] . "' target='_blank' class='btnFolio'>PORTFOLIO</a>";
 				}
 				else{
-					echo "<a href='../../cv/DEFAULT/index.html' target='_blank' class='btnFolio'>PORTFOLIO</a>";	
+					echo "<a class='btnFolio btnFolio-empty'>PORTFOLIO</a>";
+                    //pareil qu'avant avec portfolio
 				}
 				echo "</div>
 					<div class='infoBox'>
@@ -82,13 +84,13 @@ shuffle($back);
 						echo "<a href='". $elements['CV'] . "' class='btnCv'>CV</a>";
 					} 
 					else{
-						echo "<a href='../../cv/DEFAULT/index.html' class='btnCv'>CV</a>";	
+						echo "<a class='btnCv btnCv-empty'>CV</a>";	
 					}
 					if(!is_null($elements['PORTFOLIO']) && $elements['PORTFOLIO'] !=='#'){ 
 					echo "<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>";
 					}
 					else{
-						echo "<a href='../../cv/DEFAULT/index.html' class='btnFolio'>PORTFOLIO</a>";	
+						echo "<a class='btnFolio btnFolio-empty'>PORTFOLIO</a>";	
 					}
 					echo "</div><div class='infoBox'>
 						<h4>" . $elements['NAME'] . "</h4>
