@@ -81,13 +81,13 @@ shuffle($back);
 
 					<h3 class='nomApprenant'>" . $elements['NAME'] . "</h3> <div class='box-link'>";
 					if(!is_null($elements['CV']) && $elements['CV'] !== '#'){ 
-						echo "<a href='". $elements['CV'] . "' class='btnCv'>CV</a>";
+						echo "<a href='". $elements['CV'] . "' target='_blank' class='btnCv'>CV</a>";
 					} 
 					else{
 						echo "<a class='btnCv btnCv-empty'>CV</a>";	
 					}
 					if(!is_null($elements['PORTFOLIO']) && $elements['PORTFOLIO'] !=='#'){ 
-					echo "<a href='" . $elements['PORTFOLIO'] . "' class='btnFolio'>PORTFOLIO</a>";
+					echo "<a href='" . $elements['PORTFOLIO'] . "' target='_blank' class='btnFolio'>PORTFOLIO</a>";
 					}
 					else{
 						echo "<a class='btnFolio btnFolio-empty'>PORTFOLIO</a>";	
