@@ -116,7 +116,6 @@ shuffle($back);
 
 <script>
 $(document).ready(function(){
-
     $('.imgApprenant').mouseover(function(){
     	$('.infoBox').each(function(){
 			$(this).slideUp();
@@ -127,13 +126,17 @@ $(document).ready(function(){
 		else{
     		$(this).next().next().next().slideDown();
 		}
-
-    });  
+    });
+    $('.imgApprenant').mouseleave(function(){
+        $('.infoBox').each(function(){
+			$(this).slideUp();
+		});
+		if($(this).next().next().next().css("display") = 'none'){
+			$(this).next().next().next().slideUp();
+		}
+		else{
+    		$(this).next().next().next().slideDown();
+		}
+    });
 });
-/*
-$(document).ready(function(){
-    $('.imgApprenant').mouseout(functon(){
-    	$(this).next().slideUp();
-    });  
-});*/
 </script>
