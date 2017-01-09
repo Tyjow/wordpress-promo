@@ -758,5 +758,6 @@ transition: all 0.4s;
     cursor: default;
     background-color: #c4c4c4;
     color: #222;
+    border: 1px solid #222;
 }
 
