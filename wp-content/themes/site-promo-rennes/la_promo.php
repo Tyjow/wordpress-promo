@@ -18,7 +18,7 @@ shuffle($back);
 <div class="listApprenant row">
 	
 	<div class="textApprenant col-lg-offset-2 col-lg-8  col-md-offset-2 col-md-8  col-sm-offset-3 col-sm-6  col-xs-offset-1 col-xs-10">
-	<p>Voici les apprenants de notre première promotion 2016, Classés par spécialisation.</p>
+	    <p>Voici les apprenants de notre première promotion 2016, Classés par spécialisation.</p>
 	</div>
 
 <!-- = = = = Colone Front-end = = = = -->
