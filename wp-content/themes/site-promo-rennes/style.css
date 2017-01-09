@@ -49,6 +49,10 @@ body {
     padding: 0;
 }
 
+a:hover {
+    text-decoration:none;
+}
+
 /* ************** NAVIGATION *************** */
 
 #menu-deroulant .menu-item{
@@ -57,8 +61,8 @@ body {
 .menu-top-container {
     position: fixed;
     width: 100%;
-    height: 50px;
-    line-height: 50px;
+    height: 7vh;
+    line-height: 3.2;
     background-color: #fff;
     font-weight: 700;
     border-bottom: 3px solid #009b9d;
@@ -117,7 +121,6 @@ header {
 .filtre-sombre > h1 img {
     opacity: 0.7;
 }
-
 .content-button,
 .content-button a,
 .content-button:hover,
@@ -133,18 +136,15 @@ header {
 .content-button:hover {
     background-color: #009b9d;
     border: 1px solid #009b9d;
-    text-decoration: none;
 }
 .content-button a {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #009b9d;
-    text-decoration: none;
 }
-.content-button:hover   a{
+.content-button:hover a{
     color: white;
-    text-decoration: none;
 }
 
 /* main part */
@@ -154,90 +154,53 @@ header {
     text-align:justify;
 }
 
-/* side bar */
-
-.flex-sidebar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+/* sidebar */
 
 .sidebar {
     width: 30%;
-    margin:2% 0;
+    margin:2% 0 2% 3%;
+    float: left;
+
     border: 1px solid #bbb;
     background-image: url('img/bg.png');
 }
-
-.news,.actu, .arch{
-    color: #333;
-    background-size: 27%;
-    background-repeat: no-repeat;
-    background-position: left;
-    text-align: left;
-    height:60px;
-    line-height: 60px;
-    padding-left:2.1em;
-}
-
-.news{
-    background-image:url('img/email.png');/*credit flaticon.com*/
-}
-.actu{
-    background-image:url('img/newspaper.png');/*credit flaticon.com*/
-}
-.arch{
-    background-image:url('img/archives.png');/*credit flaticon.com*/
-}
 .sidebar p {
-    padding: 5px 25px;
-}
-.newsletter {
-    width: 80%;
-    background-color: #fff;
-    box-shadow: 1px 1px 5px rgba(51,51,51,0.5);
-    justify-content: space-around;
-    padding: 2em;
-}
-.input-box {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
-
-.newsletter input{
-    width:100%;
-}
-.wysija-submit{
-    height:40px;
-    line-height: 40px;
-    margin-top:10px;
-}
-.post_content p {
-    color: #333;
-    padding: 15px 30px;
+    padding: 3% 5%;
 }
 .post {
-    padding: 20px 5px 50px 5px;
+    width:85%;
+    background-color: white;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+    margin-bottom: 5%;
 }
-.title-news {
-    margin: 10px auto;
+.title-news h2{
+    padding: 1% 2% 3% 2%;
+    text-align: center;
+    color: #009b9d;
+    font-size:2em;
+}
+.attachment-thumbnail {
+    text-align:center;
+}
+.actu {/* icon*/
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-size: 20% 95%;
+    line-height: 2;
+    padding-left: 19%;
+    margin-left: 20%;
+    background-image:url('img/newspaper.png');/*credit flaticon.com*/
+}
+
+.view_more {/*plus button*/
+    margin: 2% auto;
     border: 1px solid #aaa;
     background-color: #fff;
     flex-wrap: nowrap;
 }
-.title-news h2 {
-    width: 50%;
-    margin: 10px auto;
-    text-align: center;
-    color: #009b9d;
-    margin-top: 10px;
-    border-bottom: 2px solid #009b9d;
-}
-.title-news > a {
+
+.view_more {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -253,7 +216,7 @@ header {
     box-shadow: 0px 2px 3px #666;
     transition: all 0.50s;
 }
-.title-news > a:hover {
+.view_more:hover {
     color: #fff;
     text-decoration: none;
     background-color: #009b9d;
@@ -270,36 +233,6 @@ header {
     background-color: #fff;
     flex-wrap: nowrap;
     width:96%;
-}
-.archives h2 {
-    width: 50%;
-    margin: 10px auto;
-    text-align: center;
-    color: #009b9d;
-    margin-top: 10px;
-    border-bottom: 2px solid #009b9d;
-}
-.archives a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 50px;
-    height: 50px;
-    margin: 20px auto;
-
-    color: #009b9d;
-    background-color: #fff;
-    padding: 5px 10px;
-    border-radius: 50%;
-    box-shadow: 0px 2px 3px #666;
-    transition: all 0.50s;
-}
-.archives a:hover {
-    color: #fff;
-    text-decoration: none;
-    background-color: #009b9d;
-    box-shadow: 0px 2px 3px #555;
 }
 
 /* ************* PAGE PROMO ************ */
