@@ -249,6 +249,12 @@ padding-top: 6em;
 .textApprenant p{
 text-align: center;
 font-family: 'OpenSans-Light';
+    font-weight: 700;
+    color: #555;
+}
+.textApprenant {
+    border-bottom: 1px solid #555;
+    margin-bottom: 10px;
 }
 
 .listApprenant img{
