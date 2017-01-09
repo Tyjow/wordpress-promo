@@ -345,7 +345,7 @@ position: relative;
 -moz-box-shadow: 2px 1px 2px 0px #9b9b9b;
 -webkit-box-shadow: 2px 1px 2px 0px #9b9b9b;
 -o-box-shadow: 2px 1px 2px 0px #9b9b9b;
-box-shadow: 2px 1px 2px 0px #9b9b9b;
+box-shadow: 0px 0px 2px #9b9b9b;
 filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=116, Strength=2);  
 }
 
