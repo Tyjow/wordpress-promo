@@ -358,8 +358,14 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#9b9b9b, Direction=116, St
 }
 
 /* ---- media query responsive smartphone --- */
-
-
+@media screen and (max-width: 320px) {
+   .infoBox {
+    left: 160px;
+    }
+    .back .infoBox {
+        left: -160px;
+    }
+}
 
 /* --------- */
 
